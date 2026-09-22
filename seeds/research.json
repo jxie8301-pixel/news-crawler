@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T05:54:37.157Z",
+ "updatedAt": "2026-09-22T06:41:31.784Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -34300,6 +34300,50 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh601788",
     "announcements": "https://www.cls.cn/stock?code=sh601788&tab=notice"
+   }
+  },
+  "sz002792": {
+   "code": "sz002792",
+   "name": "通宇通讯",
+   "researchedAt": "2026-09-22T06:41:31.408Z",
+   "errorOnly": true,
+   "error": "fetch failed; fetch failed; fetch failed"
+  },
+  "sz300711": {
+   "code": "sz300711",
+   "name": "广哈通信",
+   "researchedAt": "2026-09-22T06:41:31.784Z",
+   "asOfDate": "2026-09-22",
+   "industry": "通信-通信设备-其他通信设备",
+   "concepts": [
+    "军工",
+    "量子科技",
+    "高铁轨交",
+    "人工智能",
+    "智能电网"
+   ],
+   "valuation": {
+    "ttmPe": null,
+    "dynamicPe": null,
+    "pb": null,
+    "marketCapYi": null,
+    "lastPrice": null
+   },
+   "momentum": {
+    "change3m": null,
+    "change5d": null
+   },
+   "financial": {
+    "revenueYoy": 29.58,
+    "profitYoy": -26.98,
+    "roe": 0.78,
+    "debtRatio": 21.28
+   },
+   "announcements": [],
+   "keyEvents": [],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300711",
+    "announcements": "https://www.cls.cn/stock?code=sz300711&tab=notice"
    }
   }
  }
