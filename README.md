@@ -27,7 +27,8 @@ node src/cli.js perf                    # T+1～T+5 写入 pushes.db
 `collect.yml` 输入：
 - `shards` 默认 5
 - `force` 忽略 VIP 门控
-- `enable_push` 默认 **false**（影子期）；切流后改为 true 并配置 `WECOM_WEBHOOK` / `MINIMAX_API_KEY`
+- `enable_push` 默认 **false**（影子期）
+- `publish_pages` 默认 **false**（本仓未开 Pages 时勿开；开启前到 Settings → Pages → Source = GitHub Actions）
 
 ## Pages 结构（与现网一致）
 

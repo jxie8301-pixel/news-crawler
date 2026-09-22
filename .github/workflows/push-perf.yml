@@ -20,6 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       publish: ${{ steps.db.outputs.found }}
+      pages_ok: ${{ steps.pagescfg.outcome == 'success' && steps.db.outputs.found == 'true' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -92,18 +93,27 @@ jobs:
           cp data/pushes.db _site/pushes.db
           TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M %Z' > _site/perf-updated.txt
 
-      - uses: actions/configure-pages@v5
+      - name: 上传站点产物（不依赖本仓 Pages）
         if: steps.db.outputs.found == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-perf
+          path: _site
+
+      - uses: actions/configure-pages@v5
+        id: pagescfg
+        if: steps.db.outputs.found == 'true'
+        continue-on-error: true
         with:
           enablement: true
       - uses: actions/upload-pages-artifact@v3
-        if: steps.db.outputs.found == 'true'
+        if: steps.db.outputs.found == 'true' && steps.pagescfg.outcome == 'success'
         with:
           path: _site
 
   deploy:
     needs: perf
-    if: needs.perf.outputs.publish == 'true'
+    if: needs.perf.outputs.publish == 'true' && needs.perf.outputs.pages_ok == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

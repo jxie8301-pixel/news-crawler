@@ -21,6 +21,11 @@ on:
         type: boolean
         required: false
         default: false
+      publish_pages:
+        description: 是否发布本仓 GitHub Pages（需先在 Settings→Pages 启用 Actions 源；影子期可 false）
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -143,6 +148,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       skipped: ${{ steps.resolve.outputs.skipped }}
+      publish_pages: ${{ steps.resolve.outputs.publish_pages }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -227,6 +233,8 @@ jobs:
       - name: 汇总是否跳过发布
         id: resolve
         if: always()
+        env:
+          WANT_PAGES: ${{ github.event.inputs.publish_pages }}
         run: |
           if [ "${{ steps.merge.outputs.skipped }}" = "true" ] || [ "${{ steps.post.outputs.skipped }}" = "true" ]; then
             echo "skipped=true" >> "$GITHUB_OUTPUT"
@@ -234,6 +242,11 @@ jobs:
             echo "skipped=true" >> "$GITHUB_OUTPUT"
           else
             echo "skipped=false" >> "$GITHUB_OUTPUT"
+          fi
+          if [ "$WANT_PAGES" = "true" ]; then
+            echo "publish_pages=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish_pages=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: 写回 data 分支
@@ -284,18 +297,26 @@ jobs:
           [ -f data/pushes.db ] && cp data/pushes.db _site/pushes.db
           TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M %Z' > _site/updated.txt
 
-      - uses: actions/configure-pages@v5
+      - name: 上传站点产物（影子期可下载验收，不依赖 Pages）
         if: steps.resolve.outputs.skipped != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site
+          if-no-files-found: warn
+
+      - uses: actions/configure-pages@v5
+        if: steps.resolve.outputs.skipped != 'true' && steps.resolve.outputs.publish_pages == 'true'
         with:
           enablement: true
       - uses: actions/upload-pages-artifact@v3
-        if: steps.resolve.outputs.skipped != 'true'
+        if: steps.resolve.outputs.skipped != 'true' && steps.resolve.outputs.publish_pages == 'true'
         with:
           path: _site
 
   deploy:
     needs: [gate, merge_post]
-    if: needs.gate.outputs.should_run == 'true' && needs.merge_post.result == 'success' && needs.merge_post.outputs.skipped != 'true'
+    if: needs.gate.outputs.should_run == 'true' && needs.merge_post.result == 'success' && needs.merge_post.outputs.skipped != 'true' && needs.merge_post.outputs.publish_pages == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
