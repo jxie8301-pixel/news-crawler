@@ -3,7 +3,8 @@
   "concurrency": 5,
   "requestDelayMs": 80,
   "scanTimeoutMinutes": 10,
-  "matrixShards": 8,
+  "matrixShards": 5,
+  "statusUrl": "https://jxie8301-pixel.github.io/cls-news/status.json",
   "poolFile": "data/pools/all-a.json",
   "prefixes": [
     "盘中宝",

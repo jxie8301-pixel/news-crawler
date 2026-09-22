@@ -6,14 +6,66 @@ on:
       shards:
         description: 分片数（真正决定并行路数）
         required: false
-        default: '8'
+        default: '5'
+      force:
+        description: 强制扫描（忽略 VIP 差集门控）
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: read
 
 jobs:
+  gate:
+    name: VIP 差集门控
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+      new_count: ${{ steps.check.outputs.new_count }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: 检查是否有新增 VIP
+        id: check
+        env:
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          set +e
+          cp config.example.json config.json
+          mkdir -p out
+          EXTRA=""
+          if [ "$FORCE" = "true" ]; then EXTRA="--force"; fi
+          node src/cli.js gate $EXTRA
+          code=$?
+          if [ -f out/vip-gate.json ]; then
+            NEW=$(node -e "const j=require('./out/vip-gate.json'); process.stdout.write(String(j.newCount||0))")
+            echo "new_count=$NEW" >> "$GITHUB_OUTPUT"
+          else
+            echo "new_count=0" >> "$GITHUB_OUTPUT"
+          fi
+          if [ "$code" -eq 3 ]; then
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "无新增 VIP，跳过 matrix 扫描"
+            exit 0
+          fi
+          if [ "$code" -ne 0 ]; then
+            exit $code
+          fi
+          echo "should_run=true" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: vip-gate
+          path: out/vip-gate.json
+          if-no-files-found: ignore
+
   setup:
     name: setup matrix
+    needs: gate
+    if: needs.gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     outputs:
       shards: ${{ steps.gen.outputs.shards }}
@@ -29,7 +81,7 @@ jobs:
           cp config.example.json config.json
           N="${INPUT_SHARDS}"
           if [ -z "$N" ]; then
-            N=$(node -e "const c=require('./config.json'); process.stdout.write(String(c.matrixShards||8))")
+            N=$(node -e "const c=require('./config.json'); process.stdout.write(String(c.matrixShards||5))")
           fi
           if ! [[ "$N" =~ ^[0-9]+$ ]] || [ "$N" -lt 1 ] || [ "$N" -gt 32 ]; then
             echo "invalid shards=$N (允许 1–32)" >&2
@@ -42,7 +94,8 @@ jobs:
 
   scan:
     name: scan shard ${{ matrix.shard }}
-    needs: setup
+    needs: [gate, setup]
+    if: needs.gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -80,7 +133,8 @@ jobs:
 
   merge:
     name: merge shards
-    needs: [setup, scan]
+    needs: [gate, setup, scan]
+    if: needs.gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

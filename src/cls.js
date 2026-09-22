@@ -141,8 +141,26 @@ function matchPrefix(title, prefixes) {
   return '';
 }
 
+async function fetchVipArticles({ lastTime } = {}) {
+  const body = await api('/featured/v2/home/recommend/article', {
+    last_time: String(lastTime || Math.floor(Date.now() / 1000)),
+    refresh_Type: '1',
+  });
+  const data = body && body.data;
+  return Array.isArray(data) ? data : [];
+}
+
+function vipHasStock(item) {
+  const rs = item && item.related_stock;
+  if (!Array.isArray(rs)) return false;
+  const stockMarkets = new Set(['主板', '创业板', '科创板', '北交所']);
+  return rs.some((s) => s && stockMarkets.has(s.market) && Number(s.count || 0) > 0);
+}
+
 module.exports = {
   fetchStockArticles,
+  fetchVipArticles,
+  vipHasStock,
   titlePrefix,
   matchPrefix,
   sleep,

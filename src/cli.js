@@ -5,6 +5,7 @@ const path = require('node:path');
 const { ROOT, loadConfig } = require('./config.js');
 const { scanShard } = require('./scan.js');
 const { mergeShards } = require('./merge.js');
+const { checkVipGate } = require('./vip_gate.js');
 
 const OUT_DIR = path.join(ROOT, 'out');
 
@@ -15,14 +16,45 @@ function arg(name, fallback) {
   return v && !v.startsWith('--') ? v : true;
 }
 
+function defaultShards(cfg) {
+  return parseInt(arg('shards', String(cfg.matrixShards || 5)), 10);
+}
+
 function shardOutPath(shard, shards) {
   return path.join(OUT_DIR, 'shard-' + shard + '-of-' + shards + '.json');
+}
+
+async function cmdGate() {
+  const cfg = loadConfig();
+  const force = process.argv.includes('--force') || process.argv.includes('--no-gate');
+  const result = await checkVipGate({ force: force });
+
+  console.log('[vip] VIP 列表 ' + result.vipTotal
+    + ' ｜ 有效（带个股且非ETF）' + result.eligible
+    + ' ｜ 水位已知 ' + result.lastCount
+    + ' ｜ 相对水位新增 ' + result.newCount
+    + (result.forced ? ' ｜ --force 强制扫描' : ''));
+
+  result.sampleTitles.forEach(function (t) {
+    console.log('[vip]   + ' + t.id + '  ' + t.title);
+  });
+
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  const gatePath = path.join(OUT_DIR, 'vip-gate.json');
+  fs.writeFileSync(gatePath, JSON.stringify(result, null, 1), 'utf8');
+  console.log('[vip] 已写入 ' + gatePath);
+
+  if (!result.shouldRun) {
+    console.log('[vip] 无新增带个股 VIP，跳过扫描（exit 3）');
+    process.exit(3);
+  }
+  console.log('[vip] 有新增或强制，继续扫描');
 }
 
 async function cmdScan() {
   const cfg = loadConfig();
   const shard = parseInt(arg('shard', '0'), 10);
-  const shards = parseInt(arg('shards', String(cfg.matrixShards || 8)), 10);
+  const shards = defaultShards(cfg);
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
   const t0 = Date.now();
@@ -54,7 +86,7 @@ async function cmdScan() {
 
 function cmdMerge() {
   const cfg = loadConfig();
-  const shards = parseInt(arg('shards', String(cfg.matrixShards || 8)), 10);
+  const shards = defaultShards(cfg);
   const paths = [];
   for (let i = 0; i < shards; i++) {
     const p = shardOutPath(i, shards);
@@ -77,7 +109,12 @@ function cmdMerge() {
 }
 
 const cmd = process.argv[2];
-if (cmd === 'scan') {
+if (cmd === 'gate') {
+  cmdGate().catch(function (e) {
+    console.error('[vip] 失败:', e);
+    process.exit(1);
+  });
+} else if (cmd === 'scan') {
   cmdScan().catch(function (e) {
     console.error('[crawler] 失败:', e);
     process.exit(1);
@@ -86,7 +123,8 @@ if (cmd === 'scan') {
   cmdMerge();
 } else {
   console.log('用法:');
-  console.log('  node src/cli.js scan --shard 0 --shards 8');
-  console.log('  node src/cli.js merge --shards 8');
+  console.log('  node src/cli.js gate [--force]');
+  console.log('  node src/cli.js scan --shard 0 --shards 5');
+  console.log('  node src/cli.js merge --shards 5');
   process.exit(cmd ? 1 : 0);
 }
