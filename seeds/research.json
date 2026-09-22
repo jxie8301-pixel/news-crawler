@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T13:04:57.853Z",
+ "updatedAt": "2026-09-22T13:14:45.231Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -28054,22 +28054,22 @@
   "sh601091": {
    "code": "sh601091",
    "name": "C沈鼓   ",
-   "researchedAt": "2026-09-20T12:10:03.470Z",
-   "asOfDate": "2026-09-20",
+   "researchedAt": "2026-09-22T13:14:45.113Z",
+   "asOfDate": "2026-09-22",
    "industry": "机械设备-专用设备-能源及重型设备",
    "concepts": [
     "--"
    ],
    "valuation": {
     "ttmPe": null,
-    "dynamicPe": 321.37,
-    "pb": 28.7,
-    "marketCapYi": 1796.65,
-    "lastPrice": 57.77
+    "dynamicPe": 211.28,
+    "pb": 18.868,
+    "marketCapYi": 1181.18,
+    "lastPrice": 37.98
    },
    "momentum": {
-    "change3m": 177.74,
-    "change5d": 177.74
+    "change3m": 82.6,
+    "change5d": 82.6
    },
    "financial": {
     "revenueYoy": 3.6,
@@ -35979,6 +35979,188 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh603636",
     "announcements": "https://www.cls.cn/stock?code=sh603636&tab=notice"
+   }
+  },
+  "sz001326": {
+   "code": "sz001326",
+   "name": "联域股份",
+   "researchedAt": "2026-09-22T13:14:45.222Z",
+   "asOfDate": "2026-09-22",
+   "industry": "家用电器-照明设备Ⅱ-照明设备Ⅲ",
+   "concepts": [
+    "LED",
+    "机器人概念",
+    "出海概念",
+    "LED显示"
+   ],
+   "valuation": {
+    "ttmPe": 251.7,
+    "dynamicPe": 185.22,
+    "pb": 5.86,
+    "marketCapYi": 72.14,
+    "lastPrice": 98.55
+   },
+   "momentum": {
+    "change3m": 6.48,
+    "change5d": 26.93
+   },
+   "financial": {
+    "revenueYoy": 1.84,
+    "profitYoy": 19.9,
+    "roe": 1.58,
+    "debtRatio": 36.13
+   },
+   "announcements": [
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/3801d2eec3e6ed7f71370caee9ea587b.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/eec258762d2259f62ff4e74894dc227e.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/f9d7732645c51b22ede6f6145fdbe426.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "关于全资子公司终止实施股权激励计划的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/424eeb73a2abfa0bc73190d04e2351ef.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "关于持股5%以上股东未减持股份并提前终止股份减持计划的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/c67d2044e666b76da0c1d692c97ae56d.pdf"
+    },
+    {
+     "time": "2026-06-09 00:00:00",
+     "timestamp": 1780934400,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/09/00b1f9778616713ca1563d4ae868753b.pdf"
+    },
+    {
+     "time": "2026-06-03 00:00:00",
+     "timestamp": 1780416000,
+     "title": "关于持股5%以上股东减持股份预披露的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/03/1bb14a0f71904005eb69bf0f746de1d4.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/3801d2eec3e6ed7f71370caee9ea587b.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/eec258762d2259f62ff4e74894dc227e.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/f9d7732645c51b22ede6f6145fdbe426.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz001326",
+    "announcements": "https://www.cls.cn/stock?code=sz001326&tab=notice"
+   }
+  },
+  "sz301618": {
+   "code": "sz301618",
+   "name": "长联科技",
+   "researchedAt": "2026-09-22T13:14:45.230Z",
+   "asOfDate": "2026-09-22",
+   "industry": "基础化工-化学制品-纺织化学制品",
+   "concepts": [
+    "纺织服装",
+    "化工"
+   ],
+   "valuation": {
+    "ttmPe": 128.32,
+    "dynamicPe": 133.58,
+    "pb": 4.168,
+    "marketCapYi": 39.49,
+    "lastPrice": 31.27
+   },
+   "momentum": {
+    "change3m": 3.54,
+    "change5d": 4.62
+   },
+   "financial": {
+    "revenueYoy": 18.73,
+    "profitYoy": -47.46,
+    "roe": 1.56,
+    "debtRatio": 23.62
+   },
+   "announcements": [
+    {
+     "time": "2026-09-17 00:00:00",
+     "timestamp": 1789574400,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/17/e6f9508e499ec2043a0852090435c3c3.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/837e71eb7b21a22367aff83a9c94836d.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/3662a75abd09536ff9c166129fc57c44.pdf"
+    },
+    {
+     "time": "2026-05-21 00:00:00",
+     "timestamp": 1779292800,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/21/2387dad9e40801b69bf8410fda15f7f0.pdf"
+    },
+    {
+     "time": "2026-04-29 00:00:00",
+     "timestamp": 1777392000,
+     "title": "2026年一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/29/327c54721dc86cb02b3ea0b7de181dd8.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-17 00:00:00",
+     "timestamp": 1789574400,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/17/e6f9508e499ec2043a0852090435c3c3.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/837e71eb7b21a22367aff83a9c94836d.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/3662a75abd09536ff9c166129fc57c44.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz301618",
+    "announcements": "https://www.cls.cn/stock?code=sz301618&tab=notice"
    }
   }
  }
