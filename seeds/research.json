@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T10:58:59.113Z",
+ "updatedAt": "2026-09-22T11:46:07.337Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -35140,6 +35140,69 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz002141",
     "announcements": "https://www.cls.cn/stock?code=sz002141&tab=notice"
+   }
+  },
+  "sh688150": {
+   "code": "sh688150",
+   "name": "莱特光电",
+   "researchedAt": "2026-09-22T11:46:07.337Z",
+   "asOfDate": "2026-09-22",
+   "industry": "电子-电子化学品Ⅱ-电子化学品Ⅲ",
+   "concepts": [
+    "OLED",
+    "PCB",
+    "VR/AR",
+    "回购",
+    "消费电子"
+   ],
+   "valuation": {
+    "ttmPe": 88.52,
+    "dynamicPe": 81.55,
+    "pb": 8.292,
+    "marketCapYi": 179.45,
+    "lastPrice": 44.59
+   },
+   "momentum": {
+    "change3m": 4.18,
+    "change5d": 2.81
+   },
+   "financial": {
+    "revenueYoy": 5.09,
+    "profitYoy": -13.86,
+    "roe": 5.08,
+    "debtRatio": 14.84
+   },
+   "announcements": [
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "陕西莱特光电材料股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/fa2a9c6200732e5a7ad5c4b49948bed7.pdf"
+    },
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "陕西莱特光电材料股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/14d74734cc880f9aa6f9bc33e191a6a3.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "陕西莱特光电材料股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/fa2a9c6200732e5a7ad5c4b49948bed7.pdf"
+    },
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "陕西莱特光电材料股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/14d74734cc880f9aa6f9bc33e191a6a3.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688150",
+    "announcements": "https://www.cls.cn/stock?code=sh688150&tab=notice"
    }
   }
  }
