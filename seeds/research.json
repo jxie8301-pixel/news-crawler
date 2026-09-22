@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T14:12:17.436Z",
+ "updatedAt": "2026-09-22T14:31:25.834Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -28762,8 +28762,8 @@
   "sz301188": {
    "code": "sz301188",
    "name": "力诺药包",
-   "researchedAt": "2026-09-20T15:12:15.725Z",
-   "asOfDate": "2026-09-20",
+   "researchedAt": "2026-09-22T14:31:20.465Z",
+   "asOfDate": "2026-09-22",
    "industry": "医药生物-医疗器械-医疗耗材",
    "concepts": [
     "玻璃",
@@ -28773,15 +28773,15 @@
     "医疗器械"
    ],
    "valuation": {
-    "ttmPe": 307.06,
-    "dynamicPe": 147.09,
-    "pb": 4.69,
-    "marketCapYi": 91.66,
-    "lastPrice": 34.26
+    "ttmPe": null,
+    "dynamicPe": null,
+    "pb": null,
+    "marketCapYi": null,
+    "lastPrice": null
    },
    "momentum": {
-    "change3m": 7.63,
-    "change5d": 7.84
+    "change3m": null,
+    "change5d": null
    },
    "financial": {
     "revenueYoy": 34.93,
@@ -28789,22 +28789,8 @@
     "roe": 1.59,
     "debtRatio": 31
    },
-   "announcements": [
-    {
-     "time": "2026-09-07 00:00:00",
-     "timestamp": 1788710400,
-     "title": "关于控股股东、特定股东及其一致行动人股份减持计划的预披露公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/09/07/58208184dba327ee33957cdffdb81904.pdf"
-    }
-   ],
-   "keyEvents": [
-    {
-     "time": "2026-09-07 00:00:00",
-     "timestamp": 1788710400,
-     "title": "关于控股股东、特定股东及其一致行动人股份减持计划的预披露公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/09/07/58208184dba327ee33957cdffdb81904.pdf"
-    }
-   ],
+   "announcements": [],
+   "keyEvents": [],
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz301188",
     "announcements": "https://www.cls.cn/stock?code=sz301188&tab=notice"
@@ -36458,6 +36444,440 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh688559",
     "announcements": "https://www.cls.cn/stock?code=sh688559&tab=notice"
+   }
+  },
+  "sh688079": {
+   "code": "sh688079",
+   "name": "美迪凯  ",
+   "researchedAt": "2026-09-22T14:31:18.747Z",
+   "asOfDate": "2026-09-22",
+   "industry": "电子-光学光电子-光学元件",
+   "concepts": [
+    "半导体芯片",
+    "苹果产业链",
+    "人脸识别",
+    "VR/AR",
+    "消费电子"
+   ],
+   "valuation": {
+    "ttmPe": -36.05,
+    "dynamicPe": -39.42,
+    "pb": 5.804,
+    "marketCapYi": 70.33,
+    "lastPrice": 17.08
+   },
+   "momentum": {
+    "change3m": 2.64,
+    "change5d": 16.03
+   },
+   "financial": {
+    "revenueYoy": 23.04,
+    "profitYoy": -78.22,
+    "roe": -7.36,
+    "debtRatio": 62.32
+   },
+   "announcements": [
+    {
+     "time": "2026-09-07 00:00:00",
+     "timestamp": 1788710400,
+     "title": "杭州美迪凯光电科技股份有限公司2024年股票期权与限制性股票激励计划预留授予第一类限制性股票第一个解除限售期解除限售暨上市公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/07/00bedd06a1674b563016291f6aca951a.pdf"
+    },
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "杭州美迪凯光电科技股份有限公司关于2024年股票期权与限制性股票激励计划预留授予第一类限制性股票第一个解除限售期解除限售条件成就的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/af5d9dd7cd7d4bde6e595258124c0d29.pdf"
+    },
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "国浩律师（上海）事务所关于美迪凯2024年股票期权与限制性股票激励计划预留授予股票期权第一个行权期行权条件成就、预留授予第一类限制性股票第一个解除限售期解除限售条件成就之法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/97b6d05e10693bc92d5a40ca39d09136.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "杭州美迪凯光电科技股份有限公司部分高级管理人员集中竞价减持股权激励所获股份减持时间届满暨减持结果公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/f8a2249c816d6a012385b99e1d960cf0.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "杭州美迪凯光电科技股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/a0afeae3c17cd3ba5ca3b5887136441b.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "杭州美迪凯光电科技股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/b1cfa8a747c335fb6fb40c3510a4dc2f.pdf"
+    },
+    {
+     "time": "2026-07-20 00:00:00",
+     "timestamp": 1784476800,
+     "title": "杭州美迪凯光电科技股份有限公司2024年股票期权与限制性股票激励计划限制性股票回购注销实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/20/4fca58659e19ac54a9de21c95c4b31a5.pdf"
+    },
+    {
+     "time": "2026-06-18 00:00:00",
+     "timestamp": 1781712000,
+     "title": "杭州美迪凯光电科技股份有限公司股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/18/d259fa126cf48fd364f8da7c977697dc.pdf"
+    },
+    {
+     "time": "2026-06-03 00:00:00",
+     "timestamp": 1780416000,
+     "title": "杭州美迪凯光电科技股份有限公司股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/03/63b0ef110f0f0d2ffab6dbf3096c0087.pdf"
+    },
+    {
+     "time": "2026-05-23 00:00:00",
+     "timestamp": 1779465600,
+     "title": "杭州美迪凯光电科技股份有限公司关于回购注销部分限制性股票通知债权人的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/23/a0f67a67afb8724570d172bab7dc967d.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-07 00:00:00",
+     "timestamp": 1788710400,
+     "title": "杭州美迪凯光电科技股份有限公司2024年股票期权与限制性股票激励计划预留授予第一类限制性股票第一个解除限售期解除限售暨上市公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/07/00bedd06a1674b563016291f6aca951a.pdf"
+    },
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "杭州美迪凯光电科技股份有限公司关于2024年股票期权与限制性股票激励计划预留授予第一类限制性股票第一个解除限售期解除限售条件成就的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/af5d9dd7cd7d4bde6e595258124c0d29.pdf"
+    },
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "国浩律师（上海）事务所关于美迪凯2024年股票期权与限制性股票激励计划预留授予股票期权第一个行权期行权条件成就、预留授予第一类限制性股票第一个解除限售期解除限售条件成就之法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/97b6d05e10693bc92d5a40ca39d09136.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688079",
+    "announcements": "https://www.cls.cn/stock?code=sh688079&tab=notice"
+   }
+  },
+  "sz300458": {
+   "code": "sz300458",
+   "name": "全志科技",
+   "researchedAt": "2026-09-22T14:31:20.459Z",
+   "asOfDate": "2026-09-22",
+   "industry": "电子-半导体-数字芯片设计",
+   "concepts": [
+    "半导体芯片",
+    "小米概念",
+    "阿里概念",
+    "VR/AR",
+    "机器人概念"
+   ],
+   "valuation": {
+    "ttmPe": null,
+    "dynamicPe": null,
+    "pb": null,
+    "marketCapYi": null,
+    "lastPrice": null
+   },
+   "momentum": {
+    "change3m": null,
+    "change5d": null
+   },
+   "financial": {
+    "revenueYoy": 41.23,
+    "profitYoy": 204.17,
+    "roe": 14.07,
+    "debtRatio": 19.15
+   },
+   "announcements": [],
+   "keyEvents": [],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300458",
+    "announcements": "https://www.cls.cn/stock?code=sz300458&tab=notice"
+   }
+  },
+  "sz301171": {
+   "code": "sz301171",
+   "name": "易点天下",
+   "researchedAt": "2026-09-22T14:31:20.462Z",
+   "errorOnly": true,
+   "error": "fetch failed; fetch failed; fetch failed"
+  },
+  "sh688608": {
+   "code": "sh688608",
+   "name": "恒玄科技",
+   "researchedAt": "2026-09-22T14:31:20.474Z",
+   "asOfDate": "2026-09-22",
+   "industry": "",
+   "concepts": [],
+   "valuation": {
+    "ttmPe": 58.14,
+    "dynamicPe": 78.2,
+    "pb": 2.717,
+    "marketCapYi": 267.61,
+    "lastPrice": 112.97
+   },
+   "momentum": {
+    "change3m": 17.68,
+    "change5d": 25.11
+   },
+   "financial": {
+    "revenueYoy": null,
+    "profitYoy": null,
+    "roe": null,
+    "debtRatio": null
+   },
+   "announcements": [],
+   "keyEvents": [],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688608",
+    "announcements": "https://www.cls.cn/stock?code=sh688608&tab=notice"
+   }
+  },
+  "sh688018": {
+   "code": "sh688018",
+   "name": "乐鑫科技",
+   "researchedAt": "2026-09-22T14:31:21.661Z",
+   "asOfDate": "2026-09-22",
+   "industry": "",
+   "concepts": [],
+   "valuation": {
+    "ttmPe": 50.75,
+    "dynamicPe": 43.34,
+    "pb": 6.157,
+    "marketCapYi": 289.7,
+    "lastPrice": 123.6
+   },
+   "momentum": {
+    "change3m": 18.64,
+    "change5d": 20.47
+   },
+   "financial": {
+    "revenueYoy": null,
+    "profitYoy": null,
+    "roe": null,
+    "debtRatio": null
+   },
+   "announcements": [
+    {
+     "time": "2026-09-11 00:00:00",
+     "timestamp": 1789056000,
+     "title": "乐鑫科技关于股份回购实施结果暨股份变动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/11/249173a2cc82079dead54aa64735bcbe.pdf"
+    },
+    {
+     "time": "2026-09-08 00:00:00",
+     "timestamp": 1788796800,
+     "title": "乐鑫科技关于以集中竞价交易方式回购公司股份比例累计达1%暨回购进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/08/6f0a8c5c2c6851cb510a32d856f8a0e8.pdf"
+    },
+    {
+     "time": "2026-09-03 00:00:00",
+     "timestamp": 1788364800,
+     "title": "乐鑫科技关于以集中竞价交易方式回购股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/03/a944bef8165261cac995bfcf11975b0d.pdf"
+    },
+    {
+     "time": "2026-08-22 00:00:00",
+     "timestamp": 1787328000,
+     "title": "乐鑫科技关于回购股份事项前十大股东和前十大无限售条件股东持股信息的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/22/2a1beaf71380882e61499d5e83eee13b.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "乐鑫科技关于以集中竞价交易方式首次回购公司股份的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/c6e8e278c2a4aaefc11108a7ab7a8c8e.pdf"
+    },
+    {
+     "time": "2026-08-19 00:00:00",
+     "timestamp": 1787068800,
+     "title": "乐鑫科技关于以集中竞价交易方式回购公司股份的回购报告书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/19/a1ecb681335fbbc55f642900cf0c730e.pdf"
+    },
+    {
+     "time": "2026-08-19 00:00:00",
+     "timestamp": 1787068800,
+     "title": "乐鑫科技关于以集中竞价交易方式回购公司股份方案的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/19/b125b02d56eb737bcb9104acd50ef965.pdf"
+    },
+    {
+     "time": "2026-08-19 00:00:00",
+     "timestamp": 1787068800,
+     "title": "乐鑫科技关于公司控股股东、实际控制人、董事长提议公司回购股份的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/19/a993753ac6b42d1077b795692583efe8.pdf"
+    },
+    {
+     "time": "2026-08-18 00:00:00",
+     "timestamp": 1786982400,
+     "title": "乐鑫科技关于股份回购实施结果暨股份变动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/18/22196333541613501c14875fb4450ee5.pdf"
+    },
+    {
+     "time": "2026-08-07 00:00:00",
+     "timestamp": 1786032000,
+     "title": "乐鑫科技关于回购股份事项前十大股东和前十大无限售条件股东持股信息的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/07/70d9b3f541a7eaed137a086593ba3905.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-11 00:00:00",
+     "timestamp": 1789056000,
+     "title": "乐鑫科技关于股份回购实施结果暨股份变动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/11/249173a2cc82079dead54aa64735bcbe.pdf"
+    },
+    {
+     "time": "2026-09-08 00:00:00",
+     "timestamp": 1788796800,
+     "title": "乐鑫科技关于以集中竞价交易方式回购公司股份比例累计达1%暨回购进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/08/6f0a8c5c2c6851cb510a32d856f8a0e8.pdf"
+    },
+    {
+     "time": "2026-09-03 00:00:00",
+     "timestamp": 1788364800,
+     "title": "乐鑫科技关于以集中竞价交易方式回购股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/03/a944bef8165261cac995bfcf11975b0d.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688018",
+    "announcements": "https://www.cls.cn/stock?code=sh688018&tab=notice"
+   }
+  },
+  "sz300063": {
+   "code": "sz300063",
+   "name": "天龙集团",
+   "researchedAt": "2026-09-22T14:31:23.879Z",
+   "errorOnly": true,
+   "error": "fetch failed; fetch failed; fetch failed"
+  },
+  "sh688047": {
+   "code": "sh688047",
+   "name": "龙芯中科",
+   "researchedAt": "2026-09-22T14:31:23.894Z",
+   "asOfDate": "2026-09-22",
+   "industry": "",
+   "concepts": [],
+   "valuation": {
+    "ttmPe": -111.67,
+    "dynamicPe": -95.9,
+    "pb": 18.703,
+    "marketCapYi": 429.47,
+    "lastPrice": 107.1
+   },
+   "momentum": {
+    "change3m": 7.21,
+    "change5d": 11.33
+   },
+   "financial": {
+    "revenueYoy": null,
+    "profitYoy": null,
+    "roe": null,
+    "debtRatio": null
+   },
+   "announcements": [],
+   "keyEvents": [],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688047",
+    "announcements": "https://www.cls.cn/stock?code=sh688047&tab=notice"
+   }
+  },
+  "sh688008": {
+   "code": "sh688008",
+   "name": "澜起科技",
+   "researchedAt": "2026-09-22T14:31:25.834Z",
+   "asOfDate": "2026-09-22",
+   "industry": "",
+   "concepts": [],
+   "valuation": {
+    "ttmPe": 88.08,
+    "dynamicPe": 67.78,
+    "pb": 12.601,
+    "marketCapYi": 2707.52,
+    "lastPrice": 221.83
+   },
+   "momentum": {
+    "change3m": 14.15,
+    "change5d": 18.1
+   },
+   "financial": {
+    "revenueYoy": null,
+    "profitYoy": null,
+    "roe": null,
+    "debtRatio": null
+   },
+   "announcements": [
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "澜起科技关于以集中竞价交易方式回购A股股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/53f76272e0fdf0853f3c603d06f09521.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "澜起科技2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/cfc56a8cc2f8baf1d5b54a7800b1ffe8.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "澜起科技2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/da06ddebf7325ec50487e12d64d57467.pdf"
+    },
+    {
+     "time": "2026-08-04 00:00:00",
+     "timestamp": 1785772800,
+     "title": "澜起科技关于以集中竞价交易方式回购A股股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/04/5a0f04b8d27b3ec88adad7605fabcb30.pdf"
+    },
+    {
+     "time": "2026-07-30 00:00:00",
+     "timestamp": 1785340800,
+     "title": "澜起科技关于以集中竞价交易方式首次回购A股股份的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/30/31fe5f3bec5e05d846a752c56d48d2a7.pdf"
+    },
+    {
+     "time": "2026-07-30 00:00:00",
+     "timestamp": 1785340800,
+     "title": "澜起科技关于回购A股股份事项前十名股东和前十名无限售条件股东持股情况的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/30/141633e726dc3de0502c69070d70ca6d.pdf"
+    },
+    {
+     "time": "2026-07-24 00:00:00",
+     "timestamp": 1784822400,
+     "title": "澜起科技关于以集中竞价交易方式回购A股股份的回购报告书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/24/5306bf0cf1ca0f2d1e749a26a5ce0bd8.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "澜起科技关于以集中竞价交易方式回购A股股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/53f76272e0fdf0853f3c603d06f09521.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "澜起科技2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/cfc56a8cc2f8baf1d5b54a7800b1ffe8.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "澜起科技2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/da06ddebf7325ec50487e12d64d57467.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688008",
+    "announcements": "https://www.cls.cn/stock?code=sh688008&tab=notice"
    }
   }
  }
