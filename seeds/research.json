@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T14:31:25.834Z",
+ "updatedAt": "2026-09-22T23:03:11.632Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -22395,8 +22395,8 @@
   "sz002881": {
    "code": "sz002881",
    "name": "美格智能",
-   "researchedAt": "2026-09-17T06:53:33.506Z",
-   "asOfDate": "2026-09-17",
+   "researchedAt": "2026-09-22T23:03:11.632Z",
+   "asOfDate": "2026-09-23",
    "industry": "通信-通信设备-通信终端及配件",
    "concepts": [
     "新能源汽车",
@@ -22406,15 +22406,15 @@
     "人工智能"
    ],
    "valuation": {
-    "ttmPe": 78.72,
-    "dynamicPe": 61.12,
-    "pb": 4.638,
-    "marketCapYi": 129.48,
-    "lastPrice": 42.82
+    "ttmPe": 88.06,
+    "dynamicPe": 68.37,
+    "pb": 5.188,
+    "marketCapYi": 144.84,
+    "lastPrice": 47.9
    },
    "momentum": {
-    "change3m": 5.68,
-    "change5d": 1.52
+    "change3m": 11.86,
+    "change5d": 18.77
    },
    "financial": {
     "revenueYoy": 7.32,
@@ -22452,12 +22452,6 @@
      "timestamp": 1787846400,
      "title": "2026年半年度报告摘要",
      "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/f0f45187da483d8c8ce8a528da4fc25e.pdf"
-    },
-    {
-     "time": "2026-07-30 00:00:00",
-     "timestamp": 1785340800,
-     "title": "关于2024年度股票期权与限制性股票激励计划首次授予限制性股票第二个解除限售期解除限售股份上市流通的提示性公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/07/30/9b0411b6cd4f6ffea66e80fd4711ccdd.pdf"
     }
    ],
    "keyEvents": [
@@ -36878,6 +36872,192 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh688008",
     "announcements": "https://www.cls.cn/stock?code=sh688008&tab=notice"
+   }
+  },
+  "sh603236": {
+   "code": "sh603236",
+   "name": "移远通信",
+   "researchedAt": "2026-09-22T23:03:11.545Z",
+   "asOfDate": "2026-09-23",
+   "industry": "通信-通信设备-通信终端及配件",
+   "concepts": [
+    "豆包大模型",
+    "VR/AR",
+    "机器人概念",
+    "人工智能",
+    "车联网"
+   ],
+   "valuation": {
+    "ttmPe": 31.88,
+    "dynamicPe": 25.62,
+    "pb": 4.168,
+    "marketCapYi": 308.69,
+    "lastPrice": 76.15
+   },
+   "momentum": {
+    "change3m": 3.38,
+    "change5d": 13.91
+   },
+   "financial": {
+    "revenueYoy": 32.16,
+    "profitYoy": 27.17,
+    "roe": 8.18,
+    "debtRatio": 66.35
+   },
+   "announcements": [
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "关于重大诉讼的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/6ca6c9170ba2e0c38073ddc32e839170.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/29e022d98c8eb177a5531733162c3ee9.pdf"
+    },
+    {
+     "time": "2026-08-13 00:00:00",
+     "timestamp": 1786550400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/13/26be96f3da1d8b2e19e0a022b146309b.pdf"
+    },
+    {
+     "time": "2026-08-13 00:00:00",
+     "timestamp": 1786550400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/13/cf5e9705c0b42bda93eda6b25ef15b37.pdf"
+    },
+    {
+     "time": "2026-07-30 00:00:00",
+     "timestamp": 1785340800,
+     "title": "关于重大诉讼的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/30/b59181d52c8d3a387cefe887c7c5bca9.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "关于重大诉讼的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/6ca6c9170ba2e0c38073ddc32e839170.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/29e022d98c8eb177a5531733162c3ee9.pdf"
+    },
+    {
+     "time": "2026-08-13 00:00:00",
+     "timestamp": 1786550400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/13/26be96f3da1d8b2e19e0a022b146309b.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh603236",
+    "announcements": "https://www.cls.cn/stock?code=sh603236&tab=notice"
+   }
+  },
+  "sz300638": {
+   "code": "sz300638",
+   "name": "广和通",
+   "researchedAt": "2026-09-22T23:03:11.551Z",
+   "asOfDate": "2026-09-23",
+   "industry": "通信-通信设备-通信终端及配件",
+   "concepts": [
+    "物联网",
+    "区块链",
+    "机器人概念",
+    "人工智能",
+    "车联网"
+   ],
+   "valuation": {
+    "ttmPe": 97.64,
+    "dynamicPe": 150.8,
+    "pb": 3.072,
+    "marketCapYi": 186.46,
+    "lastPrice": 20.75
+   },
+   "momentum": {
+    "change3m": 10.26,
+    "change5d": 17.76
+   },
+   "financial": {
+    "revenueYoy": 1.92,
+    "profitYoy": -66.71,
+    "roe": 1.02,
+    "debtRatio": 42.79
+   },
+   "announcements": [
+    {
+     "time": "2026-09-21 00:00:00",
+     "timestamp": 1789920000,
+     "title": "关于重大资产重组进展的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/21/e93e8c49748f58d1f06db2140a7c35c7.pdf"
+    },
+    {
+     "time": "2026-09-16 00:00:00",
+     "timestamp": 1789488000,
+     "title": "关于部分限制性股票回购注销完成的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/16/c388d72a6808b93ff56170cb39cf0670.pdf"
+    },
+    {
+     "time": "2026-09-05 00:00:00",
+     "timestamp": 1788537600,
+     "title": "创业板上市公司股权激励计划自查表",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/05/b133ebfd8bcd5ed071336be89c4f6b99.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/599a755fc3f2e5596fb0bb7524ce161a.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/45aedb78898d54f2dec71a409ad3eb9b.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "关于重大资产重组进展的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/0496755b578b5423a31b26fdb3931d68.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "关于以债转股方式向控股子公司增资、终止其股权激励计划并出售其股权的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/23bd7079fbd0ae252e6ec9d7c519d4c7.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-21 00:00:00",
+     "timestamp": 1789920000,
+     "title": "关于重大资产重组进展的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/21/e93e8c49748f58d1f06db2140a7c35c7.pdf"
+    },
+    {
+     "time": "2026-09-16 00:00:00",
+     "timestamp": 1789488000,
+     "title": "关于部分限制性股票回购注销完成的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/16/c388d72a6808b93ff56170cb39cf0670.pdf"
+    },
+    {
+     "time": "2026-09-05 00:00:00",
+     "timestamp": 1788537600,
+     "title": "创业板上市公司股权激励计划自查表",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/05/b133ebfd8bcd5ed071336be89c4f6b99.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300638",
+    "announcements": "https://www.cls.cn/stock?code=sz300638&tab=notice"
    }
   }
  }
