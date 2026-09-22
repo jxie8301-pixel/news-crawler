@@ -239,17 +239,72 @@ async function fetchStockArticles(code, { sinceSec, maxPages = 60, onPage } = {}
 
 /**
  * 抓取财联社 VIP 推荐文章列表（首页最新一批，约 15 条）。
- * 接口：GET https://www.cls.cn/featured/v2/home/recommend/article
- *   参数：last_time（游标，默认当前时间秒）、refresh_Type=1
- * 返回原始 item 数组（含 id, title, brief, ctime, type_name, related_stock 等）。
+ * 默认直连 www.cls.cn；失败时回退到 CF 哨兵 /vip（GHA 出海更稳）。
+ * preferFallback=true：先走 CF（外部触发场景）。
+ * VIP_FALLBACK_URL 可覆盖回退地址；设为空串则禁用回退。
  */
-async function fetchVipArticles({ lastTime, retries = 5, timeout = 30000 } = {}) {
+async function fetchVipArticles(opts) {
+  opts = opts || {};
+  const lastTime = opts.lastTime;
+  const retries = opts.retries != null ? opts.retries : 5;
+  const timeout = opts.timeout != null ? opts.timeout : 30000;
+  const preferFallback = !!opts.preferFallback;
+  const fallbackUrl = resolveVipFallbackUrl();
+
+  if (preferFallback && fallbackUrl) {
+    try {
+      return await fetchVipArticlesViaFallback(fallbackUrl, Math.min(timeout, 15000));
+    } catch (e1) {
+      console.warn('[cls] VIP 回退源失败，再试直连: ' + (e1 && e1.message ? e1.message : e1));
+      return await fetchVipArticlesDirect({ lastTime: lastTime, retries: 1, timeout: 12000 });
+    }
+  }
+
+  try {
+    return await fetchVipArticlesDirect({ lastTime: lastTime, retries: retries, timeout: timeout });
+  } catch (err) {
+    if (!fallbackUrl) throw err;
+    console.warn('[cls] VIP 直连失败，改走回退 ' + fallbackUrl + ': '
+      + (err && err.message ? err.message : err));
+    return await fetchVipArticlesViaFallback(fallbackUrl, timeout);
+  }
+}
+
+function resolveVipFallbackUrl() {
+  const fb = process.env.VIP_FALLBACK_URL;
+  if (fb === undefined || fb === null) return 'https://jxie.ccwu.cc/vip';
+  return String(fb).trim();
+}
+
+async function fetchVipArticlesDirect({ lastTime, retries = 5, timeout = 30000 } = {}) {
   const body = await api('/featured/v2/home/recommend/article', {
     last_time: String(lastTime || Math.floor(Date.now() / 1000)),
     refresh_Type: '1',
   }, { retries: retries, timeout: timeout });
   const data = body && body.data;
   return Array.isArray(data) ? data : [];
+}
+
+async function fetchVipArticlesViaFallback(urlStr, timeout) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(function () { ctrl.abort(); }, timeout || 20000);
+  try {
+    const res = await fetch(urlStr, {
+      signal: ctrl.signal,
+      headers: {
+        'User-Agent': UA,
+        Accept: 'application/json',
+      },
+    });
+    const text = await res.text();
+    if (!res.ok) throw new Error('fallback HTTP ' + res.status + ': ' + text.slice(0, 160));
+    const body = JSON.parse(text || '{}');
+    if (Array.isArray(body.items)) return body.items;
+    if (Array.isArray(body.data)) return body.data;
+    throw new Error('fallback 无 items');
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 /**

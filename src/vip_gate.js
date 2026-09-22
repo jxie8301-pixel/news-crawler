@@ -90,18 +90,28 @@ async function checkVipGate(opts) {
   opts = opts || {};
   const cfg = Object.assign(loadConfig(), opts);
   const force = !!opts.force || !!opts.noGate;
-  // 外部哨兵已判定有新 VIP 时：拉取失败不阻断整轮
+  // 外部哨兵已判定有新 VIP：优先走 CF 回退拿列表；拿不到也直接继续，不再死磕 cls.cn
   const assumeNewVip = !!opts.assumeNewVip;
+
+  let lastIds = [];
+  try {
+    lastIds = await loadLastVipIds(cfg);
+  } catch (e) {
+    console.warn('[vip] 读取水位失败，视为无水位继续: ' + (e && e.message ? e.message : e));
+  }
 
   let items;
   try {
-    items = await cls.fetchVipArticles({});
+    if (assumeNewVip) {
+      // 外部触发：优先 CF（GHA→CF 通常稳），避免先空等 cls.cn
+      items = await cls.fetchVipArticles({ preferFallback: true, timeout: 15000 });
+    } else {
+      items = await cls.fetchVipArticles({});
+    }
   } catch (e) {
     const msg = e && e.message ? e.message : String(e);
     if (assumeNewVip || force) {
       console.warn('[vip] 拉取 VIP 失败，外部已判定有新 VIP / --force，软继续: ' + msg);
-      let lastIds = [];
-      try { lastIds = await loadLastVipIds(cfg); } catch (_) { /* ignore */ }
       return {
         shouldRun: true,
         forced: force,
@@ -122,16 +132,9 @@ async function checkVipGate(opts) {
   const eligible = eligibleVipItems(items);
   const curIds = eligible.map(function (it) { return String(it.id); });
 
-  let lastIds = [];
-  try {
-    lastIds = await loadLastVipIds(cfg);
-  } catch (e) {
-    console.warn('[vip] 读取水位失败，视为无水位继续: ' + (e && e.message ? e.message : e));
-  }
-
   const lastSet = new Set(lastIds);
   const newIds = curIds.filter(function (id) { return !lastSet.has(id); });
-  const shouldRun = force || newIds.length > 0;
+  const shouldRun = force || assumeNewVip || newIds.length > 0;
 
   return {
     shouldRun: shouldRun,

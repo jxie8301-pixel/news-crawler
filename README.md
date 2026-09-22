@@ -14,7 +14,8 @@
 
 股票关联来自个股新闻流并集（及 `quotes_info`），不是 VIP 页上的「焦点一只」。
 
-触发：外部 `cls-trigger`（Cloudflare）在 VIP 水位变化时 `workflow_dispatch` → `collect.yml`。
+触发：外部 `cls-trigger`（Cloudflare）在 VIP 水位变化时 `workflow_dispatch` → `collect.yml`。  
+VIP 列表：优先直连 `www.cls.cn`；失败则回退 `https://jxie.ccwu.cc/vip`（CF 边缘代拉）。外部触发时 gate 会**优先走 CF**。
 
 ## 本地命令
 
