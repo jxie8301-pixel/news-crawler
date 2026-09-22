@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T13:14:45.231Z",
+ "updatedAt": "2026-09-22T13:55:11.255Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -18285,8 +18285,8 @@
   "sh603936": {
    "code": "sh603936",
    "name": "博敏电子",
-   "researchedAt": "2026-09-21T13:16:16.992Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-22T13:55:10.667Z",
+   "asOfDate": "2026-09-22",
    "industry": "电子-元件-印制电路板",
    "concepts": [
     "PCB",
@@ -18296,15 +18296,15 @@
     "陶瓷产业"
    ],
    "valuation": {
-    "ttmPe": -168.89,
-    "dynamicPe": -135.95,
-    "pb": 3.275,
-    "marketCapYi": 139.46,
-    "lastPrice": 21.61
+    "ttmPe": -176.79,
+    "dynamicPe": -142.31,
+    "pb": 3.428,
+    "marketCapYi": 145.98,
+    "lastPrice": 22.62
    },
    "momentum": {
-    "change3m": -3.48,
-    "change5d": -3.05
+    "change3m": 5.41,
+    "change5d": 2.08
    },
    "financial": {
     "revenueYoy": 9.35,
@@ -19937,8 +19937,8 @@
   "sh688378": {
    "code": "sh688378",
    "name": "奥来德  ",
-   "researchedAt": "2026-09-16T14:48:06.858Z",
-   "asOfDate": "2026-09-16",
+   "researchedAt": "2026-09-22T13:55:10.480Z",
+   "asOfDate": "2026-09-22",
    "industry": "电子-光学光电子-光学元件",
    "concepts": [
     "OLED",
@@ -19948,15 +19948,15 @@
     "光刻胶"
    ],
    "valuation": {
-    "ttmPe": 57.42,
-    "dynamicPe": 36.1,
-    "pb": 6.045,
-    "marketCapYi": 126.95,
-    "lastPrice": 48.56
+    "ttmPe": 61.72,
+    "dynamicPe": 38.81,
+    "pb": 6.498,
+    "marketCapYi": 136.46,
+    "lastPrice": 52.2
    },
    "momentum": {
-    "change3m": 15.54,
-    "change5d": 10.62
+    "change3m": 6.55,
+    "change5d": 9.66
    },
    "financial": {
     "revenueYoy": 64.14,
@@ -26276,8 +26276,8 @@
   "sh600699": {
    "code": "sh600699",
    "name": "均胜电子",
-   "researchedAt": "2026-09-21T13:16:14.820Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-22T13:55:11.255Z",
+   "asOfDate": "2026-09-22",
    "industry": "汽车-汽车零部件-汽车电子电气系统",
    "concepts": [
     "智能驾驶",
@@ -26287,15 +26287,15 @@
     "机器人概念"
    ],
    "valuation": {
-    "ttmPe": 23.76,
-    "dynamicPe": 21.98,
-    "pb": 1.96,
-    "marketCapYi": 324.89,
-    "lastPrice": 20.95
+    "ttmPe": 23.59,
+    "dynamicPe": 21.83,
+    "pb": 1.946,
+    "marketCapYi": 322.56,
+    "lastPrice": 20.8
    },
    "momentum": {
-    "change3m": 16,
-    "change5d": 12.88
+    "change3m": 4.68,
+    "change5d": 15.43
    },
    "financial": {
     "revenueYoy": -7.43,
@@ -28999,8 +28999,8 @@
   "sh603773": {
    "code": "sh603773",
    "name": "沃格光电",
-   "researchedAt": "2026-09-20T15:12:16.758Z",
-   "asOfDate": "2026-09-20",
+   "researchedAt": "2026-09-22T13:55:10.605Z",
+   "asOfDate": "2026-09-22",
    "industry": "电子-光学光电子-面板",
    "concepts": [
     "盖板玻璃",
@@ -29010,15 +29010,15 @@
     "折叠屏"
    ],
    "valuation": {
-    "ttmPe": -92.83,
-    "dynamicPe": -85.6,
-    "pb": 20.8,
-    "marketCapYi": 211.42,
-    "lastPrice": 94.1
+    "ttmPe": -91.93,
+    "dynamicPe": -84.76,
+    "pb": 20.596,
+    "marketCapYi": 209.36,
+    "lastPrice": 93.18
    },
    "momentum": {
-    "change3m": 4.12,
-    "change5d": 11.74
+    "change3m": -1.92,
+    "change5d": 3.1
    },
    "financial": {
     "revenueYoy": 3.19,
@@ -36161,6 +36161,204 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz301618",
     "announcements": "https://www.cls.cn/stock?code=sz301618&tab=notice"
+   }
+  },
+  "sz300433": {
+   "code": "sz300433",
+   "name": "蓝思科技",
+   "researchedAt": "2026-09-22T13:55:10.394Z",
+   "asOfDate": "2026-09-22",
+   "industry": "电子-消费电子-消费电子零部件及组装",
+   "concepts": [
+    "消费电子",
+    "苹果产业链",
+    "特斯拉概念",
+    "小米概念",
+    "光伏"
+   ],
+   "valuation": {
+    "ttmPe": 52.67,
+    "dynamicPe": 157.59,
+    "pb": 3.445,
+    "marketCapYi": 1818,
+    "lastPrice": 34.44
+   },
+   "momentum": {
+    "change3m": 2.99,
+    "change5d": 4.81
+   },
+   "financial": {
+    "revenueYoy": -12.42,
+    "profitYoy": -50.92,
+    "roe": 1.09,
+    "debtRatio": 37.52
+   },
+   "announcements": [
+    {
+     "time": "2026-09-18 00:00:00",
+     "timestamp": 1789660800,
+     "title": "H股公告：联合公告进一步延迟寄发综合文件内容有关中信里昂证券有限公司代表蓝思科技股份有限公司就收购巨腾国际控股有限公司全部已发行股份（蓝思科技股份有限公司及其一致行动人士已拥有或同意收购之股份除外）提出具有前置条件之自愿性有条件全面现金要约",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/18/80a1a05d1bd3c87275bbb429f37511c2.pdf"
+    },
+    {
+     "time": "2026-09-08 00:00:00",
+     "timestamp": 1788796800,
+     "title": "H股公告：联合公告每月更新资料内容有关中信里昂证券有限公司代表蓝思科技股份有限公司就收购巨腾国际控股有限公司全部已发行股份（蓝思科技股份有限公司及其一致行动人士已拥有或同意收购之股份除外）提出具有前置条件之自愿性有条件全面现金要约",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/08/3faeda10eed3f77713c323923e29d1a2.pdf"
+    },
+    {
+     "time": "2026-08-22 00:00:00",
+     "timestamp": 1787328000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/22/88979e3e9e4331348cbebf00f6e671d7.pdf"
+    },
+    {
+     "time": "2026-08-22 00:00:00",
+     "timestamp": 1787328000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/22/0ee4329c7d84ceaa797bee95f3686c60.pdf"
+    },
+    {
+     "time": "2026-08-07 00:00:00",
+     "timestamp": 1786032000,
+     "title": "H股公告：联合公告每月更新资料内容有关中信里昂证券有限公司代表蓝思科技就收购巨腾国际控股有限公司全部已发行股份（蓝思科技股份有限公司及其一致行动人士已拥有或同意收购之股份除外）提出具有前置条件之自愿性有条件全面现金要约",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/07/e4e822f7f1bbc479da541db366013450.pdf"
+    },
+    {
+     "time": "2026-07-28 00:00:00",
+     "timestamp": 1785168000,
+     "title": "关于公司实际控制人增持本公司A股股份计划实施进展暨增持时间过半的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/28/5f214c17844b9d775d3eb3d1b4b8555f.pdf"
+    },
+    {
+     "time": "2026-07-07 00:00:00",
+     "timestamp": 1783353600,
+     "title": "H股公告：联合公告每月更新资料内容有关中信里昂证券有限公司代表蓝思科技股份有限公司就收购巨腾国际控股有限公司全部已发行股份（蓝思科技股份有限公司及其一致行动人士已拥有或同意收购之股份除外）提出具有前置条件之自愿性有条件全面现金要约",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/07/c9d06dc1eda45e7c31c3b98c40fec15f.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-18 00:00:00",
+     "timestamp": 1789660800,
+     "title": "H股公告：联合公告进一步延迟寄发综合文件内容有关中信里昂证券有限公司代表蓝思科技股份有限公司就收购巨腾国际控股有限公司全部已发行股份（蓝思科技股份有限公司及其一致行动人士已拥有或同意收购之股份除外）提出具有前置条件之自愿性有条件全面现金要约",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/18/80a1a05d1bd3c87275bbb429f37511c2.pdf"
+    },
+    {
+     "time": "2026-09-08 00:00:00",
+     "timestamp": 1788796800,
+     "title": "H股公告：联合公告每月更新资料内容有关中信里昂证券有限公司代表蓝思科技股份有限公司就收购巨腾国际控股有限公司全部已发行股份（蓝思科技股份有限公司及其一致行动人士已拥有或同意收购之股份除外）提出具有前置条件之自愿性有条件全面现金要约",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/08/3faeda10eed3f77713c323923e29d1a2.pdf"
+    },
+    {
+     "time": "2026-08-22 00:00:00",
+     "timestamp": 1787328000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/22/88979e3e9e4331348cbebf00f6e671d7.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300433",
+    "announcements": "https://www.cls.cn/stock?code=sz300433&tab=notice"
+   }
+  },
+  "sz001223": {
+   "code": "sz001223",
+   "name": "欧克科技",
+   "researchedAt": "2026-09-22T13:55:10.812Z",
+   "asOfDate": "2026-09-22",
+   "industry": "机械设备-自动化设备-其他自动化设备",
+   "concepts": [
+    "造纸",
+    "PCB",
+    "锂电池",
+    "机器人概念",
+    "口罩"
+   ],
+   "valuation": {
+    "ttmPe": -544.65,
+    "dynamicPe": 165.87,
+    "pb": 3.071,
+    "marketCapYi": 58.21,
+    "lastPrice": 44.54
+   },
+   "momentum": {
+    "change3m": 1.74,
+    "change5d": -3.4
+   },
+   "financial": {
+    "revenueYoy": 0.26,
+    "profitYoy": -64.07,
+    "roe": 0.93,
+    "debtRatio": 20.47
+   },
+   "announcements": [
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/a52f71c5aaa6f4a5018e61f693fdd7c1.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/d10043be2d998b5c55f472d229d838f9.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/1ca313ebcb1ed358441170da32e93f0e.pdf"
+    },
+    {
+     "time": "2026-07-15 00:00:00",
+     "timestamp": 1784044800,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/15/ade0f09ef289ebc3766c490ec4727904.pdf"
+    },
+    {
+     "time": "2026-05-26 00:00:00",
+     "timestamp": 1779724800,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/26/48dad231fb2161286186413e8e38d110.pdf"
+    },
+    {
+     "time": "2026-05-15 00:00:00",
+     "timestamp": 1778774400,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/15/399dba6478bfe5a1b13242cdeb2df0d3.pdf"
+    },
+    {
+     "time": "2026-04-29 00:00:00",
+     "timestamp": 1777392000,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/29/cd12e221f0f5057223faf8fac4a9c7e4.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/a52f71c5aaa6f4a5018e61f693fdd7c1.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/d10043be2d998b5c55f472d229d838f9.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/1ca313ebcb1ed358441170da32e93f0e.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz001223",
+    "announcements": "https://www.cls.cn/stock?code=sz001223&tab=notice"
    }
   }
  }
