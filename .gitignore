@@ -1,0 +1,5 @@
+config.json
+config.local.json
+data/
+out/
+node_modules/

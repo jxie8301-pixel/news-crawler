@@ -1,0 +1,9 @@
+{
+  "name": "news-crawler",
+  "private": true,
+  "description": "Matrix 分片抓取实验（与 dashboard 无代码依赖）",
+  "scripts": {
+    "scan": "node src/cli.js scan",
+    "merge": "node src/cli.js merge"
+  }
+}
