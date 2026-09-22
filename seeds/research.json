@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T23:03:11.632Z",
+ "updatedAt": "2026-09-22T23:45:07.420Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -32572,8 +32572,8 @@
   "sz002443": {
    "code": "sz002443",
    "name": "金洲管道",
-   "researchedAt": "2026-09-21T23:14:20.814Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-22T23:45:06.848Z",
+   "asOfDate": "2026-09-23",
    "industry": "钢铁-特钢Ⅱ-特钢Ⅲ",
    "concepts": [
     "油气设服",
@@ -32583,15 +32583,15 @@
     "地下管廊"
    ],
    "valuation": {
-    "ttmPe": 41.29,
-    "dynamicPe": 39.88,
-    "pb": 2.004,
-    "marketCapYi": 68.4,
-    "lastPrice": 13.14
+    "ttmPe": 43.49,
+    "dynamicPe": 42.01,
+    "pb": 2.111,
+    "marketCapYi": 72.04,
+    "lastPrice": 13.84
    },
    "momentum": {
-    "change3m": 10.7,
-    "change5d": 11.54
+    "change3m": 11.16,
+    "change5d": 20.56
    },
    "financial": {
     "revenueYoy": 1.76,
@@ -37058,6 +37058,156 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz300638",
     "announcements": "https://www.cls.cn/stock?code=sz300638&tab=notice"
+   }
+  },
+  "sz301568": {
+   "code": "sz301568",
+   "name": "思泰克",
+   "researchedAt": "2026-09-22T23:45:06.825Z",
+   "asOfDate": "2026-09-23",
+   "industry": "机械设备-自动化设备-其他自动化设备",
+   "concepts": [
+    "机器视觉",
+    "PCB",
+    "VR/AR",
+    "人工智能",
+    "光刻胶"
+   ],
+   "valuation": {
+    "ttmPe": 63.41,
+    "dynamicPe": 71.18,
+    "pb": 7.403,
+    "marketCapYi": 76.6,
+    "lastPrice": 74.18
+   },
+   "momentum": {
+    "change3m": 4.39,
+    "change5d": 6.92
+   },
+   "financial": {
+    "revenueYoy": 19.45,
+    "profitYoy": 20.21,
+    "roe": 5.2,
+    "debtRatio": 13.98
+   },
+   "announcements": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/c23660301a94a939c966ca605270b725.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/5190580c4c7c7535eca9db5fb8032288.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/c23660301a94a939c966ca605270b725.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/5190580c4c7c7535eca9db5fb8032288.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz301568",
+    "announcements": "https://www.cls.cn/stock?code=sz301568&tab=notice"
+   }
+  },
+  "sz300768": {
+   "code": "sz300768",
+   "name": "迪普科技",
+   "researchedAt": "2026-09-22T23:45:07.420Z",
+   "asOfDate": "2026-09-23",
+   "industry": "计算机-软件开发-横向通用软件",
+   "concepts": [
+    "网络安全",
+    "量子科技",
+    "人工智能",
+    "金融科技",
+    "VPN概念"
+   ],
+   "valuation": {
+    "ttmPe": 48.73,
+    "dynamicPe": 67.79,
+    "pb": 2.779,
+    "marketCapYi": 98.18,
+    "lastPrice": 15.25
+   },
+   "momentum": {
+    "change3m": 5.61,
+    "change5d": 2.76
+   },
+   "financial": {
+    "revenueYoy": -2.52,
+    "profitYoy": 38.86,
+    "roe": 2.05,
+    "debtRatio": 11.84
+   },
+   "announcements": [
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/37e323da4551e34a6d94a94f898cad97.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/a63a0acd3556ce95916ec59f76a9a8ed.pdf"
+    },
+    {
+     "time": "2026-05-28 00:00:00",
+     "timestamp": 1779897600,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/28/6b4a2a43dcdd93792279c469ded29449.pdf"
+    },
+    {
+     "time": "2026-04-14 00:00:00",
+     "timestamp": 1776096000,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/14/0c71ef00f25eb859f7fed6846a169cdc.pdf"
+    },
+    {
+     "time": "2026-04-14 00:00:00",
+     "timestamp": 1776096000,
+     "title": "2026年一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/14/26c153a92d444bf73903e760d78f9330.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/37e323da4551e34a6d94a94f898cad97.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/a63a0acd3556ce95916ec59f76a9a8ed.pdf"
+    },
+    {
+     "time": "2026-05-28 00:00:00",
+     "timestamp": 1779897600,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/28/6b4a2a43dcdd93792279c469ded29449.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300768",
+    "announcements": "https://www.cls.cn/stock?code=sz300768&tab=notice"
    }
   }
  }
