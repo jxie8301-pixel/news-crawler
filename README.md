@@ -21,10 +21,8 @@ node src/cli.js perf                    # T+1～T+5 写入 pushes.db
 
 | Workflow | 作用 |
 |----------|------|
-| `collect.yml` | 主链（gate → matrix → merge → post → shadow → 可选 Pages） |
-| `push-perf.yml` | `/perf`（影子期 **仅手动**） |
-| `matrix-crawl.yml` | 仅压测扫描 |
-| `keepalive.yml` | 月度空 commit（防 schedule 休眠） |
+| `collect.yml` | 主链（gate → matrix → merge → post → shadow → 可选 Pages）；外部 `cls-trigger` 只应 dispatch 这个 |
+| `push-perf.yml` | `/perf`（影子期 **仅手动**；切流后再开 schedule） |
 
 `collect.yml` 输入：
 - `shards` 默认 5
