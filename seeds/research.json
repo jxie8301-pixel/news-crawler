@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T04:02:17.588Z",
+ "updatedAt": "2026-09-22T04:10:40.455Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -8875,8 +8875,8 @@
   "sz000510": {
    "code": "sz000510",
    "name": "新金路",
-   "researchedAt": "2026-09-15T09:10:37.022Z",
-   "asOfDate": "2026-09-15",
+   "researchedAt": "2026-09-22T04:10:39.390Z",
+   "asOfDate": "2026-09-22",
    "industry": "基础化工-化学原料-氯碱",
    "concepts": [
     "氯碱工业",
@@ -8886,15 +8886,15 @@
     "AMC"
    ],
    "valuation": {
-    "ttmPe": -48.82,
-    "dynamicPe": -78.23,
-    "pb": 11.491,
-    "marketCapYi": 115.89,
-    "lastPrice": 17.87
+    "ttmPe": -50.76,
+    "dynamicPe": -81.34,
+    "pb": 11.948,
+    "marketCapYi": 120.5,
+    "lastPrice": 18.58
    },
    "momentum": {
-    "change3m": 7.91,
-    "change5d": 3.77
+    "change3m": 4.26,
+    "change5d": 3.97
    },
    "financial": {
     "revenueYoy": 6.05,
@@ -9073,8 +9073,8 @@
   "sz000962": {
    "code": "sz000962",
    "name": "东方钽业",
-   "researchedAt": "2026-09-15T09:10:37.102Z",
-   "asOfDate": "2026-09-15",
+   "researchedAt": "2026-09-22T04:10:39.805Z",
+   "asOfDate": "2026-09-22",
    "industry": "有色金属-小金属-其他小金属",
    "concepts": [
     "有色金属概念",
@@ -9084,15 +9084,15 @@
     "有色·钛"
    ],
    "valuation": {
-    "ttmPe": 127.94,
-    "dynamicPe": 123.35,
-    "pb": 7.502,
-    "marketCapYi": 301.66,
-    "lastPrice": 57.2
+    "ttmPe": 137.55,
+    "dynamicPe": 132.62,
+    "pb": 8.066,
+    "marketCapYi": 324.34,
+    "lastPrice": 61.5
    },
    "momentum": {
-    "change3m": 11.85,
-    "change5d": 7.44
+    "change3m": 6.13,
+    "change5d": 7.52
    },
    "financial": {
     "revenueYoy": 30.5,
@@ -33811,6 +33811,87 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh603319",
     "announcements": "https://www.cls.cn/stock?code=sh603319&tab=notice"
+   }
+  },
+  "sz002738": {
+   "code": "sz002738",
+   "name": "中矿资源",
+   "researchedAt": "2026-09-22T04:10:40.455Z",
+   "asOfDate": "2026-09-22",
+   "industry": "有色金属-小金属-其他小金属",
+   "concepts": [
+    "锂电池",
+    "特斯拉概念",
+    "锂矿",
+    "有色金属概念",
+    "锂化合物"
+   ],
+   "valuation": {
+    "ttmPe": 22.46,
+    "dynamicPe": 14.96,
+    "pb": 2.528,
+    "marketCapYi": 332.38,
+    "lastPrice": 45.57
+   },
+   "momentum": {
+    "change3m": 2.89,
+    "change5d": 3.66
+   },
+   "financial": {
+    "revenueYoy": 12.03,
+    "profitYoy": 1295.27,
+    "roe": 8.55,
+    "debtRatio": 36.18
+   },
+   "announcements": [
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/6a0a2a9fb7dc8845db3a1af6b7734613.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/a61b3b04308f90f15bbd10fca252a5ad.pdf"
+    },
+    {
+     "time": "2026-07-11 00:00:00",
+     "timestamp": 1783699200,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/11/b6de09365a9e9d8c180824c303a3f9cf.pdf"
+    },
+    {
+     "time": "2026-07-03 00:00:00",
+     "timestamp": 1783008000,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/03/ffc86a081f9e846760ffbff1b9719e74.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/6a0a2a9fb7dc8845db3a1af6b7734613.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/a61b3b04308f90f15bbd10fca252a5ad.pdf"
+    },
+    {
+     "time": "2026-07-11 00:00:00",
+     "timestamp": 1783699200,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/11/b6de09365a9e9d8c180824c303a3f9cf.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002738",
+    "announcements": "https://www.cls.cn/stock?code=sz002738&tab=notice"
    }
   }
  }
