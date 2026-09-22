@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T02:53:17.801Z",
+ "updatedAt": "2026-09-22T03:54:12.589Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -33730,6 +33730,87 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz300496",
     "announcements": "https://www.cls.cn/stock?code=sz300496&tab=notice"
+   }
+  },
+  "sh603319": {
+   "code": "sh603319",
+   "name": "美湖股份",
+   "researchedAt": "2026-09-22T03:54:12.589Z",
+   "asOfDate": "2026-09-22",
+   "industry": "汽车-汽车零部件-底盘与发动机系统",
+   "concepts": [
+    "机器人概念",
+    "重卡",
+    "新能源汽车",
+    "智能驾驶",
+    "汽车零部件"
+   ],
+   "valuation": {
+    "ttmPe": 188,
+    "dynamicPe": 98.74,
+    "pb": 4.382,
+    "marketCapYi": 108.29,
+    "lastPrice": 31.93
+   },
+   "momentum": {
+    "change3m": 12.19,
+    "change5d": 17.82
+   },
+   "financial": {
+    "revenueYoy": 8.48,
+    "profitYoy": -45.89,
+    "roe": 2.22,
+    "debtRatio": 41.24
+   },
+   "announcements": [
+    {
+     "time": "2026-09-14 00:00:00",
+     "timestamp": 1789315200,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/14/ee28e543b7c19cae46e0a44ba49ca6ad.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/bd3f230be1cb2d7169d0e749cd3cbd1b.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/97a856e1c356f8da544eaee9096fc646.pdf"
+    },
+    {
+     "time": "2026-06-11 00:00:00",
+     "timestamp": 1781107200,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/11/be2187af59a77b2e29e32553778e30e8.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-14 00:00:00",
+     "timestamp": 1789315200,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/14/ee28e543b7c19cae46e0a44ba49ca6ad.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/bd3f230be1cb2d7169d0e749cd3cbd1b.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/97a856e1c356f8da544eaee9096fc646.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh603319",
+    "announcements": "https://www.cls.cn/stock?code=sh603319&tab=notice"
    }
   }
  }
