@@ -1,63 +1,42 @@
-# news-crawler
+# news-crawler → cls-news v2
 
-与 `dashboard` **无代码引用、无共享依赖**。验证 **VIP 门控 → Matrix 分片扫描 → 合并**。
+并行 v2：**VIP 门控 → Matrix 分片扫描 → merge → 正文/调研/企微 → Pages**，同仓含 **推送复盘 `/perf`**。  
+现网 `cls-news` / `dashboard` 冻结；影子期本仓 Pages ≠ 生产站，**默认不推企微**（`enable_push=false`）。
 
-## 本地
+## 命令
 
 ```bash
-cd news-crawler
 cp config.example.json config.json
 mkdir -p data/pools out
 
-# 1) VIP 差集门控（对照 Pages status.json.lastVipIds）
-node src/cli.js gate
-# 无新增 → exit 3；有新增或 --force → 继续
-
-# 2) 分片扫描（默认 5 片）
+node src/cli.js gate [--force]          # 无新增 VIP → exit 3
 node src/cli.js scan --shard 0 --shards 5
-# …
-
-# 3) 合并
 node src/cli.js merge --shards 5
+node src/cli.js post --site-links [--no-push] [--no-research]
+node src/cli.js perf                    # T+1～T+5 写入 pushes.db
 ```
-
-- 输出：`out/vip-gate.json`、`out/shard-{i}-of-{N}.json`、`out/merged.json`
-- 任一片超时 → 该片 `exit 4`；**merge 整轮 ok=false**
-
-## 参数（config.json）
-
-| 字段 | 含义 |
-|------|------|
-| `concurrency` | 每片并发，默认 5 |
-| `requestDelayMs` | 间隔下限 80–150ms 随机 |
-| `scanTimeoutMinutes` | 单片超时（超时作废该片） |
-| `matrixShards` | 默认分片数 **5** |
-| `statusUrl` | VIP 水位来源（默认 cls-news Pages status.json） |
-| `poolFile` | 股票池 JSON 路径 |
 
 ## Actions
 
-`workflow_dispatch` → `.github/workflows/matrix-crawl.yml`
+| Workflow | 作用 |
+|----------|------|
+| `collect.yml` | 生产主链（gate → matrix → merge → post → Pages） |
+| `push-perf.yml` | 日更 `/perf` + `pushes.db`（保留新闻页） |
+| `matrix-crawl.yml` | 仅压测扫描（可保留） |
 
-1. **gate**：拉 VIP 列表，对照 `statusUrl` 的 `lastVipIds`；无新增则跳过后续（可用 `force=true` 强制）
-2. **setup**：按 `inputs.shards`（默认 **5**）生成 matrix
-3. **scan** / **merge**：并行扫描并合并
+`collect.yml` 输入：
+- `shards` 默认 5
+- `force` 忽略 VIP 门控
+- `enable_push` 默认 **false**（影子期）；切流后改为 true 并配置 `WECOM_WEBHOOK` / `MINIMAX_API_KEY`
 
-## 与 dashboard / cls-news 集成思路（未落地）
+## Pages 结构（与现网一致）
 
-目标：生产仍由 `dashboard` 负责 VIP 文案、推送、水位；本仓库只证明 Matrix 扫描可用。
+- `/` `/cards/` 新闻表
+- `/perf/` 推送复盘
+- `pushes.db` / `status.json` / `research.json`
 
-推荐迁回路径（保持 dashboard 为主仓）：
+## 切流（稍后）
 
-1. **门控不变**：继续用现有 `cli.js` VIP 差集（exit 3），只是在「有新增」之后换扫描实现。
-2. **扫描替换**：把 `news-crawler` 的 `scanShard` / `mergeShards` 迁入 `dashboard/src/`（或作为可复制的 matrix 作业），用 Actions `strategy.matrix` 替代单机 `scanAllStocks`。
-3. **作业链**：`gate → matrix scan → merge → collect/notify → push Pages`；merge `ok=false` 时与现网一致：**不推送、不改水位**。
-4. **水位单一来源**：仍只由 dashboard 写 `status.json.lastVipIds`；crawler 门控只读，避免双写。
-5. **过渡期**：可继续用本仓库 `workflow_dispatch` 做分片数（4/5/8）压测；确认 5 片稳态后再改 dashboard workflow。
-
-不建议：让 crawler 直接推送 Pages 或写 VIP 水位——职责应留在 dashboard。
-
-## 注意
-
-- Matrix **不保证**每片不同出口 IP
-- 验证通过后再迁回 dashboard（可选）
+1. 本仓启用 GitHub Pages  
+2. 影子跑通后：`cls-trigger` 的 `GH_REPO`/`GH_WORKFLOW` 改指本仓 `collect.yml`  
+3. 旧仓 schedule / trigger 停用；紧急回滚指回 `cls-news`

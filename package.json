@@ -1,10 +1,15 @@
 {
-  "name": "news-crawler",
+  "name": "cls-news-v2",
   "private": true,
-  "description": "Matrix 分片抓取实验（与 dashboard 无代码依赖）",
+  "description": "cls-news v2：VIP 门控 + Matrix 扫描 + 企微/Pages/perf（并行于旧 dashboard）",
   "scripts": {
     "gate": "node src/cli.js gate",
     "scan": "node src/cli.js scan",
-    "merge": "node src/cli.js merge"
+    "merge": "node src/cli.js merge",
+    "post": "node src/cli.js post",
+    "perf": "node src/cli.js perf"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

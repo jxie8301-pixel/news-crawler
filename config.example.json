@@ -6,6 +6,31 @@
   "matrixShards": 5,
   "statusUrl": "https://jxie8301-pixel.github.io/cls-news/status.json",
   "poolFile": "data/pools/all-a.json",
+  "syncPoolsOnStart": false,
+  "fetchText": true,
+  "enrichQuotes": true,
+  "marketPool": {
+    "enabled": true,
+    "key": "all-a",
+    "name": "沪深A股(非ST)",
+    "market": "all",
+    "excludeSt": true,
+    "ttlHours": 24,
+    "staleHours": 168
+  },
+  "research": { "enabled": true, "refreshHours": 24, "concurrency": 5 },
+  "notify": {
+    "enabled": true,
+    "minimax": {
+      "enabled": true,
+      "model": "MiniMax-M3",
+      "base_url": "https://api.minimaxi.com/v1",
+      "timeout": 180,
+      "web_search": true,
+      "max_output_tokens": 16384,
+      "api_key": ""
+    }
+  },
   "prefixes": [
     "盘中宝",
     "风口研报",
@@ -25,6 +50,10 @@
     "风口研报·洞察",
     "研选",
     "大佬持仓跟踪",
-    "掘金行业龙头"
+    "掘金行业龙头",
+    "金牌纪要库·风口会议",
+    "研选•两融数据",
+    "研选•行业数据",
+    "风口专家会议"
   ]
 }
