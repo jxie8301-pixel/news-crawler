@@ -16,6 +16,11 @@ on:
         type: boolean
         required: false
         default: false
+      assume_new_vip:
+        description: 外部已判定有新 VIP；拉取 VIP 失败时软继续（不 exit 1）
+        type: boolean
+        required: false
+        default: false
       enable_push:
         description: 是否推送企微（切流后默认 true；影子可改 false）
         type: boolean
@@ -51,6 +56,7 @@ jobs:
         id: check
         env:
           FORCE: ${{ github.event.inputs.force }}
+          ASSUME_NEW_VIP: ${{ github.event.inputs.assume_new_vip }}
         run: |
           set +e
           cp config.example.json config.json
@@ -64,7 +70,8 @@ jobs:
             echo "gate 水位 ← 现网 Pages status.json"
           fi
           EXTRA=""
-          if [ "$FORCE" = "true" ]; then EXTRA="--force"; fi
+          if [ "$FORCE" = "true" ]; then EXTRA="$EXTRA --force"; fi
+          if [ "$ASSUME_NEW_VIP" = "true" ]; then EXTRA="$EXTRA --assume-new-vip"; fi
           node src/cli.js gate $EXTRA
           code=$?
           if [ "$code" -eq 3 ]; then

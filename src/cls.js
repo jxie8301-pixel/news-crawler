@@ -243,11 +243,11 @@ async function fetchStockArticles(code, { sinceSec, maxPages = 60, onPage } = {}
  *   参数：last_time（游标，默认当前时间秒）、refresh_Type=1
  * 返回原始 item 数组（含 id, title, brief, ctime, type_name, related_stock 等）。
  */
-async function fetchVipArticles({ lastTime } = {}) {
+async function fetchVipArticles({ lastTime, retries = 5, timeout = 30000 } = {}) {
   const body = await api('/featured/v2/home/recommend/article', {
     last_time: String(lastTime || Math.floor(Date.now() / 1000)),
     refresh_Type: '1',
-  });
+  }, { retries: retries, timeout: timeout });
   const data = body && body.data;
   return Array.isArray(data) ? data : [];
 }

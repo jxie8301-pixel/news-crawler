@@ -53,15 +53,18 @@ function loadVipIdsFromGate() {
 
 async function cmdGate() {
   const force = process.argv.includes('--force') || process.argv.includes('--no-gate');
-  const result = await checkVipGate({ force: force });
+  const assumeNewVip = process.argv.includes('--assume-new-vip');
+  const result = await checkVipGate({ force: force, assumeNewVip: assumeNewVip });
 
   console.log('[vip] VIP 列表 ' + result.vipTotal
     + ' ｜ 有效（带个股且非ETF）' + result.eligible
     + ' ｜ 水位已知 ' + result.lastCount
     + ' ｜ 相对水位新增 ' + result.newCount
-    + (result.forced ? ' ｜ --force 强制扫描' : ''));
+    + (result.forced ? ' ｜ --force 强制扫描' : '')
+    + (result.assumeNewVip ? ' ｜ --assume-new-vip' : '')
+    + (result.fetchError ? ' ｜ fetchError软继续' : ''));
 
-  result.sampleTitles.forEach(function (t) {
+  (result.sampleTitles || []).forEach(function (t) {
     console.log('[vip]   + ' + t.id + '  ' + t.title);
   });
 
@@ -255,7 +258,7 @@ if (cmd === 'gate') {
   });
 } else {
   console.log('用法 (cls-news v2):');
-  console.log('  node src/cli.js gate [--force]');
+  console.log('  node src/cli.js gate [--force] [--assume-new-vip]');
   console.log('  node src/cli.js scan --shard 0 --shards 5');
   console.log('  node src/cli.js merge --shards 5');
   console.log('  node src/cli.js post [--site-links] [--no-push] [--no-research]');

@@ -90,7 +90,35 @@ async function checkVipGate(opts) {
   opts = opts || {};
   const cfg = Object.assign(loadConfig(), opts);
   const force = !!opts.force || !!opts.noGate;
-  const items = await cls.fetchVipArticles({});
+  // 外部哨兵已判定有新 VIP 时：拉取失败不阻断整轮
+  const assumeNewVip = !!opts.assumeNewVip;
+
+  let items;
+  try {
+    items = await cls.fetchVipArticles({});
+  } catch (e) {
+    const msg = e && e.message ? e.message : String(e);
+    if (assumeNewVip || force) {
+      console.warn('[vip] 拉取 VIP 失败，外部已判定有新 VIP / --force，软继续: ' + msg);
+      let lastIds = [];
+      try { lastIds = await loadLastVipIds(cfg); } catch (_) { /* ignore */ }
+      return {
+        shouldRun: true,
+        forced: force,
+        assumeNewVip: true,
+        fetchError: msg,
+        vipTotal: 0,
+        eligible: 0,
+        newCount: 0,
+        newIds: [],
+        lastCount: lastIds.length,
+        curIds: [],
+        sampleTitles: [],
+      };
+    }
+    throw e;
+  }
+
   const eligible = eligibleVipItems(items);
   const curIds = eligible.map(function (it) { return String(it.id); });
 
@@ -108,6 +136,7 @@ async function checkVipGate(opts) {
   return {
     shouldRun: shouldRun,
     forced: force,
+    assumeNewVip: assumeNewVip,
     vipTotal: items.length,
     eligible: eligible.length,
     newCount: newIds.length,
