@@ -39,14 +39,14 @@ node src/cli.js perf                    # T+1～T+5 写入 pushes.db
 3. 下载 `site` 本地打开 `index.html` / `perf/` 验收版式
 4. 现网 `cls-news` 不停、不改
 
-## 切流清单（稍后）
+## 切流清单（当前状态）
 
-1. 本仓启用 Pages（Actions 源）
-2. 配置 Repository secrets：`WECOM_WEBHOOK`、`MINIMAX_API_KEY`
-3. 影子跑通后：`cls-trigger-cf` 的 `GH_REPO`/`GH_WORKFLOW` 改指本仓 `collect.yml`
-4. `collect.yml` 默认打开 `enable_push` / 需要时 `publish_pages`
-5. 恢复 `push-perf.yml` 的 `schedule`
-6. 停旧仓 trigger / 旧 `push-perf` schedule；紧急回滚指回 `cls-news`
+1. ~~本仓 `data` 已从现网同步（pushed / pools / pushes.db / seeds）~~
+2. ~~`cls-trigger-cf` 已指向 `jxie8301-pixel/news-crawler` + `collect.yml` @ `main`~~
+3. 配置 Repository secrets：`WECOM_WEBHOOK`、`MINIMAX_API_KEY`（企微默认已开）
+4. 可选：本仓启用 Pages 后把 trigger/`publish_pages` 打开
+5. 停本机 `cls-trigger`（若还在跑）；旧仓 `cls-news` 不再被 CF 触发
+6. 恢复 `push-perf.yml` 的 `schedule`（需要日更复盘时）
 
 ## Pages 结构（与现网一致）
 
