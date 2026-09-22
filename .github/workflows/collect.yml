@@ -158,22 +158,42 @@ jobs:
       - name: 安装 sqlite3
         run: sudo apt-get update -qq && sudo apt-get install -y -qq sqlite3
 
-      - name: 准备配置与缓存
+      - name: 准备配置与缓存（优先本仓 data，缺失则从现网 cls-news 种子）
         run: |
           cp config.example.json config.json
           mkdir -p data/pools out _site/cards _site/perf
-          curl -fsSL --retry 2 https://jxie8301-pixel.github.io/cls-news/research.json -o data/research.json || true
-          curl -fsSL --retry 2 https://jxie8301-pixel.github.io/cls-news/status.json -o out/status.json || true
+          PROD_RAW=https://raw.githubusercontent.com/jxie8301-pixel/cls-news
+          PROD_SITE=https://jxie8301-pixel.github.io/cls-news
+
+          curl -fsSL --retry 2 "$PROD_SITE/research.json" -o data/research.json || true
+          curl -fsSL --retry 2 "$PROD_SITE/status.json" -o out/status.json || true
+
           git fetch origin data --depth 1 || true
           if git cat-file -e origin/data:pushed.json 2>/dev/null; then
             git show origin/data:pushed.json > data/pushed.json
+          elif curl -fsSL --retry 2 "$PROD_RAW/data/pushed.json" -o data/pushed.json; then
+            echo "种子 pushed.json ← 现网 data 分支"
+          else
+            rm -f data/pushed.json
           fi
+
           if git cat-file -e origin/data:pools/all-a.json 2>/dev/null; then
             git show origin/data:pools/all-a.json > data/pools/all-a.json
+          elif curl -fsSL --retry 2 "$PROD_RAW/data/pools/all-a.json" -o data/pools/all-a.json; then
+            echo "种子 pools/all-a.json ← 现网 data 分支"
           fi
+
           if git cat-file -e origin/data:pushes.db 2>/dev/null; then
             git show origin/data:pushes.db > data/pushes.db
+          elif curl -fsSL --retry 2 "$PROD_RAW/data/pushes.db" -o data/pushes.db; then
+            echo "种子 pushes.db ← 现网 data 分支"
+          elif curl -fsSL --retry 2 "$PROD_SITE/pushes.db" -o data/pushes.db; then
+            echo "种子 pushes.db ← 现网 Pages"
+          else
+            rm -f data/pushes.db
           fi
+
+          ls -la data/ data/pools/ out/ || true
 
       - uses: actions/download-artifact@v4
         with:
@@ -229,6 +249,26 @@ jobs:
           fi
           echo "skipped=false" >> "$GITHUB_OUTPUT"
           exit $code
+
+      - name: 影子对照（只读现网 Pages）
+        if: steps.merge.outputs.skipped != 'true' && steps.post.outputs.skipped != 'true'
+        continue-on-error: true
+        run: node src/cli.js shadow
+
+      - name: 上传流水线产物
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-out
+          path: |
+            out/merged.json
+            out/vip-gate.json
+            out/shadow-report.json
+            out/status.json
+            out/cls-news-latest.json
+            out/cls-news-latest.html
+            out/cls-news-cards.html
+          if-no-files-found: ignore
 
       - name: 汇总是否跳过发布
         id: resolve

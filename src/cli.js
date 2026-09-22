@@ -248,12 +248,18 @@ if (cmd === 'gate') {
   });
 } else if (cmd === 'perf') {
   require('./push_perf.js');
+} else if (cmd === 'shadow') {
+  require('./shadow_report.js').writeShadowReport({}).catch(function (e) {
+    console.error('[shadow] 失败:', e);
+    process.exit(1);
+  });
 } else {
   console.log('用法 (cls-news v2):');
   console.log('  node src/cli.js gate [--force]');
   console.log('  node src/cli.js scan --shard 0 --shards 5');
   console.log('  node src/cli.js merge --shards 5');
   console.log('  node src/cli.js post [--site-links] [--no-push] [--no-research]');
+  console.log('  node src/cli.js shadow');
   console.log('  node src/cli.js perf');
   process.exit(cmd ? 1 : 0);
 }

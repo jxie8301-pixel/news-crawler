@@ -1,10 +1,10 @@
 name: 推送复盘 T+1～T+5
 
-# 北京时间每天 03:00 ≈ UTC 19:00；与 collect 共用 pages 并发组。
+# 影子期仅手动；切流后再打开 schedule（北京约 03:00 = UTC 19:00）。
 on:
-  schedule:
-    - cron: '0 19 * * *'
   workflow_dispatch:
+  # schedule:
+  #   - cron: '0 19 * * *'
 
 permissions:
   contents: write
