@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T06:41:31.784Z",
+ "updatedAt": "2026-09-22T09:25:25.296Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -34344,6 +34344,499 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz300711",
     "announcements": "https://www.cls.cn/stock?code=sz300711&tab=notice"
+   }
+  },
+  "sz002558": {
+   "code": "sz002558",
+   "name": "巨人网络",
+   "researchedAt": "2026-09-22T09:25:24.836Z",
+   "asOfDate": "2026-09-22",
+   "industry": "传媒-游戏Ⅱ-游戏Ⅲ",
+   "concepts": [
+    "游戏",
+    "西部开发",
+    "阿里概念",
+    "创投",
+    "VR/AR"
+   ],
+   "valuation": {
+    "ttmPe": 14.81,
+    "dynamicPe": 10.78,
+    "pb": 2.748,
+    "marketCapYi": 462.41,
+    "lastPrice": 24.33
+   },
+   "momentum": {
+    "change3m": -1.93,
+    "change5d": -2.87
+   },
+   "financial": {
+    "revenueYoy": 182.08,
+    "profitYoy": 191.43,
+    "roe": 12.74,
+    "debtRatio": 17.05
+   },
+   "announcements": [
+    {
+     "time": "2026-09-16 00:00:00",
+     "timestamp": 1789488000,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/16/7aabe2a27c677fc5c2fceed117c65674.pdf"
+    },
+    {
+     "time": "2026-09-09 00:00:00",
+     "timestamp": 1788883200,
+     "title": "关于控股股东及其一致行动人减持计划时间届满暨减持计划实施完成的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/09/3540bb780b84c09dc23708de36c490cc.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/6afe5de545ca290b96135bb739661f19.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "未来三年股东分红回报规划（2026—2028年）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/6ddff73b14bc52184019e2b3fcfe959d.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/bebcfc0c1a4a82a7283d58030ba4b141.pdf"
+    },
+    {
+     "time": "2026-07-08 00:00:00",
+     "timestamp": 1783440000,
+     "title": "巨人网络集团股份有限公司2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/08/a29ac2cb1be29eb3444e9a063a8d11f9.pdf"
+    },
+    {
+     "time": "2026-05-26 00:00:00",
+     "timestamp": 1779724800,
+     "title": "2025年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/26/39766438873caf12bba614504d23ecad.pdf"
+    },
+    {
+     "time": "2026-05-16 00:00:00",
+     "timestamp": 1778860800,
+     "title": "关于控股股东的一致行动人减持股份预披露公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/16/d4441b966b0773914ff69e8ac46acb11.pdf"
+    },
+    {
+     "time": "2026-04-28 00:00:00",
+     "timestamp": 1777305600,
+     "title": "2026年一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/28/a80d5403a21bd53c250b01c214f9ba58.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-16 00:00:00",
+     "timestamp": 1789488000,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/16/7aabe2a27c677fc5c2fceed117c65674.pdf"
+    },
+    {
+     "time": "2026-09-09 00:00:00",
+     "timestamp": 1788883200,
+     "title": "关于控股股东及其一致行动人减持计划时间届满暨减持计划实施完成的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/09/3540bb780b84c09dc23708de36c490cc.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/6afe5de545ca290b96135bb739661f19.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002558",
+    "announcements": "https://www.cls.cn/stock?code=sz002558&tab=notice"
+   }
+  },
+  "sz002602": {
+   "code": "sz002602",
+   "name": "世纪华通",
+   "researchedAt": "2026-09-22T09:25:24.873Z",
+   "asOfDate": "2026-09-22",
+   "industry": "传媒-游戏Ⅱ-游戏Ⅲ",
+   "concepts": [
+    "游戏",
+    "云计算",
+    "回购",
+    "人脑工程",
+    "腾讯概念"
+   ],
+   "valuation": {
+    "ttmPe": 14.46,
+    "dynamicPe": 11.97,
+    "pb": 3.149,
+    "marketCapYi": 1077.59,
+    "lastPrice": 14.62
+   },
+   "momentum": {
+    "change3m": 0.55,
+    "change5d": -2.08
+   },
+   "financial": {
+    "revenueYoy": 28.53,
+    "profitYoy": 68.9,
+    "roe": 13.16,
+    "debtRatio": 26.27
+   },
+   "announcements": [
+    {
+     "time": "2026-09-16 00:00:00",
+     "timestamp": 1789488000,
+     "title": "2026年中期权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/16/d12694a4052697a133f7e12068da8ebf.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/425e34031d27d3559ac8e76a435f3230.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/c81b3f1fb16c1e502bb4153e233c3911.pdf"
+    },
+    {
+     "time": "2026-08-14 00:00:00",
+     "timestamp": 1786636800,
+     "title": "关于第一大股东及其一致行动人提前终止减持计划暨减持股份结果公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/14/dead4e692dbc352975fa722c7d1e98cc.pdf"
+    },
+    {
+     "time": "2026-07-15 00:00:00",
+     "timestamp": 1784044800,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/15/39f3e68f48b76c401a4086fb520cefdf.pdf"
+    },
+    {
+     "time": "2026-05-22 00:00:00",
+     "timestamp": 1779379200,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/22/967fdcfc0089b7368654d9ff6c004d32.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-16 00:00:00",
+     "timestamp": 1789488000,
+     "title": "2026年中期权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/16/d12694a4052697a133f7e12068da8ebf.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/425e34031d27d3559ac8e76a435f3230.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/c81b3f1fb16c1e502bb4153e233c3911.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002602",
+    "announcements": "https://www.cls.cn/stock?code=sz002602&tab=notice"
+   }
+  },
+  "sz002624": {
+   "code": "sz002624",
+   "name": "完美世界",
+   "researchedAt": "2026-09-22T09:25:24.891Z",
+   "asOfDate": "2026-09-22",
+   "industry": "传媒-游戏Ⅱ-游戏Ⅲ",
+   "concepts": [
+    "游戏",
+    "VR/AR",
+    "人工智能",
+    "电竞",
+    "影视"
+   ],
+   "valuation": {
+    "ttmPe": 177.8,
+    "dynamicPe": -81.98,
+    "pb": 2.982,
+    "marketCapYi": 194.19,
+    "lastPrice": 10.01
+   },
+   "momentum": {
+    "change3m": 1.21,
+    "change5d": 1.32
+   },
+   "financial": {
+    "revenueYoy": -25.47,
+    "profitYoy": -128.25,
+    "roe": -1.82,
+    "debtRatio": 40.31
+   },
+   "announcements": [
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/1d92b2cf2c504da9b8e8fbf3210436a0.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/14f345fcc977568811ce706c4af74f01.pdf"
+    },
+    {
+     "time": "2026-07-15 00:00:00",
+     "timestamp": 1784044800,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/15/2ada332933b1d9d11a7fe580bfd90cd1.pdf"
+    },
+    {
+     "time": "2026-05-28 00:00:00",
+     "timestamp": 1779897600,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/28/b25c242a6a6dad7bc7c3685a76fdfa56.pdf"
+    },
+    {
+     "time": "2026-04-28 00:00:00",
+     "timestamp": 1777305600,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/28/f357bec6340478ec12a1d9eaeba970f3.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/1d92b2cf2c504da9b8e8fbf3210436a0.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/14f345fcc977568811ce706c4af74f01.pdf"
+    },
+    {
+     "time": "2026-07-15 00:00:00",
+     "timestamp": 1784044800,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/15/2ada332933b1d9d11a7fe580bfd90cd1.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002624",
+    "announcements": "https://www.cls.cn/stock?code=sz002624&tab=notice"
+   }
+  },
+  "sz002555": {
+   "code": "sz002555",
+   "name": "三七互娱",
+   "researchedAt": "2026-09-22T09:25:24.910Z",
+   "asOfDate": "2026-09-22",
+   "industry": "传媒-游戏Ⅱ-游戏Ⅲ",
+   "concepts": [
+    "游戏",
+    "VR/AR",
+    "电竞",
+    "动漫产业",
+    "人脑工程"
+   ],
+   "valuation": {
+    "ttmPe": 12.08,
+    "dynamicPe": 11.17,
+    "pb": 2.8,
+    "marketCapYi": 394.44,
+    "lastPrice": 17.83
+   },
+   "momentum": {
+    "change3m": 2.41,
+    "change5d": 2.65
+   },
+   "financial": {
+    "revenueYoy": -14.28,
+    "profitYoy": 25.84,
+    "roe": 12.54,
+    "debtRatio": 38.09
+   },
+   "announcements": [
+    {
+     "time": "2026-09-16 00:00:00",
+     "timestamp": 1789488000,
+     "title": "2026年半年度报告摘要（英文版）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/16/ff8747ce1754b11664300713acc703a6.pdf"
+    },
+    {
+     "time": "2026-09-16 00:00:00",
+     "timestamp": 1789488000,
+     "title": "关于变更回购股份用途为注销并减少注册资本暨通知债权人的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/16/56293dd604176ab712c50aa893bd07f3.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/9123db8e400720a4750d8b7ba16bd6e8.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/e2603d230429628a08508271693b61a1.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "关于变更回购股份用途为注销并减少公司注册资本的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/afe9ea2fecce771d87d3a20f2e898c73.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/c7b28eb5d15ffbf003912a9045caeaa4.pdf"
+    },
+    {
+     "time": "2026-05-26 00:00:00",
+     "timestamp": 1779724800,
+     "title": "2026年第一季度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/26/8ab87a5231306dd83799adb4b31ff99f.pdf"
+    },
+    {
+     "time": "2026-05-15 00:00:00",
+     "timestamp": 1778774400,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/15/d8b659d266aec9239905e5661d4bef6b.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-16 00:00:00",
+     "timestamp": 1789488000,
+     "title": "2026年半年度报告摘要（英文版）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/16/ff8747ce1754b11664300713acc703a6.pdf"
+    },
+    {
+     "time": "2026-09-16 00:00:00",
+     "timestamp": 1789488000,
+     "title": "关于变更回购股份用途为注销并减少注册资本暨通知债权人的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/16/56293dd604176ab712c50aa893bd07f3.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/9123db8e400720a4750d8b7ba16bd6e8.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002555",
+    "announcements": "https://www.cls.cn/stock?code=sz002555&tab=notice"
+   }
+  },
+  "sz300533": {
+   "code": "sz300533",
+   "name": "冰川网络",
+   "researchedAt": "2026-09-22T09:25:25.296Z",
+   "asOfDate": "2026-09-22",
+   "industry": "传媒-游戏Ⅱ-游戏Ⅲ",
+   "concepts": [
+    "游戏",
+    "影视",
+    "短剧"
+   ],
+   "valuation": {
+    "ttmPe": 38.26,
+    "dynamicPe": -105.42,
+    "pb": 3.75,
+    "marketCapYi": 47.83,
+    "lastPrice": 14.57
+   },
+   "momentum": {
+    "change3m": 3.11,
+    "change5d": 3.11
+   },
+   "financial": {
+    "revenueYoy": -5.29,
+    "profitYoy": -109.13,
+    "roe": -1.78,
+    "debtRatio": 50.85
+   },
+   "announcements": [
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/e30679b1bd21b14b1b869a0f14d3d947.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/04d2514804e21a8e74255e7ac9e82dbb.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告披露提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/25dcb63b02b28b272b2c62bc487ef356.pdf"
+    },
+    {
+     "time": "2026-07-10 00:00:00",
+     "timestamp": 1783612800,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/10/e2121e1dccb4ea4e7c9e44feabb5d0c5.pdf"
+    },
+    {
+     "time": "2026-05-18 00:00:00",
+     "timestamp": 1779033600,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/18/bf01f03ef72a151682530e28c2be779f.pdf"
+    },
+    {
+     "time": "2026-04-29 00:00:00",
+     "timestamp": 1777392000,
+     "title": "2026年第一季度报告披露提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/29/d1372fe7639ed9eef936663e75ab0949.pdf"
+    },
+    {
+     "time": "2026-04-29 00:00:00",
+     "timestamp": 1777392000,
+     "title": "2026年一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/29/67b2bfce5c8938bdbb6737814186007c.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/e30679b1bd21b14b1b869a0f14d3d947.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/04d2514804e21a8e74255e7ac9e82dbb.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告披露提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/25dcb63b02b28b272b2c62bc487ef356.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300533",
+    "announcements": "https://www.cls.cn/stock?code=sz300533&tab=notice"
    }
   }
  }
