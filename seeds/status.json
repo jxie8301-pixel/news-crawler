@@ -1,12 +1,13 @@
 {
-  "publishedAt": 1790071100002,
-  "publishedAtShanghai": "2026-09-22 17:58:20",
+  "publishedAt": 1790074739164,
+  "publishedAtShanghai": "2026-09-22 18:58:59",
   "range": "2026-09-21 ~ 2026-09-22",
   "poolLabel": "沪深A股(非ST)",
   "days": 1,
-  "rows": 73,
+  "rows": 72,
   "pipeline": "v2-matrix",
   "lastVipIds": [
+    "2490313",
     "2490151",
     "2490176",
     "2489934",

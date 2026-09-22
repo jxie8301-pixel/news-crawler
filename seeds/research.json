@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T09:58:19.957Z",
+ "updatedAt": "2026-09-22T10:58:59.113Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -31761,8 +31761,8 @@
   "sz002080": {
    "code": "sz002080",
    "name": "中材科技",
-   "researchedAt": "2026-09-21T10:29:30.537Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-22T10:58:59.113Z",
+   "asOfDate": "2026-09-22",
    "industry": "建筑材料-玻璃玻纤-玻纤制造",
    "concepts": [
     "玻纤",
@@ -31772,15 +31772,15 @@
     "锂电池"
    ],
    "valuation": {
-    "ttmPe": 54.84,
-    "dynamicPe": 46.02,
-    "pb": 5.446,
-    "marketCapYi": 1111.59,
-    "lastPrice": 66.24
+    "ttmPe": 51.75,
+    "dynamicPe": 43.42,
+    "pb": 5.139,
+    "marketCapYi": 1048.83,
+    "lastPrice": 62.5
    },
    "momentum": {
-    "change3m": 18.54,
-    "change5d": 25.48
+    "change3m": 6.49,
+    "change5d": 16.24
    },
    "financial": {
     "revenueYoy": 21.95,
@@ -35029,6 +35029,117 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz003036",
     "announcements": "https://www.cls.cn/stock?code=sz003036&tab=notice"
+   }
+  },
+  "sz002141": {
+   "code": "sz002141",
+   "name": "贤丰控股",
+   "researchedAt": "2026-09-22T10:58:59.034Z",
+   "asOfDate": "2026-09-22",
+   "industry": "电子-元件-印制电路板",
+   "concepts": [
+    "电器机械",
+    "PCB",
+    "动物保健",
+    "粤港澳大湾区",
+    "锂电池"
+   ],
+   "valuation": {
+    "ttmPe": 1137.7,
+    "dynamicPe": 122.85,
+    "pb": 9.312,
+    "marketCapYi": 76.75,
+    "lastPrice": 7.43
+   },
+   "momentum": {
+    "change3m": 14.13,
+    "change5d": 12.07
+   },
+   "financial": {
+    "revenueYoy": -20.74,
+    "profitYoy": 1.13,
+    "roe": 3.79,
+    "debtRatio": 31.37
+   },
+   "announcements": [
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/6f5cbe800c057479d0fd1790871cc65b.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/b5549fc59c6d05866474778d2a734295.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/efc4bbf0f995bf13e3385bdfa868ba65.pdf"
+    },
+    {
+     "time": "2026-07-30 00:00:00",
+     "timestamp": 1785340800,
+     "title": "贤丰控股关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/30/d54e6694d79217c6cc3c8b084283ca61.pdf"
+    },
+    {
+     "time": "2026-07-22 00:00:00",
+     "timestamp": 1784649600,
+     "title": "贤丰控股关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/22/1a1814578efe06bc83b8d9432864b2cc.pdf"
+    },
+    {
+     "time": "2026-07-17 00:00:00",
+     "timestamp": 1784217600,
+     "title": "贤丰控股关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/17/aa5e7e6dbccf2e97d24c7bef1604dbb5.pdf"
+    },
+    {
+     "time": "2026-07-07 00:00:00",
+     "timestamp": 1783353600,
+     "title": "贤丰控股关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/07/257b53b9b64541e53140c66d6de31343.pdf"
+    },
+    {
+     "time": "2026-06-29 00:00:00",
+     "timestamp": 1782662400,
+     "title": "贤丰控股关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/29/47fbe70a61924ab729a4c48883a40421.pdf"
+    },
+    {
+     "time": "2026-06-18 00:00:00",
+     "timestamp": 1781712000,
+     "title": "贤丰控股关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/18/4fab75c319da0eb7029390b0537c82e6.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/6f5cbe800c057479d0fd1790871cc65b.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/b5549fc59c6d05866474778d2a734295.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/efc4bbf0f995bf13e3385bdfa868ba65.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002141",
+    "announcements": "https://www.cls.cn/stock?code=sz002141&tab=notice"
    }
   }
  }
