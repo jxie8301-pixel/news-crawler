@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T13:55:11.255Z",
+ "updatedAt": "2026-09-22T14:12:17.436Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -8237,8 +8237,8 @@
   "sz301189": {
    "code": "sz301189",
    "name": "奥尼电子",
-   "researchedAt": "2026-09-15T05:39:15.846Z",
-   "asOfDate": "2026-09-15",
+   "researchedAt": "2026-09-22T14:12:17.301Z",
+   "asOfDate": "2026-09-22",
    "industry": "电子-消费电子-品牌消费电子",
    "concepts": [
     "消费电子",
@@ -8248,15 +8248,15 @@
     "腾讯概念"
    ],
    "valuation": {
-    "ttmPe": -132.06,
-    "dynamicPe": 298.29,
-    "pb": 4.764,
-    "marketCapYi": 100.31,
-    "lastPrice": 61.3
+    "ttmPe": -159.96,
+    "dynamicPe": 361.3,
+    "pb": 5.771,
+    "marketCapYi": 121.5,
+    "lastPrice": 74.25
    },
    "momentum": {
-    "change3m": -1.26,
-    "change5d": 4.86
+    "change3m": 14.67,
+    "change5d": 22.73
    },
    "financial": {
     "revenueYoy": 215.44,
@@ -8265,6 +8265,12 @@
     "debtRatio": 52.85
    },
    "announcements": [
+    {
+     "time": "2026-09-22 00:00:00",
+     "timestamp": 1790006400,
+     "title": "关于全资子公司签署日常经营重大合同的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/22/eceac3f8715a4e9ad9dc312629707856.pdf"
+    },
     {
      "time": "2026-08-29 00:00:00",
      "timestamp": 1787932800,
@@ -8286,6 +8292,12 @@
    ],
    "keyEvents": [
     {
+     "time": "2026-09-22 00:00:00",
+     "timestamp": 1790006400,
+     "title": "关于全资子公司签署日常经营重大合同的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/22/eceac3f8715a4e9ad9dc312629707856.pdf"
+    },
+    {
      "time": "2026-08-29 00:00:00",
      "timestamp": 1787932800,
      "title": "2026年半年度报告",
@@ -8296,12 +8308,6 @@
      "timestamp": 1787932800,
      "title": "2026年半年度报告摘要",
      "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/35186e6f815fe10a29666261a401bbcc.pdf"
-    },
-    {
-     "time": "2026-06-01 00:00:00",
-     "timestamp": 1780243200,
-     "title": "关于部分董事、高级管理人员减持股份的预披露公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/06/01/bd1acc1f403b1cb4945ab045e8afb4c5.pdf"
     }
    ],
    "sources": {
@@ -14388,8 +14394,8 @@
   "sz002913": {
    "code": "sz002913",
    "name": "奥士康",
-   "researchedAt": "2026-09-21T13:59:37.512Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-22T14:12:17.343Z",
+   "asOfDate": "2026-09-22",
    "industry": "电子-元件-印制电路板",
    "concepts": [
     "PCB",
@@ -14399,15 +14405,15 @@
     "MLED"
    ],
    "valuation": {
-    "ttmPe": 137.72,
-    "dynamicPe": 162.21,
-    "pb": 6.095,
-    "marketCapYi": 268.17,
-    "lastPrice": 84.5
+    "ttmPe": 143.62,
+    "dynamicPe": 169.16,
+    "pb": 6.356,
+    "marketCapYi": 279.66,
+    "lastPrice": 88.12
    },
    "momentum": {
-    "change3m": 1.67,
-    "change5d": 10.4
+    "change3m": 7.27,
+    "change5d": 16.64
    },
    "financial": {
     "revenueYoy": 16.45,
@@ -36359,6 +36365,99 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz001223",
     "announcements": "https://www.cls.cn/stock?code=sz001223&tab=notice"
+   }
+  },
+  "sh688559": {
+   "code": "sh688559",
+   "name": "海目星  ",
+   "researchedAt": "2026-09-22T14:12:17.435Z",
+   "asOfDate": "2026-09-22",
+   "industry": "机械设备-自动化设备-激光设备",
+   "concepts": [
+    "激光产业",
+    "苹果产业链",
+    "特斯拉概念",
+    "宁德时代概念",
+    "光伏"
+   ],
+   "valuation": {
+    "ttmPe": -119.82,
+    "dynamicPe": 137.59,
+    "pb": 5.77,
+    "marketCapYi": 142.86,
+    "lastPrice": 57.66
+   },
+   "momentum": {
+    "change3m": 0.68,
+    "change5d": 2.93
+   },
+   "financial": {
+    "revenueYoy": 84.64,
+    "profitYoy": 107.79,
+    "roe": 2.1,
+    "debtRatio": 85.21
+   },
+   "announcements": [
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "海目星：2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/15ed9bb211136445eb390f8e1973deb1.pdf"
+    },
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "海目星：2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/af842d9f5302033e2b33a0177df116de.pdf"
+    },
+    {
+     "time": "2026-06-24 00:00:00",
+     "timestamp": 1782230400,
+     "title": "中信证券股份有限公司关于海目星激光科技集团股份有限公司2025年年度报告的信息披露监管问询函回复的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/24/d4193eb9d7dfa3f3873bae41610aff36.pdf"
+    },
+    {
+     "time": "2026-06-24 00:00:00",
+     "timestamp": 1782230400,
+     "title": "海目星：关于2025年年度报告的信息披露监管问询函回复公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/24/1a0c738438933419bda658df0d94355a.pdf"
+    },
+    {
+     "time": "2026-06-24 00:00:00",
+     "timestamp": 1782230400,
+     "title": "立信会计师事务所关于海目星激光科技集团股份有限公司2025年年度报告的信息披露监管问询函的回复说明",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/24/ea61c6d2ca901dbe6a9a63434dcaf182.pdf"
+    },
+    {
+     "time": "2026-04-30 00:00:00",
+     "timestamp": 1777478400,
+     "title": "海目星：2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/30/c164033faedfed39744e623d2706a208.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "海目星：2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/15ed9bb211136445eb390f8e1973deb1.pdf"
+    },
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "海目星：2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/af842d9f5302033e2b33a0177df116de.pdf"
+    },
+    {
+     "time": "2026-06-24 00:00:00",
+     "timestamp": 1782230400,
+     "title": "中信证券股份有限公司关于海目星激光科技集团股份有限公司2025年年度报告的信息披露监管问询函回复的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/24/d4193eb9d7dfa3f3873bae41610aff36.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688559",
+    "announcements": "https://www.cls.cn/stock?code=sh688559&tab=notice"
    }
   }
  }
