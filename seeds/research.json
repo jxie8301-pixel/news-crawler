@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T04:10:40.455Z",
+ "updatedAt": "2026-09-22T04:53:26.628Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -6828,8 +6828,8 @@
   "sh688485": {
    "code": "sh688485",
    "name": "九州一轨",
-   "researchedAt": "2026-09-17T13:03:25.170Z",
-   "asOfDate": "2026-09-17",
+   "researchedAt": "2026-09-22T04:53:26.627Z",
+   "asOfDate": "2026-09-22",
    "industry": "机械设备-轨交设备Ⅱ-轨交设备Ⅲ",
    "concepts": [
     "高铁轨交",
@@ -6839,15 +6839,15 @@
     "超硬材料"
    ],
    "valuation": {
-    "ttmPe": -530.16,
-    "dynamicPe": -442.16,
-    "pb": 13.186,
-    "marketCapYi": 163.07,
-    "lastPrice": 108.5
+    "ttmPe": -584.16,
+    "dynamicPe": -487.2,
+    "pb": 14.529,
+    "marketCapYi": 179.67,
+    "lastPrice": 119.55
    },
    "momentum": {
-    "change3m": 10.28,
-    "change5d": 11.01
+    "change3m": 10.18,
+    "change5d": 14.73
    },
    "financial": {
     "revenueYoy": 7.47,
