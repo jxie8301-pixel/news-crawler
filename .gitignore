@@ -2,4 +2,6 @@ config.json
 config.local.json
 data/
 out/
+_run1/
+out-jobs1.json
 node_modules/
