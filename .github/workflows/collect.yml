@@ -22,10 +22,10 @@ on:
         required: false
         default: true
       publish_pages:
-        description: 是否发布本仓 GitHub Pages（需 Settings→Pages=Actions；未开则保持 false）
+        description: 是否发布本仓 GitHub Pages
         type: boolean
         required: false
-        default: false
+        default: true
 
 permissions:
   contents: write
