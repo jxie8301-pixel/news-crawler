@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T04:53:26.628Z",
+ "updatedAt": "2026-09-22T04:59:34.308Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -22179,8 +22179,8 @@
   "sz301536": {
    "code": "sz301536",
    "name": "星宸科技",
-   "researchedAt": "2026-09-17T06:53:33.459Z",
-   "asOfDate": "2026-09-17",
+   "researchedAt": "2026-09-22T04:59:34.293Z",
+   "asOfDate": "2026-09-22",
    "industry": "电子-半导体-数字芯片设计",
    "concepts": [
     "半导体芯片",
@@ -22190,15 +22190,15 @@
     "人工智能"
    ],
    "valuation": {
-    "ttmPe": 45.25,
-    "dynamicPe": 27.56,
-    "pb": 12.256,
-    "marketCapYi": 475.69,
-    "lastPrice": 112.8
+    "ttmPe": 53.59,
+    "dynamicPe": 32.65,
+    "pb": 14.515,
+    "marketCapYi": 563.41,
+    "lastPrice": 133.6
    },
    "momentum": {
-    "change3m": 2.7,
-    "change5d": -1.55
+    "change3m": 18.37,
+    "change5d": 22.25
    },
    "financial": {
     "revenueYoy": 89.43,
@@ -22266,8 +22266,8 @@
   "sh603893": {
    "code": "sh603893",
    "name": "瑞芯微  ",
-   "researchedAt": "2026-09-17T06:53:33.499Z",
-   "asOfDate": "2026-09-17",
+   "researchedAt": "2026-09-22T04:59:34.217Z",
+   "asOfDate": "2026-09-22",
    "industry": "电子-半导体-数字芯片设计",
    "concepts": [
     "半导体芯片",
@@ -22277,15 +22277,15 @@
     "消费电子"
    ],
    "valuation": {
-    "ttmPe": 56.01,
-    "dynamicPe": 44.59,
-    "pb": 15.555,
-    "marketCapYi": 766.1,
-    "lastPrice": 181.05
+    "ttmPe": 67.38,
+    "dynamicPe": 53.64,
+    "pb": 18.712,
+    "marketCapYi": 921.61,
+    "lastPrice": 217.8
    },
    "momentum": {
-    "change3m": 1.29,
-    "change5d": -0.88
+    "change3m": 20.19,
+    "change5d": 22.91
    },
    "financial": {
     "revenueYoy": 40.6,
@@ -29606,8 +29606,8 @@
   "sh603068": {
    "code": "sh603068",
    "name": "博通集成",
-   "researchedAt": "2026-09-21T00:18:41.930Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-22T04:59:34.123Z",
+   "asOfDate": "2026-09-22",
    "industry": "电子-半导体-模拟芯片设计",
    "concepts": [
     "半导体芯片",
@@ -29617,15 +29617,15 @@
     "字节跳动"
    ],
    "valuation": {
-    "ttmPe": 112.93,
-    "dynamicPe": 59.83,
-    "pb": 3.378,
-    "marketCapYi": 60.43,
-    "lastPrice": 39.81
+    "ttmPe": 136.65,
+    "dynamicPe": 72.39,
+    "pb": 4.088,
+    "marketCapYi": 73.12,
+    "lastPrice": 48.17
    },
    "momentum": {
-    "change3m": 12.71,
-    "change5d": 12.58
+    "change3m": 33.1,
+    "change5d": 36.38
    },
    "financial": {
     "revenueYoy": 70.21,
@@ -33892,6 +33892,216 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz002738",
     "announcements": "https://www.cls.cn/stock?code=sz002738&tab=notice"
+   }
+  },
+  "sz002290": {
+   "code": "sz002290",
+   "name": "禾盛新材",
+   "researchedAt": "2026-09-22T04:59:34.105Z",
+   "asOfDate": "2026-09-22",
+   "industry": "家用电器-家电零部件Ⅱ-家电零部件Ⅲ",
+   "concepts": [
+    "家电",
+    "半导体芯片",
+    "人工智能",
+    "影视",
+    "芯片产业链"
+   ],
+   "valuation": {
+    "ttmPe": 95.35,
+    "dynamicPe": 70.9,
+    "pb": 18.358,
+    "marketCapYi": 193.16,
+    "lastPrice": 77.85
+   },
+   "momentum": {
+    "change3m": 20.7,
+    "change5d": 25.81
+   },
+   "financial": {
+    "revenueYoy": 2.74,
+    "profitYoy": 42.11,
+    "roe": 12.95,
+    "debtRatio": 49.94
+   },
+   "announcements": [
+    {
+     "time": "2026-07-29 00:00:00",
+     "timestamp": 1785254400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/29/e38c07786166968aafe729744cb84447.pdf"
+    },
+    {
+     "time": "2026-07-29 00:00:00",
+     "timestamp": 1785254400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/29/6e4d5248cb1c5efe8c8d851c6d91822e.pdf"
+    },
+    {
+     "time": "2026-06-10 00:00:00",
+     "timestamp": 1781020800,
+     "title": "关于2025年度分红派息实施的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/10/648d39ddc96ae6f5f84c28f3975e1e39.pdf"
+    },
+    {
+     "time": "2026-05-29 00:00:00",
+     "timestamp": 1779984000,
+     "title": "2026年度以简易程序向特定对象发行股票摊薄即期回报的风险提示及填补回报措施和相关主体承诺的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/29/5f3e751b784e3976adb2490bb7abc752.pdf"
+    },
+    {
+     "time": "2026-05-29 00:00:00",
+     "timestamp": 1779984000,
+     "title": "关于最近五年不存在被证券监管部门和交易所采取监管措施或处罚及整改情况的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/29/19b6776f73ccb53aba14ca4b52b0833c.pdf"
+    },
+    {
+     "time": "2026-04-29 00:00:00",
+     "timestamp": 1777392000,
+     "title": "2026年一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/29/52a03c5797005b616c4aaaf9fc9e82aa.pdf"
+    },
+    {
+     "time": "2026-04-28 00:00:00",
+     "timestamp": 1777305600,
+     "title": "关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/28/b4843f6b23dc65017114be575ede8ceb.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-07-29 00:00:00",
+     "timestamp": 1785254400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/29/e38c07786166968aafe729744cb84447.pdf"
+    },
+    {
+     "time": "2026-07-29 00:00:00",
+     "timestamp": 1785254400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/29/6e4d5248cb1c5efe8c8d851c6d91822e.pdf"
+    },
+    {
+     "time": "2026-06-10 00:00:00",
+     "timestamp": 1781020800,
+     "title": "关于2025年度分红派息实施的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/10/648d39ddc96ae6f5f84c28f3975e1e39.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002290",
+    "announcements": "https://www.cls.cn/stock?code=sz002290&tab=notice"
+   }
+  },
+  "sz300996": {
+   "code": "sz300996",
+   "name": "普联软件",
+   "researchedAt": "2026-09-22T04:59:34.308Z",
+   "asOfDate": "2026-09-22",
+   "industry": "计算机-软件开发-垂直应用软件",
+   "concepts": [
+    "国产软件",
+    "小米概念",
+    "人工智能",
+    "股权转让",
+    "数字中国"
+   ],
+   "valuation": {
+    "ttmPe": 75.76,
+    "dynamicPe": -583.35,
+    "pb": 4.031,
+    "marketCapYi": 51.77,
+    "lastPrice": 13.08
+   },
+   "momentum": {
+    "change3m": 5.06,
+    "change5d": 4.22
+   },
+   "financial": {
+    "revenueYoy": -23.69,
+    "profitYoy": -35.08,
+    "roe": -0.35,
+    "debtRatio": 26.26
+   },
+   "announcements": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/27a902a90fb1fb6863f8e2198f87f124.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/5775689edce1c95e7f1aa68259c0056c.pdf"
+    },
+    {
+     "time": "2026-08-04 00:00:00",
+     "timestamp": 1785772800,
+     "title": "中证鹏元关于关注普联软件股份有限公司股东签署股份转让等相关协议暨控制权拟发生变更事项的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/04/6b49f6cb936da5f90f8cf11240984c07.pdf"
+    },
+    {
+     "time": "2026-07-31 00:00:00",
+     "timestamp": 1785427200,
+     "title": "关于可转债交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/31/943b51b97df88351aa1d87b5e69c9716.pdf"
+    },
+    {
+     "time": "2026-07-31 00:00:00",
+     "timestamp": 1785427200,
+     "title": "关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/31/348d5bc06c40e0d138d74f62b706f5bd.pdf"
+    },
+    {
+     "time": "2026-07-30 00:00:00",
+     "timestamp": 1785340800,
+     "title": "关于公司股东签署股份转让等相关协议暨控制权拟发生变更的提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/30/588fee58db0ea2ebe8d7c265ec69c435.pdf"
+    },
+    {
+     "time": "2026-07-30 00:00:00",
+     "timestamp": 1785340800,
+     "title": "关于筹划控制权变更事项进展暨复牌及恢复转股的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/30/9f890ed53adffdb834789c790380bb70.pdf"
+    },
+    {
+     "time": "2026-07-29 00:00:00",
+     "timestamp": 1785254400,
+     "title": "关于筹划公司控制权变更事项暨继续停牌的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/29/5b23310c8579b1e4639e95ac9def0b98.pdf"
+    },
+    {
+     "time": "2026-07-25 00:00:00",
+     "timestamp": 1784908800,
+     "title": "关于筹划公司控制权变更事项的停牌公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/25/588d87f690975e99bf4343daf9b39117.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/27a902a90fb1fb6863f8e2198f87f124.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/5775689edce1c95e7f1aa68259c0056c.pdf"
+    },
+    {
+     "time": "2026-08-04 00:00:00",
+     "timestamp": 1785772800,
+     "title": "中证鹏元关于关注普联软件股份有限公司股东签署股份转让等相关协议暨控制权拟发生变更事项的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/04/6b49f6cb936da5f90f8cf11240984c07.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300996",
+    "announcements": "https://www.cls.cn/stock?code=sz300996&tab=notice"
    }
   }
  }
