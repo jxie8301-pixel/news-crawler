@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T09:25:25.296Z",
+ "updatedAt": "2026-09-22T09:58:19.957Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -34837,6 +34837,198 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz300533",
     "announcements": "https://www.cls.cn/stock?code=sz300533&tab=notice"
+   }
+  },
+  "sh688041": {
+   "code": "sh688041",
+   "name": "海光信息",
+   "researchedAt": "2026-09-22T09:58:19.915Z",
+   "asOfDate": "2026-09-22",
+   "industry": "电子-半导体-数字芯片设计",
+   "concepts": [
+    "半导体芯片",
+    "中科院系",
+    "业绩超预期",
+    "数据中心",
+    "芯片产业链"
+   ],
+   "valuation": {
+    "ttmPe": 189.39,
+    "dynamicPe": 165.43,
+    "pb": 23.451,
+    "marketCapYi": 5950.31,
+    "lastPrice": 256
+   },
+   "momentum": {
+    "change3m": 10.34,
+    "change5d": 13.98
+   },
+   "financial": {
+    "revenueYoy": 66.52,
+    "profitYoy": 25.72,
+    "roe": 7.09,
+    "debtRatio": 19.2
+   },
+   "announcements": [
+    {
+     "time": "2026-09-12 00:00:00",
+     "timestamp": 1789142400,
+     "title": "海光信息技术股份有限公司关于注销公司部分回购股份暨减少注册资本的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/12/ad506fa2ddb61801931e864aade52c9c.pdf"
+    },
+    {
+     "time": "2026-08-14 00:00:00",
+     "timestamp": 1786636800,
+     "title": "海光信息技术股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/14/d259d02e692b131cf63ae08db23d5b11.pdf"
+    },
+    {
+     "time": "2026-08-14 00:00:00",
+     "timestamp": 1786636800,
+     "title": "海光信息技术股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/14/ae0507a0ac7fa09efb0f4bd26c9c8d1b.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-12 00:00:00",
+     "timestamp": 1789142400,
+     "title": "海光信息技术股份有限公司关于注销公司部分回购股份暨减少注册资本的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/12/ad506fa2ddb61801931e864aade52c9c.pdf"
+    },
+    {
+     "time": "2026-08-14 00:00:00",
+     "timestamp": 1786636800,
+     "title": "海光信息技术股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/14/d259d02e692b131cf63ae08db23d5b11.pdf"
+    },
+    {
+     "time": "2026-08-14 00:00:00",
+     "timestamp": 1786636800,
+     "title": "海光信息技术股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/14/ae0507a0ac7fa09efb0f4bd26c9c8d1b.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688041",
+    "announcements": "https://www.cls.cn/stock?code=sh688041&tab=notice"
+   }
+  },
+  "sz003036": {
+   "code": "sz003036",
+   "name": "泰坦股份",
+   "researchedAt": "2026-09-22T09:58:19.957Z",
+   "asOfDate": "2026-09-22",
+   "industry": "机械设备-专用设备-纺织服装设备",
+   "concepts": [
+    "纺织服装",
+    "锂电池",
+    "机器人概念",
+    "智能制造",
+    "工业机器人"
+   ],
+   "valuation": {
+    "ttmPe": 283.73,
+    "dynamicPe": 193.25,
+    "pb": 8.339,
+    "marketCapYi": 118.53,
+    "lastPrice": 54.72
+   },
+   "momentum": {
+    "change3m": -1.32,
+    "change5d": 1.33
+   },
+   "financial": {
+    "revenueYoy": 20.48,
+    "profitYoy": -19.46,
+    "roe": 2.04,
+    "debtRatio": 54.02
+   },
+   "announcements": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/0a09df70876c8314cb758a41f41e0946.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/3193877f46973f168b82d1f3823ee043.pdf"
+    },
+    {
+     "time": "2026-08-07 00:00:00",
+     "timestamp": 1786032000,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/07/ee3174f568b5035de9a5ecb38a6489cd.pdf"
+    },
+    {
+     "time": "2026-06-18 00:00:00",
+     "timestamp": 1781712000,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/18/2f92ca3950034373a1088dabe64c77db.pdf"
+    },
+    {
+     "time": "2026-06-08 00:00:00",
+     "timestamp": 1780848000,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/08/a4cb717a9df133a11e15ae372800d89e.pdf"
+    },
+    {
+     "time": "2026-05-27 00:00:00",
+     "timestamp": 1779811200,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/27/9700f0bdc35afbe24214980b90e77014.pdf"
+    },
+    {
+     "time": "2026-05-27 00:00:00",
+     "timestamp": 1779811200,
+     "title": "可转换公司债券交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/27/04cae938a1d153324cf7817fc2d8a591.pdf"
+    },
+    {
+     "time": "2026-05-25 00:00:00",
+     "timestamp": 1779638400,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/25/cd7308db19db1af036e7155aece7648d.pdf"
+    },
+    {
+     "time": "2026-05-25 00:00:00",
+     "timestamp": 1779638400,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/25/e96ecc6e12cdc6c308bdf19f92b4d220.pdf"
+    },
+    {
+     "time": "2026-05-25 00:00:00",
+     "timestamp": 1779638400,
+     "title": "关于实施权益分派调整泰坦转债转股价格的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/25/6bc22fe3e9b3a5e53b74671eb13626d6.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/0a09df70876c8314cb758a41f41e0946.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/3193877f46973f168b82d1f3823ee043.pdf"
+    },
+    {
+     "time": "2026-08-07 00:00:00",
+     "timestamp": 1786032000,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/07/ee3174f568b5035de9a5ecb38a6489cd.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz003036",
+    "announcements": "https://www.cls.cn/stock?code=sz003036&tab=notice"
    }
   }
  }
