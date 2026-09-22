@@ -4,21 +4,50 @@ on:
   workflow_dispatch:
     inputs:
       shards:
-        description: 分片数
+        description: 分片数（真正决定并行路数）
         required: false
-        default: '4'
+        default: '8'
 
 permissions:
   contents: read
 
 jobs:
+  setup:
+    name: setup matrix
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.gen.outputs.shards }}
+      shard_list: ${{ steps.gen.outputs.shard_list }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: 生成分片列表
+        id: gen
+        env:
+          INPUT_SHARDS: ${{ github.event.inputs.shards }}
+        run: |
+          set -e
+          cp config.example.json config.json
+          N="${INPUT_SHARDS}"
+          if [ -z "$N" ]; then
+            N=$(node -e "const c=require('./config.json'); process.stdout.write(String(c.matrixShards||8))")
+          fi
+          if ! [[ "$N" =~ ^[0-9]+$ ]] || [ "$N" -lt 1 ] || [ "$N" -gt 32 ]; then
+            echo "invalid shards=$N (允许 1–32)" >&2
+            exit 1
+          fi
+          LIST=$(N="$N" node -e "const n=Number(process.env.N); console.log(JSON.stringify([...Array(n).keys()]))")
+          echo "shards=$N" >> "$GITHUB_OUTPUT"
+          echo "shard_list=$LIST" >> "$GITHUB_OUTPUT"
+          echo "将并行 $N 片: $LIST"
+
   scan:
     name: scan shard ${{ matrix.shard }}
+    needs: setup
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1, 2, 3]
+        shard: ${{ fromJson(needs.setup.outputs.shard_list) }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,20 +55,17 @@ jobs:
           node-version: '24'
 
       - name: 准备配置与股票池
-        env:
-          SHARDS: ${{ github.event.inputs.shards || '4' }}
         run: |
           cp config.example.json config.json
           mkdir -p data/pools out
-          curl -fsSL --retry 2 https://jxie8301-pixel.github.io/cls-news/research.json >/dev/null || true
           curl -fsSL --retry 2 https://raw.githubusercontent.com/jxie8301-pixel/cls-news/data/pools/all-a.json \
-            -o data/pools/all-a.json || \
-          curl -fsSL --retry 2 "https://github.com/jxie8301-pixel/cls-news/raw/data/pools/all-a.json" \
-            -o data/pools/all-a.json || echo "请手动提供 data/pools/all-a.json"
+            -o data/pools/all-a.json
+          test -s data/pools/all-a.json
+          node -e "const p=require('./data/pools/all-a.json'); console.log('pool', p.name||p.key, (p.stocks||[]).length)"
 
       - name: 扫描本片
         env:
-          SHARDS: ${{ github.event.inputs.shards || '4' }}
+          SHARDS: ${{ needs.setup.outputs.shards }}
         run: |
           node src/cli.js scan --shard ${{ matrix.shard }} --shards "$SHARDS"
         continue-on-error: true
@@ -54,7 +80,7 @@ jobs:
 
   merge:
     name: merge shards
-    needs: scan
+    needs: [setup, scan]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -62,15 +88,13 @@ jobs:
         with:
           node-version: '24'
 
-      - name: 下载全部分片
+      - name: 准备
         env:
-          SHARDS: ${{ github.event.inputs.shards || '4' }}
+          SHARDS: ${{ needs.setup.outputs.shards }}
         run: |
           cp config.example.json config.json
           mkdir -p out
-          for i in $(seq 0 $((SHARDS - 1))); do
-            echo "expect shard $i"
-          done
+          echo "expect $SHARDS shards"
 
       - uses: actions/download-artifact@v4
         with:
@@ -79,8 +103,6 @@ jobs:
           merge-multiple: true
 
       - name: 整理分片到 out/
-        env:
-          SHARDS: ${{ github.event.inputs.shards || '4' }}
         run: |
           mkdir -p out
           find artifacts -name 'shard-*-of-*.json' -exec cp {} out/ \;
@@ -88,7 +110,7 @@ jobs:
 
       - name: 合并
         env:
-          SHARDS: ${{ github.event.inputs.shards || '4' }}
+          SHARDS: ${{ needs.setup.outputs.shards }}
         run: |
           set +e
           node src/cli.js merge --shards "$SHARDS"

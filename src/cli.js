@@ -22,7 +22,7 @@ function shardOutPath(shard, shards) {
 async function cmdScan() {
   const cfg = loadConfig();
   const shard = parseInt(arg('shard', '0'), 10);
-  const shards = parseInt(arg('shards', String(cfg.matrixShards || 4)), 10);
+  const shards = parseInt(arg('shards', String(cfg.matrixShards || 8)), 10);
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
   const t0 = Date.now();
@@ -54,7 +54,7 @@ async function cmdScan() {
 
 function cmdMerge() {
   const cfg = loadConfig();
-  const shards = parseInt(arg('shards', String(cfg.matrixShards || 4)), 10);
+  const shards = parseInt(arg('shards', String(cfg.matrixShards || 8)), 10);
   const paths = [];
   for (let i = 0; i < shards; i++) {
     const p = shardOutPath(i, shards);
@@ -86,7 +86,7 @@ if (cmd === 'scan') {
   cmdMerge();
 } else {
   console.log('用法:');
-  console.log('  node src/cli.js scan --shard 0 --shards 4');
-  console.log('  node src/cli.js merge --shards 4');
+  console.log('  node src/cli.js scan --shard 0 --shards 8');
+  console.log('  node src/cli.js merge --shards 8');
   process.exit(cmd ? 1 : 0);
 }

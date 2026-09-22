@@ -1,0 +1,502 @@
+{
+ "meta": {
+  "finishedAt": "2026-09-22T02:15:51.783Z",
+  "cutoff": 1789956844,
+  "pool": "沪深A股(非ST)",
+  "shard": 2,
+  "shards": 4
+ },
+ "stats": {
+  "shard": 2,
+  "shards": 4,
+  "poolTotal": 5012,
+  "stocks": 1253,
+  "scanned": 1253,
+  "listed": 1702,
+  "prefixed": 42,
+  "matched": 19,
+  "errors": 0,
+  "aborted": false,
+  "errorKinds": {}
+ },
+ "errors": [],
+ "aborted": null,
+ "articles": {
+  "2487096": {
+   "id": "2487096",
+   "ctime": 1789964589,
+   "title": "【研选•行业数据】成本占比第二，光引发剂是光刻胶核心原料之一，相关上市公司产能及营收占比一览（附表）",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2487096",
+   "stocks": [
+    {
+     "code": "sh688545",
+     "name": "兴福电子"
+    }
+   ],
+   "column": "研选•行业数据",
+   "matchedConfig": false
+  },
+  "2488588": {
+   "id": "2488588",
+   "ctime": 1789957827,
+   "title": "【盘中宝】新模型Jev在全球开发者圈层持续刷屏，机构表示看好企业自有AI工作流落地，这家公司已构建企业级与企业个人级AI应用体系",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2488588",
+   "stocks": [
+    {
+     "code": "sz300634",
+     "name": "彩讯股份"
+    }
+   ],
+   "column": "盘中宝",
+   "matchedConfig": true
+  },
+  "2488598": {
+   "id": "2488598",
+   "ctime": 1789958641,
+   "title": "【电报解读】小摩预计2027年AIASIC细分出货量将超过GPU，各公司自研芯片能力验证成熟，ASIC出货迎来加速期，这家公司子公司提供ASIC芯片定制设计服务",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2488598",
+   "stocks": [
+    {
+     "code": "sz300671",
+     "name": "富满微"
+    }
+   ],
+   "column": "电报解读",
+   "matchedConfig": true
+  },
+  "2488712": {
+   "id": "2488712",
+   "ctime": 1789966810,
+   "title": "【狙击龙虎榜午盘】投机情绪持续回暖题材多点回流 科技震荡调整不改长期趋势",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2488712",
+   "stocks": [
+    {
+     "code": "sh600127",
+     "name": "金健米业"
+    },
+    {
+     "code": "sh601086",
+     "name": "国芳集团"
+    }
+   ],
+   "column": "狙击龙虎榜午盘",
+   "matchedConfig": true
+  },
+  "2488751": {
+   "id": "2488751",
+   "ctime": 1789968811,
+   "title": "【盘中宝】下游应用验证不断推进，AI热潮正蔓延到这一赛道，这家公司相关领域产品已通过客户测试",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2488751",
+   "stocks": [
+    {
+     "code": "sz300179",
+     "name": "四方达"
+    }
+   ],
+   "column": "盘中宝",
+   "matchedConfig": true
+  },
+  "2488882": {
+   "id": "2488882",
+   "ctime": 1789989727,
+   "title": "【明日主题前瞻】伴随推理侧需求爆发，ASIC芯片出货迎来加速期",
+   "brief": "【热点导读】\r伴随推理侧需求爆发，ASI",
+   "url": "https://www.cls.cn/detail/2488882",
+   "stocks": [
+    {
+     "code": "sz300179",
+     "name": "四方达"
+    },
+    {
+     "code": "sz300634",
+     "name": "彩讯股份"
+    },
+    {
+     "code": "sz300671",
+     "name": "富满微"
+    },
+    {
+     "code": "sz300806",
+     "name": "斯迪克"
+    }
+   ],
+   "column": "明日主题前瞻",
+   "matchedConfig": false
+  },
+  "2488902": {
+   "id": "2488902",
+   "ctime": 1789994729,
+   "title": "【财联社早知道】三星HBM产能将翻倍增长，机构预计2026年全球HBM市场规模预计增长58%至546亿美元，这家公司的量产设备已经覆盖国内HBM、2.5D/3D封装领域头部客户对于量检测的全部需求",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2488902",
+   "stocks": [
+    {
+     "code": "sh603936",
+     "name": "博敏电子"
+    }
+   ],
+   "column": "财联社早知道",
+   "matchedConfig": true
+  },
+  "2488958": {
+   "id": "2488958",
+   "ctime": 1789993834,
+   "title": "【风口研报·公司】AI的强劲需求已传导到上游设备环节，公司成熟业务基本盘稳步增长，叠加新产品逐步贡献增量，分析师大幅上调未来两年盈利预测；另有公司受益算力架构变革，正从周期股向成长制造股重估",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2488958",
+   "stocks": [
+    {
+     "code": "sh601609",
+     "name": "金田股份"
+    }
+   ],
+   "column": "风口研报·公司",
+   "matchedConfig": true
+  },
+  "2488978": {
+   "id": "2488978",
+   "ctime": 1789980352,
+   "title": "【VIP日报】医药板块爆发 栏目解读海外映射 提及相关公司大涨超14%",
+   "brief": "注：财联社VIP为内容资讯产品，并非投资",
+   "url": "https://www.cls.cn/detail/2488978",
+   "stocks": [
+    {
+     "code": "sh688655",
+     "name": "迅捷兴  "
+    },
+    {
+     "code": "sz001389",
+     "name": "广合科技"
+    }
+   ],
+   "column": "VIP日报",
+   "matchedConfig": false
+  },
+  "2488986": {
+   "id": "2488986",
+   "ctime": 1789980358,
+   "title": "【VIP日报】医药板块爆发 栏目解读海外映射 提及相关公司大涨超14%",
+   "brief": "市场热点一 医药\r消息面上，9月18日，",
+   "url": "https://www.cls.cn/detail/2488986",
+   "stocks": [
+    {
+     "code": "sh688655",
+     "name": "迅捷兴  "
+    },
+    {
+     "code": "sz001389",
+     "name": "广合科技"
+    }
+   ],
+   "column": "VIP日报",
+   "matchedConfig": false
+  },
+  "2489032": {
+   "id": "2489032",
+   "ctime": 1789998714,
+   "title": "【风口研报·洞察】AI PCB量价双增叠加传统涨价，中长期行业供需紧张或延续，分析师认为此前传统业务占比较高的公司，下半年有望迎来业绩反转；未来一个月反弹有望延续",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2489032",
+   "stocks": [
+    {
+     "code": "sh688655",
+     "name": "迅捷兴  "
+    },
+    {
+     "code": "sz002815",
+     "name": "崇达技术"
+    }
+   ],
+   "column": "风口研报·洞察",
+   "matchedConfig": true
+  },
+  "2489037": {
+   "id": "2489037",
+   "ctime": 1789982091,
+   "title": "【风口研报·公司】这家创新药公司专注于肿瘤靶向药研发，已有产品持续放量，在研管线潜力可期、BD引入全球首创ADC产品；钨资源带动刀具供需结构变革，这家小巨人卡位精密加工“卖铲人”兑现利润弹性",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2489037",
+   "stocks": [
+    {
+     "code": "sz300488",
+     "name": "恒锋工具"
+    }
+   ],
+   "column": "风口研报·公司",
+   "matchedConfig": true
+  },
+  "2489095": {
+   "id": "2489095",
+   "ctime": 1789983890,
+   "title": "【数据看盘】多路资金联手抢筹中材科技，三亚迎宾路席位3.65亿元卖出地产龙头股",
+   "brief": "沪深股通今日合计成交2839.12亿。板",
+   "url": "https://www.cls.cn/detail/2489095",
+   "stocks": [
+    {
+     "code": "sh601211",
+     "name": "国泰海通"
+    },
+    {
+     "code": "sh603986",
+     "name": "兆易创新"
+    },
+    {
+     "code": "sh688256",
+     "name": "寒武纪  "
+    },
+    {
+     "code": "sz300750",
+     "name": "宁德时代"
+    }
+   ],
+   "column": "数据看盘",
+   "matchedConfig": false
+  },
+  "2489237": {
+   "id": "2489237",
+   "ctime": 1789989473,
+   "title": "【电报解读】微软在台数据中心拟扩建至4座，机构看好该细分领域正处于“算力需求扩张+外资产能缺口+国产技术突破”三重共振的黄金成长期，这家公司在该领域掌握5大核心技术",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2489237",
+   "stocks": [
+    {
+     "code": "sh688448",
+     "name": "磁谷科技"
+    },
+    {
+     "code": "sz301317",
+     "name": "鑫磊股份"
+    }
+   ],
+   "column": "电报解读",
+   "matchedConfig": true
+  },
+  "2489251": {
+   "id": "2489251",
+   "ctime": 1789991195,
+   "title": "【机构调研】这家公司芯片电感产品面向AI服务器、数据中心等高算力场景，部分料号完成客户验证并批量交付",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2489251",
+   "stocks": [
+    {
+     "code": "sz300835",
+     "name": "龙磁科技"
+    }
+   ],
+   "column": "机构调研",
+   "matchedConfig": true
+  },
+  "2489307": {
+   "id": "2489307",
+   "ctime": 1789995579,
+   "title": "【狙击龙虎榜】指数分化沪指回补缺口 题材情绪全面爆发科技分歧回流待确认",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2489307",
+   "stocks": [
+    {
+     "code": "sh600127",
+     "name": "金健米业"
+    },
+    {
+     "code": "sh600606",
+     "name": "绿地控股"
+    },
+    {
+     "code": "sh601086",
+     "name": "国芳集团"
+    }
+   ],
+   "column": "狙击龙虎榜",
+   "matchedConfig": true
+  },
+  "2489403": {
+   "id": "2489403",
+   "ctime": 1790034057,
+   "title": "【点金互动易】高端铜箔+HVLP，这家公司RTF、LP、HTE等高附加值电子电路铜箔已规模化量产，HVLP系列、RTF-Ⅲ与载体铜箔已出样验证，客户覆盖生益科技、南亚新材等",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2489403",
+   "stocks": [
+    {
+     "code": "sz301321",
+     "name": "翰博高新"
+    }
+   ],
+   "column": "点金互动易",
+   "matchedConfig": true
+  },
+  "2489469": {
+   "id": "2489469",
+   "ctime": 1790036415,
+   "title": "【九点特供】价格上调10%！又一覆铜板企业发布调价通知，机构看好随着覆铜板技术的逐步迭代升级与，高性能球形硅微粉需求有望快速增长；宇树发布了灵巧手产品Dex5-S，采用真手1:1尺寸",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/2489469",
+   "stocks": [
+    {
+     "code": "sh600770",
+     "name": "综艺股份"
+    },
+    {
+     "code": "sh603728",
+     "name": "鸣志电器"
+    }
+   ],
+   "column": "九点特供",
+   "matchedConfig": true
+  },
+  "7508629005873f68649b2600bfa8d7f3": {
+   "id": "7508629005873f68649b2600bfa8d7f3",
+   "ctime": 1789982688,
+   "title": "【龙虎榜】金健米业 9月21日成交明细",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/7508629005873f68649b2600bfa8d7f3",
+   "stocks": [
+    {
+     "code": "sh600127",
+     "name": "金健米业"
+    }
+   ],
+   "column": "龙虎榜",
+   "matchedConfig": false
+  },
+  "15bce2e3810d861fca7360e3fd1014cd": {
+   "id": "15bce2e3810d861fca7360e3fd1014cd",
+   "ctime": 1789982685,
+   "title": "【龙虎榜】华发股份 9月21日成交明细",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/15bce2e3810d861fca7360e3fd1014cd",
+   "stocks": [
+    {
+     "code": "sh600325",
+     "name": "华发股份"
+    }
+   ],
+   "column": "龙虎榜",
+   "matchedConfig": false
+  },
+  "0f6e4d0d6b122632c9ec1c8449b22af6": {
+   "id": "0f6e4d0d6b122632c9ec1c8449b22af6",
+   "ctime": 1789982683,
+   "title": "【龙虎榜】大连圣亚 9月21日成交明细",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/0f6e4d0d6b122632c9ec1c8449b22af6",
+   "stocks": [
+    {
+     "code": "sh600593",
+     "name": "大连圣亚"
+    }
+   ],
+   "column": "龙虎榜",
+   "matchedConfig": false
+  },
+  "22b8802a904be373e3dc1b38d8f119b1": {
+   "id": "22b8802a904be373e3dc1b38d8f119b1",
+   "ctime": 1789982688,
+   "title": "【龙虎榜】肯特催化 9月21日成交明细",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/22b8802a904be373e3dc1b38d8f119b1",
+   "stocks": [
+    {
+     "code": "sh603120",
+     "name": "肯特催化"
+    }
+   ],
+   "column": "龙虎榜",
+   "matchedConfig": false
+  },
+  "01334455267ac51bd887cd8def80575f": {
+   "id": "01334455267ac51bd887cd8def80575f",
+   "ctime": 1789979044,
+   "title": "【龙虎榜】三羊马 9月21日成交明细",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/01334455267ac51bd887cd8def80575f",
+   "stocks": [
+    {
+     "code": "sz001317",
+     "name": "三羊马"
+    }
+   ],
+   "column": "龙虎榜",
+   "matchedConfig": false
+  },
+  "0e04658c10b9c7bc2c64126169c2d07c": {
+   "id": "0e04658c10b9c7bc2c64126169c2d07c",
+   "ctime": 1789979002,
+   "title": "【龙虎榜】世联行 9月21日成交明细",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/0e04658c10b9c7bc2c64126169c2d07c",
+   "stocks": [
+    {
+     "code": "sz002285",
+     "name": "世联行"
+    }
+   ],
+   "column": "龙虎榜",
+   "matchedConfig": false
+  },
+  "01f6e27a04c10491a66d0e1dce3cdd23": {
+   "id": "01f6e27a04c10491a66d0e1dce3cdd23",
+   "ctime": 1789979002,
+   "title": "【龙虎榜】华盛昌 9月21日成交明细",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/01f6e27a04c10491a66d0e1dce3cdd23",
+   "stocks": [
+    {
+     "code": "sz002980",
+     "name": "华盛昌"
+    }
+   ],
+   "column": "龙虎榜",
+   "matchedConfig": false
+  },
+  "ba9163c804bcf9ad11f47472123dc58d": {
+   "id": "ba9163c804bcf9ad11f47472123dc58d",
+   "ctime": 1789979004,
+   "title": "【龙虎榜】地铁设计 9月21日成交明细",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/ba9163c804bcf9ad11f47472123dc58d",
+   "stocks": [
+    {
+     "code": "sz003013",
+     "name": "地铁设计"
+    }
+   ],
+   "column": "龙虎榜",
+   "matchedConfig": false
+  },
+  "a9e137048a1574b22300b38b97b9070d": {
+   "id": "a9e137048a1574b22300b38b97b9070d",
+   "ctime": 1789979006,
+   "title": "【龙虎榜】透景生命 9月21日成交明细",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/a9e137048a1574b22300b38b97b9070d",
+   "stocks": [
+    {
+     "code": "sz300642",
+     "name": "透景生命"
+    }
+   ],
+   "column": "龙虎榜",
+   "matchedConfig": false
+  },
+  "7a32491554d2252b493ebd6f2e0d9737": {
+   "id": "7a32491554d2252b493ebd6f2e0d9737",
+   "ctime": 1789979005,
+   "title": "【龙虎榜】联合光电 9月21日成交明细",
+   "brief": "",
+   "url": "https://www.cls.cn/detail/7a32491554d2252b493ebd6f2e0d9737",
+   "stocks": [
+    {
+     "code": "sz300691",
+     "name": "联合光电"
+    }
+   ],
+   "column": "龙虎榜",
+   "matchedConfig": false
+  }
+ }
+}

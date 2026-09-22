@@ -1,0 +1,521 @@
+﻿{
+    "total_count":  5,
+    "jobs":  [
+                 {
+                     "id":  106590666274,
+                     "run_id":  35678697157,
+                     "workflow_name":  "news-crawler matrix 分片实验",
+                     "head_branch":  "main",
+                     "run_url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/actions/runs/35678697157",
+                     "run_attempt":  1,
+                     "node_id":  "CR_kwDOUkyd3c8AAAAY0Ux-Ig",
+                     "head_sha":  "285b4c1f8e510f4395464eb1145db965a766c5c2",
+                     "url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/actions/jobs/106590666274",
+                     "html_url":  "https://github.com/jxie8301-pixel/news-crawler/actions/runs/35678697157/job/106590666274",
+                     "status":  "completed",
+                     "conclusion":  "success",
+                     "created_at":  "2026-09-22T02:13:56Z",
+                     "started_at":  "2026-09-22T02:13:59Z",
+                     "completed_at":  "2026-09-22T02:15:55Z",
+                     "name":  "scan shard 2",
+                     "steps":  [
+                                   {
+                                       "name":  "Set up job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  1,
+                                       "started_at":  "2026-09-22T02:14:00Z",
+                                       "completed_at":  "2026-09-22T02:14:01Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  2,
+                                       "started_at":  "2026-09-22T02:14:01Z",
+                                       "completed_at":  "2026-09-22T02:14:02Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/setup-node@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  3,
+                                       "started_at":  "2026-09-22T02:14:02Z",
+                                       "completed_at":  "2026-09-22T02:14:03Z"
+                                   },
+                                   {
+                                       "name":  "准备配置与股票池",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  4,
+                                       "started_at":  "2026-09-22T02:14:03Z",
+                                       "completed_at":  "2026-09-22T02:14:04Z"
+                                   },
+                                   {
+                                       "name":  "扫描本片",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  5,
+                                       "started_at":  "2026-09-22T02:14:04Z",
+                                       "completed_at":  "2026-09-22T02:15:51Z"
+                                   },
+                                   {
+                                       "name":  "上传分片结果",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  6,
+                                       "started_at":  "2026-09-22T02:15:51Z",
+                                       "completed_at":  "2026-09-22T02:15:52Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/setup-node@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  11,
+                                       "started_at":  "2026-09-22T02:15:52Z",
+                                       "completed_at":  "2026-09-22T02:15:52Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  12,
+                                       "started_at":  "2026-09-22T02:15:52Z",
+                                       "completed_at":  "2026-09-22T02:15:53Z"
+                                   },
+                                   {
+                                       "name":  "Complete job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  13,
+                                       "started_at":  "2026-09-22T02:15:53Z",
+                                       "completed_at":  "2026-09-22T02:15:53Z"
+                                   }
+                               ],
+                     "check_run_url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/check-runs/106590666274",
+                     "labels":  [
+                                    "ubuntu-latest"
+                                ],
+                     "runner_id":  1000004123,
+                     "runner_name":  "GitHub Actions 1000004123",
+                     "runner_group_id":  0,
+                     "runner_group_name":  "GitHub Actions"
+                 },
+                 {
+                     "id":  106590666448,
+                     "run_id":  35678697157,
+                     "workflow_name":  "news-crawler matrix 分片实验",
+                     "head_branch":  "main",
+                     "run_url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/actions/runs/35678697157",
+                     "run_attempt":  1,
+                     "node_id":  "CR_kwDOUkyd3c8AAAAY0Ux-0A",
+                     "head_sha":  "285b4c1f8e510f4395464eb1145db965a766c5c2",
+                     "url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/actions/jobs/106590666448",
+                     "html_url":  "https://github.com/jxie8301-pixel/news-crawler/actions/runs/35678697157/job/106590666448",
+                     "status":  "completed",
+                     "conclusion":  "success",
+                     "created_at":  "2026-09-22T02:13:56Z",
+                     "started_at":  "2026-09-22T02:14:01Z",
+                     "completed_at":  "2026-09-22T02:15:49Z",
+                     "name":  "scan shard 3",
+                     "steps":  [
+                                   {
+                                       "name":  "Set up job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  1,
+                                       "started_at":  "2026-09-22T02:14:02Z",
+                                       "completed_at":  "2026-09-22T02:14:03Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  2,
+                                       "started_at":  "2026-09-22T02:14:03Z",
+                                       "completed_at":  "2026-09-22T02:14:04Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/setup-node@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  3,
+                                       "started_at":  "2026-09-22T02:14:04Z",
+                                       "completed_at":  "2026-09-22T02:14:06Z"
+                                   },
+                                   {
+                                       "name":  "准备配置与股票池",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  4,
+                                       "started_at":  "2026-09-22T02:14:06Z",
+                                       "completed_at":  "2026-09-22T02:14:07Z"
+                                   },
+                                   {
+                                       "name":  "扫描本片",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  5,
+                                       "started_at":  "2026-09-22T02:14:07Z",
+                                       "completed_at":  "2026-09-22T02:15:45Z"
+                                   },
+                                   {
+                                       "name":  "上传分片结果",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  6,
+                                       "started_at":  "2026-09-22T02:15:45Z",
+                                       "completed_at":  "2026-09-22T02:15:46Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/setup-node@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  11,
+                                       "started_at":  "2026-09-22T02:15:46Z",
+                                       "completed_at":  "2026-09-22T02:15:46Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  12,
+                                       "started_at":  "2026-09-22T02:15:46Z",
+                                       "completed_at":  "2026-09-22T02:15:46Z"
+                                   },
+                                   {
+                                       "name":  "Complete job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  13,
+                                       "started_at":  "2026-09-22T02:15:46Z",
+                                       "completed_at":  "2026-09-22T02:15:46Z"
+                                   }
+                               ],
+                     "check_run_url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/check-runs/106590666448",
+                     "labels":  [
+                                    "ubuntu-latest"
+                                ],
+                     "runner_id":  1000004126,
+                     "runner_name":  "GitHub Actions 1000004126",
+                     "runner_group_id":  0,
+                     "runner_group_name":  "GitHub Actions"
+                 },
+                 {
+                     "id":  106590666500,
+                     "run_id":  35678697157,
+                     "workflow_name":  "news-crawler matrix 分片实验",
+                     "head_branch":  "main",
+                     "run_url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/actions/runs/35678697157",
+                     "run_attempt":  1,
+                     "node_id":  "CR_kwDOUkyd3c8AAAAY0Ux_BA",
+                     "head_sha":  "285b4c1f8e510f4395464eb1145db965a766c5c2",
+                     "url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/actions/jobs/106590666500",
+                     "html_url":  "https://github.com/jxie8301-pixel/news-crawler/actions/runs/35678697157/job/106590666500",
+                     "status":  "completed",
+                     "conclusion":  "success",
+                     "created_at":  "2026-09-22T02:13:56Z",
+                     "started_at":  "2026-09-22T02:14:00Z",
+                     "completed_at":  "2026-09-22T02:15:50Z",
+                     "name":  "scan shard 1",
+                     "steps":  [
+                                   {
+                                       "name":  "Set up job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  1,
+                                       "started_at":  "2026-09-22T02:14:06Z",
+                                       "completed_at":  "2026-09-22T02:14:07Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  2,
+                                       "started_at":  "2026-09-22T02:14:07Z",
+                                       "completed_at":  "2026-09-22T02:14:08Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/setup-node@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  3,
+                                       "started_at":  "2026-09-22T02:14:08Z",
+                                       "completed_at":  "2026-09-22T02:14:08Z"
+                                   },
+                                   {
+                                       "name":  "准备配置与股票池",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  4,
+                                       "started_at":  "2026-09-22T02:14:08Z",
+                                       "completed_at":  "2026-09-22T02:14:08Z"
+                                   },
+                                   {
+                                       "name":  "扫描本片",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  5,
+                                       "started_at":  "2026-09-22T02:14:08Z",
+                                       "completed_at":  "2026-09-22T02:15:46Z"
+                                   },
+                                   {
+                                       "name":  "上传分片结果",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  6,
+                                       "started_at":  "2026-09-22T02:15:46Z",
+                                       "completed_at":  "2026-09-22T02:15:47Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/setup-node@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  11,
+                                       "started_at":  "2026-09-22T02:15:47Z",
+                                       "completed_at":  "2026-09-22T02:15:47Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  12,
+                                       "started_at":  "2026-09-22T02:15:47Z",
+                                       "completed_at":  "2026-09-22T02:15:48Z"
+                                   },
+                                   {
+                                       "name":  "Complete job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  13,
+                                       "started_at":  "2026-09-22T02:15:48Z",
+                                       "completed_at":  "2026-09-22T02:15:48Z"
+                                   }
+                               ],
+                     "check_run_url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/check-runs/106590666500",
+                     "labels":  [
+                                    "ubuntu-latest"
+                                ],
+                     "runner_id":  1000004124,
+                     "runner_name":  "GitHub Actions 1000004124",
+                     "runner_group_id":  0,
+                     "runner_group_name":  "GitHub Actions"
+                 },
+                 {
+                     "id":  106590666540,
+                     "run_id":  35678697157,
+                     "workflow_name":  "news-crawler matrix 分片实验",
+                     "head_branch":  "main",
+                     "run_url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/actions/runs/35678697157",
+                     "run_attempt":  1,
+                     "node_id":  "CR_kwDOUkyd3c8AAAAY0Ux_LA",
+                     "head_sha":  "285b4c1f8e510f4395464eb1145db965a766c5c2",
+                     "url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/actions/jobs/106590666540",
+                     "html_url":  "https://github.com/jxie8301-pixel/news-crawler/actions/runs/35678697157/job/106590666540",
+                     "status":  "completed",
+                     "conclusion":  "success",
+                     "created_at":  "2026-09-22T02:13:56Z",
+                     "started_at":  "2026-09-22T02:14:00Z",
+                     "completed_at":  "2026-09-22T02:15:56Z",
+                     "name":  "scan shard 0",
+                     "steps":  [
+                                   {
+                                       "name":  "Set up job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  1,
+                                       "started_at":  "2026-09-22T02:14:01Z",
+                                       "completed_at":  "2026-09-22T02:14:02Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  2,
+                                       "started_at":  "2026-09-22T02:14:02Z",
+                                       "completed_at":  "2026-09-22T02:14:02Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/setup-node@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  3,
+                                       "started_at":  "2026-09-22T02:14:02Z",
+                                       "completed_at":  "2026-09-22T02:14:03Z"
+                                   },
+                                   {
+                                       "name":  "准备配置与股票池",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  4,
+                                       "started_at":  "2026-09-22T02:14:03Z",
+                                       "completed_at":  "2026-09-22T02:14:03Z"
+                                   },
+                                   {
+                                       "name":  "扫描本片",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  5,
+                                       "started_at":  "2026-09-22T02:14:03Z",
+                                       "completed_at":  "2026-09-22T02:15:53Z"
+                                   },
+                                   {
+                                       "name":  "上传分片结果",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  6,
+                                       "started_at":  "2026-09-22T02:15:53Z",
+                                       "completed_at":  "2026-09-22T02:15:54Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/setup-node@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  11,
+                                       "started_at":  "2026-09-22T02:15:54Z",
+                                       "completed_at":  "2026-09-22T02:15:54Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  12,
+                                       "started_at":  "2026-09-22T02:15:54Z",
+                                       "completed_at":  "2026-09-22T02:15:54Z"
+                                   },
+                                   {
+                                       "name":  "Complete job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  13,
+                                       "started_at":  "2026-09-22T02:15:54Z",
+                                       "completed_at":  "2026-09-22T02:15:54Z"
+                                   }
+                               ],
+                     "check_run_url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/check-runs/106590666540",
+                     "labels":  [
+                                    "ubuntu-latest"
+                                ],
+                     "runner_id":  1000004125,
+                     "runner_name":  "GitHub Actions 1000004125",
+                     "runner_group_id":  0,
+                     "runner_group_name":  "GitHub Actions"
+                 },
+                 {
+                     "id":  106591055471,
+                     "run_id":  35678697157,
+                     "workflow_name":  "news-crawler matrix 分片实验",
+                     "head_branch":  "main",
+                     "run_url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/actions/runs/35678697157",
+                     "run_attempt":  1,
+                     "node_id":  "CR_kwDOUkyd3c8AAAAY0VJubw",
+                     "head_sha":  "285b4c1f8e510f4395464eb1145db965a766c5c2",
+                     "url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/actions/jobs/106591055471",
+                     "html_url":  "https://github.com/jxie8301-pixel/news-crawler/actions/runs/35678697157/job/106591055471",
+                     "status":  "completed",
+                     "conclusion":  "success",
+                     "created_at":  "2026-09-22T02:15:56Z",
+                     "started_at":  "2026-09-22T02:15:59Z",
+                     "completed_at":  "2026-09-22T02:16:06Z",
+                     "name":  "merge shards",
+                     "steps":  [
+                                   {
+                                       "name":  "Set up job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  1,
+                                       "started_at":  "2026-09-22T02:16:00Z",
+                                       "completed_at":  "2026-09-22T02:16:01Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  2,
+                                       "started_at":  "2026-09-22T02:16:01Z",
+                                       "completed_at":  "2026-09-22T02:16:02Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/setup-node@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  3,
+                                       "started_at":  "2026-09-22T02:16:02Z",
+                                       "completed_at":  "2026-09-22T02:16:03Z"
+                                   },
+                                   {
+                                       "name":  "下载全部分片",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  4,
+                                       "started_at":  "2026-09-22T02:16:03Z",
+                                       "completed_at":  "2026-09-22T02:16:03Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/download-artifact@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  5,
+                                       "started_at":  "2026-09-22T02:16:03Z",
+                                       "completed_at":  "2026-09-22T02:16:03Z"
+                                   },
+                                   {
+                                       "name":  "整理分片到 out/",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  6,
+                                       "started_at":  "2026-09-22T02:16:03Z",
+                                       "completed_at":  "2026-09-22T02:16:03Z"
+                                   },
+                                   {
+                                       "name":  "合并",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  7,
+                                       "started_at":  "2026-09-22T02:16:03Z",
+                                       "completed_at":  "2026-09-22T02:16:03Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/upload-artifact@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  8,
+                                       "started_at":  "2026-09-22T02:16:03Z",
+                                       "completed_at":  "2026-09-22T02:16:04Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/setup-node@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  15,
+                                       "started_at":  "2026-09-22T02:16:04Z",
+                                       "completed_at":  "2026-09-22T02:16:04Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  16,
+                                       "started_at":  "2026-09-22T02:16:04Z",
+                                       "completed_at":  "2026-09-22T02:16:05Z"
+                                   },
+                                   {
+                                       "name":  "Complete job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  17,
+                                       "started_at":  "2026-09-22T02:16:05Z",
+                                       "completed_at":  "2026-09-22T02:16:05Z"
+                                   }
+                               ],
+                     "check_run_url":  "https://api.github.com/repos/jxie8301-pixel/news-crawler/check-runs/106591055471",
+                     "labels":  [
+                                    "ubuntu-latest"
+                                ],
+                     "runner_id":  1000004127,
+                     "runner_name":  "GitHub Actions 1000004127",
+                     "runner_group_id":  0,
+                     "runner_group_name":  "GitHub Actions"
+                 }
+             ]
+}

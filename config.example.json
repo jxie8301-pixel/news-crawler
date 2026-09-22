@@ -3,7 +3,7 @@
   "concurrency": 5,
   "requestDelayMs": 80,
   "scanTimeoutMinutes": 10,
-  "matrixShards": 4,
+  "matrixShards": 8,
   "poolFile": "data/pools/all-a.json",
   "prefixes": [
     "盘中宝",
