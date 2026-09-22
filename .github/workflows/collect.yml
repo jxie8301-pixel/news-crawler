@@ -80,7 +80,7 @@ jobs:
           fi
           if [ "$code" -ne 0 ]; then exit $code; fi
           echo "should_run=true" >> "$GITHUB_OUTPUT"
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         if: always()
         with:
           name: vip-gate
@@ -150,7 +150,7 @@ jobs:
         run: node src/cli.js scan --shard ${{ matrix.shard }} --shards "$SHARDS"
         continue-on-error: true
         id: scan
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with:
           name: shard-${{ matrix.shard }}
           path: out/shard-${{ matrix.shard }}-of-*.json
@@ -224,13 +224,13 @@ jobs:
 
           ls -la data/ data/pools/ out/ || true
 
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v7
         with:
           pattern: shard-*
           path: artifacts
           merge-multiple: true
 
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v7
         with:
           name: vip-gate
           path: out
@@ -286,7 +286,7 @@ jobs:
 
       - name: 上传流水线产物
         if: always()
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: pipeline-out
           path: |
@@ -387,7 +387,7 @@ jobs:
 
       - name: 上传站点产物（影子期可下载验收，不依赖 Pages）
         if: steps.resolve.outputs.skipped != 'true'
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: site
           path: _site
