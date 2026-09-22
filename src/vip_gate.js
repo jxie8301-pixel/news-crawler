@@ -49,12 +49,17 @@ function httpGetJson(urlStr, timeoutMs) {
 
 async function loadLastVipIds(cfg) {
   const local = cfg && cfg.lastVipIdsFile;
-  if (local && fs.existsSync(local)) {
+  const candidates = [];
+  if (local) candidates.push(local);
+  candidates.push(require('node:path').join(require('./config.js').ROOT, 'out', 'status.json'));
+
+  for (const file of candidates) {
+    if (!file || !fs.existsSync(file)) continue;
     try {
-      const j = JSON.parse(fs.readFileSync(local, 'utf8'));
+      const j = JSON.parse(fs.readFileSync(file, 'utf8'));
       if (Array.isArray(j.lastVipIds)) return j.lastVipIds.map(String);
       if (Array.isArray(j)) return j.map(String);
-    } catch (_) { /* fallthrough */ }
+    } catch (_) { /* try next */ }
   }
   const url = (cfg && cfg.statusUrl) || DEFAULT_STATUS_URL;
   const st = await httpGetJson(url, 20000);

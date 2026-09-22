@@ -17,12 +17,12 @@ on:
         required: false
         default: false
       enable_push:
-        description: 是否推送企微（影子期请保持 false）
+        description: 是否推送企微（切流后默认 true；影子可改 false）
         type: boolean
         required: false
-        default: false
+        default: true
       publish_pages:
-        description: 是否发布本仓 GitHub Pages（需先在 Settings→Pages 启用 Actions 源；影子期可 false）
+        description: 是否发布本仓 GitHub Pages（需 Settings→Pages=Actions；未开则保持 false）
         type: boolean
         required: false
         default: false
@@ -55,6 +55,14 @@ jobs:
           set +e
           cp config.example.json config.json
           mkdir -p out
+          git fetch origin data --depth 1 || true
+          if git cat-file -e origin/data:seeds/status.json 2>/dev/null; then
+            git show origin/data:seeds/status.json > out/status.json
+            echo "gate 水位 ← data/seeds/status.json"
+          else
+            curl -fsSL --retry 2 https://jxie8301-pixel.github.io/cls-news/status.json -o out/status.json || true
+            echo "gate 水位 ← 现网 Pages status.json"
+          fi
           EXTRA=""
           if [ "$FORCE" = "true" ]; then EXTRA="--force"; fi
           node src/cli.js gate $EXTRA
@@ -165,12 +173,10 @@ jobs:
           PROD_RAW=https://raw.githubusercontent.com/jxie8301-pixel/cls-news
           PROD_SITE=https://jxie8301-pixel.github.io/cls-news
 
-          curl -fsSL --retry 2 "$PROD_SITE/research.json" -o data/research.json || true
-          curl -fsSL --retry 2 "$PROD_SITE/status.json" -o out/status.json || true
-
           git fetch origin data --depth 1 || true
           if git cat-file -e origin/data:pushed.json 2>/dev/null; then
             git show origin/data:pushed.json > data/pushed.json
+            echo "pushed.json ← 本仓 data"
           elif curl -fsSL --retry 2 "$PROD_RAW/data/pushed.json" -o data/pushed.json; then
             echo "种子 pushed.json ← 现网 data 分支"
           else
@@ -179,18 +185,34 @@ jobs:
 
           if git cat-file -e origin/data:pools/all-a.json 2>/dev/null; then
             git show origin/data:pools/all-a.json > data/pools/all-a.json
+            echo "pools ← 本仓 data"
           elif curl -fsSL --retry 2 "$PROD_RAW/data/pools/all-a.json" -o data/pools/all-a.json; then
             echo "种子 pools/all-a.json ← 现网 data 分支"
           fi
 
           if git cat-file -e origin/data:pushes.db 2>/dev/null; then
             git show origin/data:pushes.db > data/pushes.db
+            echo "pushes.db ← 本仓 data"
           elif curl -fsSL --retry 2 "$PROD_RAW/data/pushes.db" -o data/pushes.db; then
             echo "种子 pushes.db ← 现网 data 分支"
           elif curl -fsSL --retry 2 "$PROD_SITE/pushes.db" -o data/pushes.db; then
             echo "种子 pushes.db ← 现网 Pages"
           else
             rm -f data/pushes.db
+          fi
+
+          # 水位/调研：优先本仓 data/seeds，再退回现网 Pages
+          if git cat-file -e origin/data:seeds/status.json 2>/dev/null; then
+            git show origin/data:seeds/status.json > out/status.json
+            echo "status ← 本仓 data/seeds"
+          else
+            curl -fsSL --retry 2 "$PROD_SITE/status.json" -o out/status.json || true
+          fi
+          if git cat-file -e origin/data:seeds/research.json 2>/dev/null; then
+            git show origin/data:seeds/research.json > data/research.json
+            echo "research ← 本仓 data/seeds"
+          else
+            curl -fsSL --retry 2 "$PROD_SITE/research.json" -o data/research.json || true
           fi
 
           ls -la data/ data/pools/ out/ || true
@@ -323,11 +345,14 @@ jobs:
             git add pools/all-a.json
           fi
           [ -f "$SRC/data/pushes.db" ] && cp "$SRC/data/pushes.db" pushes.db && git add pushes.db
+          mkdir -p seeds
+          [ -f "$SRC/out/status.json" ] && cp "$SRC/out/status.json" seeds/status.json && git add seeds/status.json
+          [ -f "$SRC/data/research.json" ] && cp "$SRC/data/research.json" seeds/research.json && git add seeds/research.json
 
           if git diff --cached --quiet; then
             echo "data 分支无变更"
           else
-            git commit -m "update pushed + pool + pushes.db [skip ci]"
+            git commit -m "update pushed + pool + pushes.db + seeds [skip ci]"
             git push -u origin HEAD:data
             echo "data 分支 push exit=$?"
           fi
