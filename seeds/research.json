@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T04:59:34.308Z",
+ "updatedAt": "2026-09-22T05:54:37.157Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -7587,8 +7587,8 @@
   "sh601086": {
    "code": "sh601086",
    "name": "国芳集团",
-   "researchedAt": "2026-09-21T05:04:47.806Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-22T05:54:37.157Z",
+   "asOfDate": "2026-09-22",
    "industry": "商贸零售-一般零售-百货",
    "concepts": [
     "商业零售",
@@ -7597,15 +7597,15 @@
     "IP经济"
    ],
    "valuation": {
-    "ttmPe": 99.09,
-    "dynamicPe": 82.72,
-    "pb": 7.349,
-    "marketCapYi": 117.68,
-    "lastPrice": 17.67
+    "ttmPe": 101.5,
+    "dynamicPe": 84.73,
+    "pb": 7.528,
+    "marketCapYi": 120.55,
+    "lastPrice": 18.1
    },
    "momentum": {
-    "change3m": 21.28,
-    "change5d": -1.78
+    "change3m": 23.97,
+    "change5d": 11.8
    },
    "financial": {
     "revenueYoy": 10.35,
@@ -30272,8 +30272,8 @@
   "sh600127": {
    "code": "sh600127",
    "name": "金健米业",
-   "researchedAt": "2026-09-21T05:04:47.778Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-22T05:54:36.925Z",
+   "asOfDate": "2026-09-22",
    "industry": "农林牧渔-农产品加工-粮油加工",
    "concepts": [
     "农业种植",
@@ -30283,15 +30283,15 @@
     "国企改革"
    ],
    "valuation": {
-    "ttmPe": -578.59,
-    "dynamicPe": -527.61,
-    "pb": 15.278,
-    "marketCapYi": 101.08,
-    "lastPrice": 15.75
+    "ttmPe": -590.71,
+    "dynamicPe": -538.67,
+    "pb": 15.598,
+    "marketCapYi": 103.2,
+    "lastPrice": 16.08
    },
    "momentum": {
-    "change3m": 33.02,
-    "change5d": 11.15
+    "change3m": 23.5,
+    "change5d": 26.12
    },
    "financial": {
     "revenueYoy": 25.19,
@@ -30300,6 +30300,12 @@
     "debtRatio": 62.24
    },
    "announcements": [
+    {
+     "time": "2026-09-22 00:00:00",
+     "timestamp": 1790006400,
+     "title": "金健米业关于股票交易风险提示公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/22/48d34b9a13f2462947b1d2177ce951b2.pdf"
+    },
     {
      "time": "2026-09-19 00:00:00",
      "timestamp": 1789747200,
@@ -30351,6 +30357,12 @@
    ],
    "keyEvents": [
     {
+     "time": "2026-09-22 00:00:00",
+     "timestamp": 1790006400,
+     "title": "金健米业关于股票交易风险提示公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/22/48d34b9a13f2462947b1d2177ce951b2.pdf"
+    },
+    {
      "time": "2026-09-19 00:00:00",
      "timestamp": 1789747200,
      "title": "金健米业关于股票交易异常波动的公告",
@@ -30361,12 +30373,6 @@
      "timestamp": 1788278400,
      "title": "金健米业关于股票交易异常波动的公告",
      "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/a196419a840ebca73aab0a68c5a67ac6.pdf"
-    },
-    {
-     "time": "2026-08-29 00:00:00",
-     "timestamp": 1787932800,
-     "title": "金健米业2026年半年度报告全文",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/4a815466abf837f2bc0c7d4e8f8e11c7.pdf"
     }
    ],
    "sources": {
@@ -30377,8 +30383,8 @@
   "sz000504": {
    "code": "sz000504",
    "name": "南华生物",
-   "researchedAt": "2026-09-21T05:04:47.794Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-22T05:54:36.811Z",
+   "asOfDate": "2026-09-22",
    "industry": "医药生物-医疗服务-其他医疗服务",
    "concepts": [
     "医药生物",
@@ -30388,15 +30394,15 @@
     "干细胞"
    ],
    "valuation": {
-    "ttmPe": 94.86,
-    "dynamicPe": 303.17,
-    "pb": 13.371,
-    "marketCapYi": 36.34,
-    "lastPrice": 11.01
+    "ttmPe": 104.33,
+    "dynamicPe": 333.45,
+    "pb": 14.707,
+    "marketCapYi": 39.97,
+    "lastPrice": 12.11
    },
    "momentum": {
-    "change3m": 33.13,
-    "change5d": 28.02
+    "change3m": 33.08,
+    "change5d": 45.03
    },
    "financial": {
     "revenueYoy": 473.56,
@@ -30405,6 +30411,12 @@
     "debtRatio": 59.28
    },
    "announcements": [
+    {
+     "time": "2026-09-22 00:00:00",
+     "timestamp": 1790006400,
+     "title": "南华生物股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/22/94b09cf31801a1a29946028e459495db.pdf"
+    },
     {
      "time": "2026-08-24 00:00:00",
      "timestamp": 1787500800,
@@ -30450,6 +30462,12 @@
    ],
    "keyEvents": [
     {
+     "time": "2026-09-22 00:00:00",
+     "timestamp": 1790006400,
+     "title": "南华生物股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/22/94b09cf31801a1a29946028e459495db.pdf"
+    },
+    {
      "time": "2026-08-24 00:00:00",
      "timestamp": 1787500800,
      "title": "2026年半年度报告",
@@ -30460,12 +30478,6 @@
      "timestamp": 1787500800,
      "title": "2026年半年度报告摘要",
      "url": "http://xk-annc-a.cls.cn/annc/2026/08/24/bd319dad8edf529606120f2c2828c0db.pdf"
-    },
-    {
-     "time": "2026-07-17 00:00:00",
-     "timestamp": 1784217600,
-     "title": "南华生物股票交易异常波动的公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/07/17/f18d43cf48ff859cb92adce4f2d31515.pdf"
     }
    ],
    "sources": {
@@ -30656,8 +30668,8 @@
   "sh600664": {
    "code": "sh600664",
    "name": "哈药股份",
-   "researchedAt": "2026-09-21T05:04:48.168Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-22T05:54:36.876Z",
+   "asOfDate": "2026-09-22",
    "industry": "医药生物-化学制药-化学制剂",
    "concepts": [
     "医药生物",
@@ -30667,15 +30679,15 @@
     "国企改革"
    ],
    "valuation": {
-    "ttmPe": 40.56,
-    "dynamicPe": 25.32,
-    "pb": 3.403,
-    "marketCapYi": 207.78,
-    "lastPrice": 8.25
+    "ttmPe": 44.65,
+    "dynamicPe": 27.87,
+    "pb": 3.745,
+    "marketCapYi": 228.68,
+    "lastPrice": 9.08
    },
    "momentum": {
-    "change3m": 12.09,
-    "change5d": 13.01
+    "change3m": 22.37,
+    "change5d": 27.53
    },
    "financial": {
     "revenueYoy": 2.1,
@@ -34102,6 +34114,192 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz300996",
     "announcements": "https://www.cls.cn/stock?code=sz300996&tab=notice"
+   }
+  },
+  "sz002131": {
+   "code": "sz002131",
+   "name": "利欧股份",
+   "researchedAt": "2026-09-22T05:54:36.837Z",
+   "asOfDate": "2026-09-22",
+   "industry": "机械设备-通用设备-金属制品",
+   "concepts": [
+    "数字营销",
+    "区块链",
+    "网红经济",
+    "新能源汽车",
+    "人工智能"
+   ],
+   "valuation": {
+    "ttmPe": -101.76,
+    "dynamicPe": 112.6,
+    "pb": 2.353,
+    "marketCapYi": 311.5,
+    "lastPrice": 4.6
+   },
+   "momentum": {
+    "change3m": 3.6,
+    "change5d": 5.26
+   },
+   "financial": {
+    "revenueYoy": 5.74,
+    "profitYoy": -74.81,
+    "roe": 1.04,
+    "debtRatio": 37.19
+   },
+   "announcements": [
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/81fc4dead55aa6bf6761d98fb44e98e9.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/fe5651c868b56824632a1bf423731e17.pdf"
+    },
+    {
+     "time": "2026-08-04 00:00:00",
+     "timestamp": 1785772800,
+     "title": "关于诉讼事项的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/04/37331da325911c28b739b99c3b047ada.pdf"
+    },
+    {
+     "time": "2026-08-04 00:00:00",
+     "timestamp": 1785772800,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/04/13053f2ce779e83a463ecfa2cd6242fa.pdf"
+    },
+    {
+     "time": "2026-07-15 00:00:00",
+     "timestamp": 1784044800,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/15/fa2101b36e866fe6229e203e481a5432.pdf"
+    },
+    {
+     "time": "2026-05-21 00:00:00",
+     "timestamp": 1779292800,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/21/fc845f6642afc244e8e49da90b9b6bd5.pdf"
+    },
+    {
+     "time": "2026-04-29 00:00:00",
+     "timestamp": 1777392000,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/29/64f275094a8e3e78a06c847d2b3eb666.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/81fc4dead55aa6bf6761d98fb44e98e9.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/fe5651c868b56824632a1bf423731e17.pdf"
+    },
+    {
+     "time": "2026-08-04 00:00:00",
+     "timestamp": 1785772800,
+     "title": "关于诉讼事项的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/04/37331da325911c28b739b99c3b047ada.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002131",
+    "announcements": "https://www.cls.cn/stock?code=sz002131&tab=notice"
+   }
+  },
+  "sh601788": {
+   "code": "sh601788",
+   "name": "光大证券",
+   "researchedAt": "2026-09-22T05:54:36.877Z",
+   "asOfDate": "2026-09-22",
+   "industry": "非银金融-证券Ⅱ-证券Ⅲ",
+   "concepts": [
+    "国企改革",
+    "央企改革",
+    "大金融",
+    "中央汇金",
+    "证金汇金概念"
+   ],
+   "valuation": {
+    "ttmPe": 15.19,
+    "dynamicPe": 14.55,
+    "pb": 1.055,
+    "marketCapYi": 648.74,
+    "lastPrice": 14.07
+   },
+   "momentum": {
+    "change3m": 1.74,
+    "change5d": 1.88
+   },
+   "financial": {
+    "revenueYoy": 18.17,
+    "profitYoy": 32.77,
+    "roe": 2.99,
+    "debtRatio": 78.5
+   },
+   "announcements": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "光大证券股份有限公司2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/0de54691311d920fd4c349e043c63412.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "光大证券股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/bfaea382dc747fd118836a3aa57dbb6c.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "光大证券股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/d0a5898037b9a3aecc840c43a0122967.pdf"
+    },
+    {
+     "time": "2026-06-10 00:00:00",
+     "timestamp": 1781020800,
+     "title": "光大证券股份有限公司关于非公开发行短期公司债券获得上海证券交易所挂牌转让无异议函的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/10/905c67888ad77900e14cf9b8d656572e.pdf"
+    },
+    {
+     "time": "2026-04-30 00:00:00",
+     "timestamp": 1777478400,
+     "title": "光大证券股份有限公司2026年第一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/30/a049180b44e98c4e7f100f934191f464.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "光大证券股份有限公司2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/0de54691311d920fd4c349e043c63412.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "光大证券股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/bfaea382dc747fd118836a3aa57dbb6c.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "光大证券股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/d0a5898037b9a3aecc840c43a0122967.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh601788",
+    "announcements": "https://www.cls.cn/stock?code=sh601788&tab=notice"
    }
   }
  }
