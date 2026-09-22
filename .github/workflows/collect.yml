@@ -289,36 +289,52 @@ jobs:
             echo "publish_pages=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: 写回 data 分支
+      - name: 写回 data 分支（独立临时克隆，不切换当前工作区）
         if: steps.resolve.outputs.skipped != 'true'
+        continue-on-error: true
         run: |
+          set +e
           if [ ! -f data/pushed.json ] && [ ! -f data/pools/all-a.json ] && [ ! -f data/pushes.db ]; then
             echo "无 data 产物，跳过"
             exit 0
           fi
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          tmp=$(mktemp -d)
-          [ -f data/pushed.json ] && cp data/pushed.json "$tmp/pushed.json"
-          [ -f data/pools/all-a.json ] && mkdir -p "$tmp/pools" && cp data/pools/all-a.json "$tmp/pools/all-a.json"
-          [ -f data/pushes.db ] && cp data/pushes.db "$tmp/pushes.db"
-          git fetch origin data --depth 1 || true
-          if git show-ref --verify --quiet refs/remotes/origin/data; then
-            git checkout -B data origin/data
+
+          SRC=$PWD
+          WORK=$(mktemp -d)
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 优先浅克隆已有 data；没有则从默认分支建 orphan
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git clone --depth 1 --branch data "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$WORK"
           else
+            git clone --depth 1 "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$WORK"
+            cd "$WORK"
             git checkout --orphan data
-            git rm -rf . >/dev/null 2>&1 || true
+            git rm -rf . >/dev/null 2>&1
+            cd "$SRC"
           fi
-          [ -f "$tmp/pushed.json" ] && cp "$tmp/pushed.json" pushed.json && git add pushed.json
-          if [ -f "$tmp/pools/all-a.json" ]; then
+
+          cd "$WORK"
+          [ -f "$SRC/data/pushed.json" ] && cp "$SRC/data/pushed.json" pushed.json && git add pushed.json
+          if [ -f "$SRC/data/pools/all-a.json" ]; then
             mkdir -p pools
-            cp "$tmp/pools/all-a.json" pools/all-a.json
+            cp "$SRC/data/pools/all-a.json" pools/all-a.json
             git add pools/all-a.json
           fi
-          [ -f "$tmp/pushes.db" ] && cp "$tmp/pushes.db" pushes.db && git add pushes.db
-          git commit -m "update pushed + pool + pushes.db [skip ci]" || echo "无变化"
-          git push origin data || echo "push data 失败（影子期可无 write）"
-          git checkout -
+          [ -f "$SRC/data/pushes.db" ] && cp "$SRC/data/pushes.db" pushes.db && git add pushes.db
+
+          if git diff --cached --quiet; then
+            echo "data 分支无变更"
+          else
+            git commit -m "update pushed + pool + pushes.db [skip ci]"
+            git push -u origin HEAD:data
+            echo "data 分支 push exit=$?"
+          fi
+          cd "$SRC"
+          exit 0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 组装 _site（保留现网 perf）
         if: steps.resolve.outputs.skipped != 'true'
