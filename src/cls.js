@@ -124,8 +124,26 @@ async function api(path, params = {}, { retries = 3, timeout = 20000 } = {}) {
 
 const XQUOTE_HOST = 'https://x-quote.cls.cn';
 
-/** 调行情域（x-quote.cls.cn）接口，签名规则与网页 API 相同。 */
+/** 调行情域（x-quote.cls.cn）接口，签名规则与网页 API 相同；失败回退 CF /xquote。 */
 async function xquote(path, params = {}, { retries = 3, timeout = 20000 } = {}) {
+  try {
+    return await xquoteDirect(path, params, { retries: retries, timeout: timeout });
+  } catch (err) {
+    const fb = resolveXquoteFallbackUrl();
+    if (!fb) throw err;
+    console.warn('[cls] xquote 直连失败，改走回退 ' + fb + ': '
+      + (err && err.message ? err.message : err));
+    return await xquoteViaFallback(fb, path, params, timeout);
+  }
+}
+
+function resolveXquoteFallbackUrl() {
+  const fb = process.env.XQUOTE_FALLBACK_URL;
+  if (fb === undefined || fb === null) return 'https://jxie.ccwu.cc/xquote';
+  return String(fb).trim();
+}
+
+async function xquoteDirect(path, params = {}, { retries = 3, timeout = 20000 } = {}) {
   const p = Object.assign({ os: 'web', sv: SV, app: APP }, params);
   const qs = queryString(p);
   const url = new URL(XQUOTE_HOST + path);
@@ -146,6 +164,30 @@ async function xquote(path, params = {}, { retries = 3, timeout = 20000 } = {}) 
     }
   }
   throw lastErr;
+}
+
+async function xquoteViaFallback(baseUrl, apiPath, params, timeout) {
+  const u = new URL(baseUrl);
+  u.searchParams.set('path', apiPath);
+  for (const [k, v] of Object.entries(params || {})) {
+    if (v !== undefined && v !== null) u.searchParams.set(k, String(v));
+  }
+  const ctrl = new AbortController();
+  const timer = setTimeout(function () { ctrl.abort(); }, timeout || 20000);
+  try {
+    const res = await fetch(u.toString(), {
+      signal: ctrl.signal,
+      headers: {
+        'User-Agent': UA,
+        Accept: 'application/json',
+      },
+    });
+    const text = await res.text();
+    if (!res.ok) throw new Error('fallback HTTP ' + res.status + ': ' + text.slice(0, 160));
+    return JSON.parse(text || '{}');
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 /**

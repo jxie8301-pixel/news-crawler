@@ -138,7 +138,8 @@ async function main() {
   try {
     tradeDays = await loadTradeDays();
   } catch (e) {
-    console.error('[push-perf] 拉取交易日历失败: ' + (e && e.message ? e.message : e));
+    console.error('[push-perf] 拉取交易日历失败（上证日K/x-quote）: '
+      + (e && e.message ? e.message : e));
     process.exit(1);
   }
   console.log('[push-perf] 交易日样本=' + tradeDays.length +
