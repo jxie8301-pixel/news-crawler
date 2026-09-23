@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T03:36:53.796Z",
+ "updatedAt": "2026-09-23T04:15:30.132Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -5056,8 +5056,8 @@
   "sh603009": {
    "code": "sh603009",
    "name": "北特科技",
-   "researchedAt": "2026-09-14T14:58:07.272Z",
-   "asOfDate": "2026-09-14",
+   "researchedAt": "2026-09-23T04:15:28.015Z",
+   "asOfDate": "2026-09-23",
    "industry": "汽车-汽车零部件-底盘与发动机系统",
    "concepts": [
     "汽车零部件",
@@ -5067,15 +5067,15 @@
     "汽车"
    ],
    "valuation": {
-    "ttmPe": 120.87,
-    "dynamicPe": 122.23,
-    "pb": 7.574,
-    "marketCapYi": 154.32,
-    "lastPrice": 44.55
+    "ttmPe": 131.09,
+    "dynamicPe": 132.57,
+    "pb": 8.215,
+    "marketCapYi": 167.38,
+    "lastPrice": 48.32
    },
    "momentum": {
-    "change3m": -7.19,
-    "change5d": -8.78
+    "change3m": -1.97,
+    "change5d": 12.22
    },
    "financial": {
     "revenueYoy": 8.2,
@@ -7068,8 +7068,8 @@
   "sz301550": {
    "code": "sz301550",
    "name": "斯菱智驱",
-   "researchedAt": "2026-09-21T14:49:08.437Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-23T04:15:27.988Z",
+   "asOfDate": "2026-09-23",
    "industry": "汽车-汽车零部件-底盘与发动机系统",
    "concepts": [
     "汽车零部件",
@@ -7079,15 +7079,15 @@
     "ADAS（辅助驾驶）"
    ],
    "valuation": {
-    "ttmPe": 219.34,
-    "dynamicPe": 213.96,
-    "pb": 18.023,
-    "marketCapYi": 330.42,
-    "lastPrice": 98.53
+    "ttmPe": 210.59,
+    "dynamicPe": 205.43,
+    "pb": 17.305,
+    "marketCapYi": 317.24,
+    "lastPrice": 94.6
    },
    "momentum": {
-    "change3m": 13.38,
-    "change5d": 9.48
+    "change3m": -0.31,
+    "change5d": 8.86
    },
    "financial": {
     "revenueYoy": 7.61,
@@ -9085,8 +9085,8 @@
   "sz000962": {
    "code": "sz000962",
    "name": "东方钽业",
-   "researchedAt": "2026-09-22T04:10:39.805Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T04:15:30.132Z",
+   "asOfDate": "2026-09-23",
    "industry": "有色金属-小金属-其他小金属",
    "concepts": [
     "有色金属概念",
@@ -9096,15 +9096,15 @@
     "有色·钛"
    ],
    "valuation": {
-    "ttmPe": 137.55,
-    "dynamicPe": 132.62,
-    "pb": 8.066,
-    "marketCapYi": 324.34,
-    "lastPrice": 61.5
+    "ttmPe": 135.36,
+    "dynamicPe": 130.51,
+    "pb": 7.937,
+    "marketCapYi": 319.17,
+    "lastPrice": 60.52
    },
    "momentum": {
-    "change3m": 6.13,
-    "change5d": 7.52
+    "change3m": 0.87,
+    "change5d": 2.11
    },
    "financial": {
     "revenueYoy": 30.5,
@@ -9113,6 +9113,18 @@
     "debtRatio": 27.65
    },
    "announcements": [
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "招商证券股份有限公司关于宁夏东方钽业股份有限公司向特定对象发行股票的部分限售股份解除限售上市流通的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/3fa43448de52c1447abd99afd8471025.pdf"
+    },
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "宁夏东方钽业股份有限公司关于向特定对象发行股票的部分限售股份解除限售上市流通的提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/ee0cc6c05e51ac7f630a09382af5385b.pdf"
+    },
     {
      "time": "2026-08-25 00:00:00",
      "timestamp": 1787587200,
@@ -9148,32 +9160,26 @@
      "timestamp": 1782748800,
      "title": "股票交易异常波动公告",
      "url": "http://xk-annc-a.cls.cn/annc/2026/06/30/a7af19c354a72e6cc9ed3aff4b50ef68.pdf"
-    },
-    {
-     "time": "2026-06-25 00:00:00",
-     "timestamp": 1782316800,
-     "title": "股票交易异常波动公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/06/25/22655822e774a981999f30c57380bb39.pdf"
     }
    ],
    "keyEvents": [
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "招商证券股份有限公司关于宁夏东方钽业股份有限公司向特定对象发行股票的部分限售股份解除限售上市流通的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/3fa43448de52c1447abd99afd8471025.pdf"
+    },
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "宁夏东方钽业股份有限公司关于向特定对象发行股票的部分限售股份解除限售上市流通的提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/ee0cc6c05e51ac7f630a09382af5385b.pdf"
+    },
     {
      "time": "2026-08-25 00:00:00",
      "timestamp": 1787587200,
      "title": "2026年半年度报告",
      "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/82542deb06a1e62462dcfcf8a9255a15.pdf"
-    },
-    {
-     "time": "2026-08-25 00:00:00",
-     "timestamp": 1787587200,
-     "title": "2026年半年度报告摘要",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/429ffc6a70406471ef4a848f2b34a614.pdf"
-    },
-    {
-     "time": "2026-08-14 00:00:00",
-     "timestamp": 1786636800,
-     "title": "关于部分限制性股票回购注销完成的公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/08/14/b473e240f8b64dd07c48719a35d6264d.pdf"
     }
    ],
    "sources": {
@@ -38160,6 +38166,69 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz300100",
     "announcements": "https://www.cls.cn/stock?code=sz300100&tab=notice"
+   }
+  },
+  "sz301529": {
+   "code": "sz301529",
+   "name": "福赛科技",
+   "researchedAt": "2026-09-23T04:15:28.010Z",
+   "asOfDate": "2026-09-23",
+   "industry": "汽车-汽车零部件-车身附件及饰件",
+   "concepts": [
+    "汽车零部件",
+    "新能源汽车",
+    "机器人概念",
+    "5G基站",
+    "5G产业链"
+   ],
+   "valuation": {
+    "ttmPe": 111.47,
+    "dynamicPe": 109.3,
+    "pb": 10.869,
+    "marketCapYi": 158,
+    "lastPrice": 133.42
+   },
+   "momentum": {
+    "change3m": 4.96,
+    "change5d": 14.53
+   },
+   "financial": {
+    "revenueYoy": 0.36,
+    "profitYoy": 14.25,
+    "roe": 4.97,
+    "debtRatio": 38.41
+   },
+   "announcements": [
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/6e0b3e7e399f93ce11233871da5c8f9a.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/b0e6fd06cc442fd4f6cf567cf6f89bcb.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/6e0b3e7e399f93ce11233871da5c8f9a.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/b0e6fd06cc442fd4f6cf567cf6f89bcb.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz301529",
+    "announcements": "https://www.cls.cn/stock?code=sz301529&tab=notice"
    }
   }
  }
