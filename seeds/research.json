@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T09:27:12.168Z",
+ "updatedAt": "2026-09-23T10:15:29.503Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -11974,8 +11974,8 @@
   "sz301150": {
    "code": "sz301150",
    "name": "中一科技",
-   "researchedAt": "2026-09-15T14:33:54.361Z",
-   "asOfDate": "2026-09-15",
+   "researchedAt": "2026-09-23T10:15:27.589Z",
+   "asOfDate": "2026-09-23",
    "industry": "电力设备-电池-锂电池",
    "concepts": [
     "铜箔/覆铜板",
@@ -11985,15 +11985,15 @@
     "锂电铜箔"
    ],
    "valuation": {
-    "ttmPe": 59.93,
-    "dynamicPe": 38.96,
-    "pb": 3.49,
-    "marketCapYi": 129.82,
-    "lastPrice": 40.08
+    "ttmPe": 73.57,
+    "dynamicPe": 47.83,
+    "pb": 4.285,
+    "marketCapYi": 159.36,
+    "lastPrice": 49.2
    },
    "momentum": {
-    "change3m": 3.54,
-    "change5d": 7.19
+    "change3m": 18.84,
+    "change5d": 20.53
    },
    "financial": {
     "revenueYoy": 47.15,
@@ -34834,8 +34834,8 @@
   "sh688041": {
    "code": "sh688041",
    "name": "海光信息",
-   "researchedAt": "2026-09-22T09:58:19.915Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T10:15:26.844Z",
+   "asOfDate": "2026-09-23",
    "industry": "电子-半导体-数字芯片设计",
    "concepts": [
     "半导体芯片",
@@ -34845,15 +34845,15 @@
     "芯片产业链"
    ],
    "valuation": {
-    "ttmPe": 189.39,
-    "dynamicPe": 165.43,
-    "pb": 23.451,
-    "marketCapYi": 5950.31,
-    "lastPrice": 256
+    "ttmPe": 186.17,
+    "dynamicPe": 162.62,
+    "pb": 23.054,
+    "marketCapYi": 5849.43,
+    "lastPrice": 251.66
    },
    "momentum": {
-    "change3m": 10.34,
-    "change5d": 13.98
+    "change3m": 4.26,
+    "change5d": 7.05
    },
    "financial": {
     "revenueYoy": 66.52,
@@ -38560,6 +38560,105 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz002859",
     "announcements": "https://www.cls.cn/stock?code=sz002859&tab=notice"
+   }
+  },
+  "sh688628": {
+   "code": "sh688628",
+   "name": "优利德  ",
+   "researchedAt": "2026-09-23T10:15:29.503Z",
+   "asOfDate": "2026-09-23",
+   "industry": "机械设备-通用设备-仪器仪表",
+   "concepts": [
+    "检测检验",
+    "光通信",
+    "科学仪器",
+    "光纤光缆",
+    "并购重组"
+   ],
+   "valuation": {
+    "ttmPe": 66.58,
+    "dynamicPe": 45.94,
+    "pb": 9.641,
+    "marketCapYi": 128.62,
+    "lastPrice": 114.44
+   },
+   "momentum": {
+    "change3m": 42.32,
+    "change5d": 50.09
+   },
+   "financial": {
+    "revenueYoy": 32.02,
+    "profitYoy": 48.86,
+    "roe": 10.55,
+    "debtRatio": 30.92
+   },
+   "announcements": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "董事减持股份结果公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/e5663be69191f32c2dbc77b79148c7d3.pdf"
+    },
+    {
+     "time": "2026-08-15 00:00:00",
+     "timestamp": 1786723200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/15/2149dbc6db75fbaea127bece35f2e313.pdf"
+    },
+    {
+     "time": "2026-08-15 00:00:00",
+     "timestamp": 1786723200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/15/db37acc4f7ce8f4e9aeceae65d94e4e0.pdf"
+    },
+    {
+     "time": "2026-07-23 00:00:00",
+     "timestamp": 1784736000,
+     "title": "2026年半年度业绩预告的自愿性披露公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/23/ffe171c3c6f3d8aa8b55b114859a4da8.pdf"
+    },
+    {
+     "time": "2026-07-11 00:00:00",
+     "timestamp": 1783699200,
+     "title": "关于收购浙江信测通信股份有限公司部分股权的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/11/ae29acaed9ad8c50b3d8c340da9c8a4d.pdf"
+    },
+    {
+     "time": "2026-07-01 00:00:00",
+     "timestamp": 1782835200,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/01/539942aa0081a01ed7462650940602d3.pdf"
+    },
+    {
+     "time": "2026-06-09 00:00:00",
+     "timestamp": 1780934400,
+     "title": "董事减持股份计划公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/09/6697a3bef0b2d05a28033c9aa276c555.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "董事减持股份结果公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/e5663be69191f32c2dbc77b79148c7d3.pdf"
+    },
+    {
+     "time": "2026-08-15 00:00:00",
+     "timestamp": 1786723200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/15/2149dbc6db75fbaea127bece35f2e313.pdf"
+    },
+    {
+     "time": "2026-08-15 00:00:00",
+     "timestamp": 1786723200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/15/db37acc4f7ce8f4e9aeceae65d94e4e0.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688628",
+    "announcements": "https://www.cls.cn/stock?code=sh688628&tab=notice"
    }
   }
  }
