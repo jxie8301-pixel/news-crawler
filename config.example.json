@@ -1,9 +1,9 @@
 {
   "days": 1,
-  "concurrency": 5,
+  "concurrency": 4,
   "requestDelayMs": 80,
   "scanTimeoutMinutes": 10,
-  "matrixShards": 5,
+  "matrixShards": 4,
   "statusUrl": "https://jxie8301-pixel.github.io/cls-news/status.json",
   "poolFile": "data/pools/all-a.json",
   "syncPoolsOnStart": false,
