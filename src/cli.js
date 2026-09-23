@@ -204,6 +204,12 @@ async function cmdPost() {
   if (out.cardsPath) console.log('  ' + out.cardsPath);
 
   const curVipIds = loadVipIdsFromGate();
+  const rowArticleIds = new Set(rows.map(function (r) { return String(r.articleId || '').split('#')[0]; }).filter(Boolean));
+  const missingVip = (curVipIds || []).filter(function (id) { return !rowArticleIds.has(String(id)); });
+  if (missingVip.length) {
+    console.warn('[post] VIP 已门控但扫描未命中（通常索引延迟）: ' + missingVip.slice(0, 10).join(','));
+  }
+
   const nowMs = Date.now();
   const statusPath = path.join(report.OUT_DIR, 'status.json');
   let prevVip = [];

@@ -97,6 +97,12 @@ jobs:
       shard_list: ${{ steps.gen.outputs.shard_list }}
     steps:
       - uses: actions/checkout@v5
+      # 外部 VIP 哨兵往往在「个股新闻流尚未挂上该文」时就触发；稍等再扫，否则 0 命中、企微无推送
+      - name: 等待 VIP 入库个股流
+        if: github.event.inputs.assume_new_vip == 'true'
+        run: |
+          echo "assume_new_vip=true → sleep 120s（避免扫描早于财联社个股索引）"
+          sleep 120
       - name: 生成分片列表
         id: gen
         env:
