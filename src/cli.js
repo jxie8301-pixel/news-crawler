@@ -207,7 +207,7 @@ async function cmdPost() {
   const rowArticleIds = new Set(rows.map(function (r) { return String(r.articleId || '').split('#')[0]; }).filter(Boolean));
   const missingVip = (curVipIds || []).filter(function (id) { return !rowArticleIds.has(String(id)); });
   if (missingVip.length) {
-    console.warn('[post] VIP 已门控但扫描未命中（通常索引延迟）: ' + missingVip.slice(0, 10).join(','));
+    console.warn('[post] VIP 已门控但个股流未命中（VIP 文可能不进 /es/quotes/articles）: ' + missingVip.slice(0, 10).join(','));
   }
 
   const nowMs = Date.now();
