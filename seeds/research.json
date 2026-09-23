@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T00:22:58.320Z",
+ "updatedAt": "2026-09-23T00:40:29.953Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -33031,8 +33031,8 @@
   "sz000066": {
    "code": "sz000066",
    "name": "中国长城",
-   "researchedAt": "2026-09-22T00:29:53.047Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T00:40:29.952Z",
+   "asOfDate": "2026-09-23",
    "industry": "计算机-计算机设备-其他计算机设备",
    "concepts": [
     "信创",
@@ -33042,15 +33042,15 @@
     "北斗导航"
    ],
    "valuation": {
-    "ttmPe": 405.44,
-    "dynamicPe": 76.7,
-    "pb": 4.225,
-    "marketCapYi": 478.71,
-    "lastPrice": 14.84
+    "ttmPe": 433.58,
+    "dynamicPe": 82.03,
+    "pb": 4.518,
+    "marketCapYi": 511.93,
+    "lastPrice": 15.87
    },
    "momentum": {
-    "change3m": 4.88,
-    "change5d": 6.61
+    "change3m": 14.42,
+    "change5d": 14.5
    },
    "financial": {
     "revenueYoy": 25,
@@ -33118,8 +33118,8 @@
   "sh600770": {
    "code": "sh600770",
    "name": "综艺股份",
-   "researchedAt": "2026-09-22T00:29:53.318Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T00:40:29.653Z",
+   "asOfDate": "2026-09-23",
    "industry": "综合-综合Ⅱ-综合Ⅲ",
    "concepts": [
     "半导体芯片",
@@ -33129,15 +33129,15 @@
     "游戏"
    ],
    "valuation": {
-    "ttmPe": 57.49,
-    "dynamicPe": 83.15,
-    "pb": 2.304,
-    "marketCapYi": 78.39,
-    "lastPrice": 6.03
+    "ttmPe": 63.21,
+    "dynamicPe": 91.42,
+    "pb": 2.533,
+    "marketCapYi": 86.19,
+    "lastPrice": 6.63
    },
    "momentum": {
-    "change3m": 3.97,
-    "change5d": 6.73
+    "change3m": 18.39,
+    "change5d": 19.24
    },
    "financial": {
     "revenueYoy": 55.18,
@@ -33310,8 +33310,8 @@
   "sz300058": {
    "code": "sz300058",
    "name": "蓝色光标",
-   "researchedAt": "2026-09-22T00:29:54.597Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T00:40:29.680Z",
+   "asOfDate": "2026-09-23",
    "industry": "传媒-广告营销-营销代理",
    "concepts": [
     "数字营销",
@@ -33321,15 +33321,15 @@
     "网红经济"
    ],
    "valuation": {
-    "ttmPe": 139.08,
-    "dynamicPe": 111.7,
-    "pb": 5.933,
-    "marketCapYi": 472.47,
-    "lastPrice": 13.16
+    "ttmPe": 148.49,
+    "dynamicPe": 119.26,
+    "pb": 6.335,
+    "marketCapYi": 504.43,
+    "lastPrice": 14.05
    },
    "momentum": {
-    "change3m": 1.78,
-    "change5d": 2.17
+    "change3m": 9.08,
+    "change5d": 9.85
    },
    "financial": {
     "revenueYoy": 6.8,
@@ -37683,6 +37683,297 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh603538",
     "announcements": "https://www.cls.cn/stock?code=sh603538&tab=notice"
+   }
+  },
+  "sz000049": {
+   "code": "sz000049",
+   "name": "德赛电池",
+   "researchedAt": "2026-09-23T00:40:29.811Z",
+   "asOfDate": "2026-09-23",
+   "industry": "电力设备-电池-锂电池",
+   "concepts": [
+    "锂电池",
+    "苹果产业链",
+    "小米概念",
+    "粤港澳大湾区",
+    "VR/AR"
+   ],
+   "valuation": {
+    "ttmPe": 21.62,
+    "dynamicPe": 21.06,
+    "pb": 1.266,
+    "marketCapYi": 86.47,
+    "lastPrice": 22.48
+   },
+   "momentum": {
+    "change3m": 1.26,
+    "change5d": 2.65
+   },
+   "financial": {
+    "revenueYoy": 9.78,
+    "profitYoy": 510.98,
+    "roe": 3,
+    "debtRatio": 60.37
+   },
+   "announcements": [
+    {
+     "time": "2026-08-18 00:00:00",
+     "timestamp": 1786982400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/18/dd029d483c3ccdccd0d17d359907b2db.pdf"
+    },
+    {
+     "time": "2026-08-18 00:00:00",
+     "timestamp": 1786982400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/18/eb9ecd5fa321f6d1d5c8a693a741ce88.pdf"
+    },
+    {
+     "time": "2026-07-14 00:00:00",
+     "timestamp": 1783958400,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/14/9ce83db195b2e1cc6bacb72a148423a4.pdf"
+    },
+    {
+     "time": "2026-05-21 00:00:00",
+     "timestamp": 1779292800,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/21/6edd46f3dfb0b7cc74d980c0aef132aa.pdf"
+    },
+    {
+     "time": "2026-04-23 00:00:00",
+     "timestamp": 1776873600,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/23/13f1847de63af5b388a640e24f2ecbde.pdf"
+    },
+    {
+     "time": "2026-04-23 00:00:00",
+     "timestamp": 1776873600,
+     "title": "2026年一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/23/0a07e5a33d91e7fad9b44dd7836641ad.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-18 00:00:00",
+     "timestamp": 1786982400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/18/dd029d483c3ccdccd0d17d359907b2db.pdf"
+    },
+    {
+     "time": "2026-08-18 00:00:00",
+     "timestamp": 1786982400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/18/eb9ecd5fa321f6d1d5c8a693a741ce88.pdf"
+    },
+    {
+     "time": "2026-07-14 00:00:00",
+     "timestamp": 1783958400,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/14/9ce83db195b2e1cc6bacb72a148423a4.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz000049",
+    "announcements": "https://www.cls.cn/stock?code=sz000049&tab=notice"
+   }
+  },
+  "sh688458": {
+   "code": "sh688458",
+   "name": "美芯晟  ",
+   "researchedAt": "2026-09-23T00:40:29.838Z",
+   "asOfDate": "2026-09-23",
+   "industry": "电子-半导体-模拟芯片设计",
+   "concepts": [
+    "半导体芯片",
+    "无线充电",
+    "LED",
+    "机器人概念",
+    "回购"
+   ],
+   "valuation": {
+    "ttmPe": -176.72,
+    "dynamicPe": -416.66,
+    "pb": 2.349,
+    "marketCapYi": 42.79,
+    "lastPrice": 38.36
+   },
+   "momentum": {
+    "change3m": 1.75,
+    "change5d": 4.98
+   },
+   "financial": {
+    "revenueYoy": 4.85,
+    "profitYoy": -202.55,
+    "roe": -0.28,
+    "debtRatio": 10.75
+   },
+   "announcements": [
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "美芯晟科技（北京）股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/a00d82722acc832107de10e0544332b7.pdf"
+    },
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "美芯晟科技（北京）股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/b2afb7c373d592691cf90587e624baa9.pdf"
+    },
+    {
+     "time": "2026-08-06 00:00:00",
+     "timestamp": 1785945600,
+     "title": "关于美芯晟科技（北京）股份有限公司2025年年度报告的信息披露监管问询函中有关财务会计问题的专项说明",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/06/4722f6cc880357f9d55702a8240c6906.pdf"
+    },
+    {
+     "time": "2026-08-06 00:00:00",
+     "timestamp": 1785945600,
+     "title": "关于2025年年度报告的信息披露监管问询函的回复公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/06/52e432c38ebbd2aa5dfcc8acdcd91864.pdf"
+    },
+    {
+     "time": "2026-05-15 00:00:00",
+     "timestamp": 1778774400,
+     "title": "中信建投证券股份有限公司关于美芯晟科技（北京）股份有限公司首次公开发行部分限售股上市流通的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/15/b5cb53e8aa80a7d2c0966f4a9ccc76df.pdf"
+    },
+    {
+     "time": "2026-05-15 00:00:00",
+     "timestamp": 1778774400,
+     "title": "首次公开发行部分限售股上市流通公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/15/fba4da3f091432402dbf9a912cb4a77a.pdf"
+    },
+    {
+     "time": "2026-04-30 00:00:00",
+     "timestamp": 1777478400,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/30/fffad57f3c3a524b4afc6a15025f040d.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "美芯晟科技（北京）股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/a00d82722acc832107de10e0544332b7.pdf"
+    },
+    {
+     "time": "2026-08-31 00:00:00",
+     "timestamp": 1788105600,
+     "title": "美芯晟科技（北京）股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/31/b2afb7c373d592691cf90587e624baa9.pdf"
+    },
+    {
+     "time": "2026-08-06 00:00:00",
+     "timestamp": 1785945600,
+     "title": "关于美芯晟科技（北京）股份有限公司2025年年度报告的信息披露监管问询函中有关财务会计问题的专项说明",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/06/4722f6cc880357f9d55702a8240c6906.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688458",
+    "announcements": "https://www.cls.cn/stock?code=sh688458&tab=notice"
+   }
+  },
+  "sz002632": {
+   "code": "sz002632",
+   "name": "道明光学",
+   "researchedAt": "2026-09-23T00:40:29.841Z",
+   "asOfDate": "2026-09-23",
+   "industry": "基础化工-塑料-膜材料",
+   "concepts": [
+    "消费电子",
+    "化工",
+    "LED",
+    "VR/AR",
+    "充电桩"
+   ],
+   "valuation": {
+    "ttmPe": 31.35,
+    "dynamicPe": 34.87,
+    "pb": 2.826,
+    "marketCapYi": 61.27,
+    "lastPrice": 9.81
+   },
+   "momentum": {
+    "change3m": 8.16,
+    "change5d": 6.17
+   },
+   "financial": {
+    "revenueYoy": -13.2,
+    "profitYoy": -22.49,
+    "roe": 4.05,
+    "debtRatio": 28.52
+   },
+   "announcements": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/ddf13633348c6f3a6e9f2ec1b8ee0bde.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/b9d9edb1de7bb7cbba6c133279ea3384.pdf"
+    },
+    {
+     "time": "2026-07-22 00:00:00",
+     "timestamp": 1784649600,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/22/d366d8ae8909c85960febad344c1e633.pdf"
+    },
+    {
+     "time": "2026-07-18 00:00:00",
+     "timestamp": 1784304000,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/18/7bc7df8dfff39923b056d7186c292ab4.pdf"
+    },
+    {
+     "time": "2026-04-29 00:00:00",
+     "timestamp": 1777392000,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/29/4d93abc8ec13b1312a1fa909593a59b7.pdf"
+    },
+    {
+     "time": "2026-04-23 00:00:00",
+     "timestamp": 1776873600,
+     "title": "2026年一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/23/f345612c5656422b1b4bc016a9cc33c9.pdf"
+    },
+    {
+     "time": "2026-03-31 00:00:00",
+     "timestamp": 1774886400,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/03/31/2cdfb0ea1ea15abcb42a9842e9425d94.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/ddf13633348c6f3a6e9f2ec1b8ee0bde.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/b9d9edb1de7bb7cbba6c133279ea3384.pdf"
+    },
+    {
+     "time": "2026-07-22 00:00:00",
+     "timestamp": 1784649600,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/22/d366d8ae8909c85960febad344c1e633.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002632",
+    "announcements": "https://www.cls.cn/stock?code=sz002632&tab=notice"
    }
   }
  }
