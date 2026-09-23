@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T06:59:32.151Z",
+ "updatedAt": "2026-09-23T09:27:12.168Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -38455,6 +38455,111 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh600498",
     "announcements": "https://www.cls.cn/stock?code=sh600498&tab=notice"
+   }
+  },
+  "sz002859": {
+   "code": "sz002859",
+   "name": "洁美科技",
+   "researchedAt": "2026-09-23T09:27:12.167Z",
+   "asOfDate": "2026-09-23",
+   "industry": "",
+   "concepts": [],
+   "valuation": {
+    "ttmPe": 120.2,
+    "dynamicPe": 113.03,
+    "pb": 8.153,
+    "marketCapYi": 311.43,
+    "lastPrice": 68.65
+   },
+   "momentum": {
+    "change3m": 0.22,
+    "change5d": 1.18
+   },
+   "financial": {
+    "revenueYoy": null,
+    "profitYoy": null,
+    "roe": null,
+    "debtRatio": null
+   },
+   "announcements": [
+    {
+     "time": "2026-09-12 00:00:00",
+     "timestamp": 1789142400,
+     "title": "北京国枫律师事务所关于浙江洁美电子科技股份有限公司发行股份购买资产并募集配套资金之内幕信息知情人买卖股票的专项核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/12/06fc8b0f394baa3d30e174da4fce20b9.pdf"
+    },
+    {
+     "time": "2026-09-12 00:00:00",
+     "timestamp": 1789142400,
+     "title": "关于发行股份购买资产并募集配套资金相关主体买卖公司股票情况自查报告的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/12/73794d7c0cd42b3007c15d5a5076ba04.pdf"
+    },
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "2026年半年度分红派息实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/93c1dec85765446ca0f10cf8f19169e2.pdf"
+    },
+    {
+     "time": "2026-08-18 00:00:00",
+     "timestamp": 1786982400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/18/8d04b1cb4a83f19ac1800bf2cf6ee519.pdf"
+    },
+    {
+     "time": "2026-08-18 00:00:00",
+     "timestamp": 1786982400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/18/a903ea89970e00c241f883253a415577.pdf"
+    },
+    {
+     "time": "2026-08-11 00:00:00",
+     "timestamp": 1786377600,
+     "title": "浙江洁美电子科技股份有限公司发行股份购买资产并募集配套资金报告书（草案）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/11/b90b3e928106b342a4d2209fbdee8ff2.pdf"
+    },
+    {
+     "time": "2026-08-11 00:00:00",
+     "timestamp": 1786377600,
+     "title": "中信证券股份有限公司关于浙江洁美电子科技股份有限公司发行股份购买资产并募集配套资金之独立财务顾问报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/11/579d3f19a327c44a35e8605eb8a3a32e.pdf"
+    },
+    {
+     "time": "2026-08-11 00:00:00",
+     "timestamp": 1786377600,
+     "title": "金证(上海)资产评估有限公司关于不存在《上市公司监管指引第7号--上市公司重大资产重组相关股票异常交易监管》第十二条规定的不得参与任何上市公司重大资产重组情形的说明",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/11/2ec6817fda259eec0b69311b3f2cd229.pdf"
+    },
+    {
+     "time": "2026-08-11 00:00:00",
+     "timestamp": 1786377600,
+     "title": "北京国枫律师事务所关于浙江洁美电子科技股份有限公司发行股份购买资产并募集配套资金的法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/11/94dbc82bb9470fe6020e25cba71a35e6.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-12 00:00:00",
+     "timestamp": 1789142400,
+     "title": "北京国枫律师事务所关于浙江洁美电子科技股份有限公司发行股份购买资产并募集配套资金之内幕信息知情人买卖股票的专项核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/12/06fc8b0f394baa3d30e174da4fce20b9.pdf"
+    },
+    {
+     "time": "2026-09-12 00:00:00",
+     "timestamp": 1789142400,
+     "title": "关于发行股份购买资产并募集配套资金相关主体买卖公司股票情况自查报告的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/12/73794d7c0cd42b3007c15d5a5076ba04.pdf"
+    },
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "2026年半年度分红派息实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/93c1dec85765446ca0f10cf8f19169e2.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002859",
+    "announcements": "https://www.cls.cn/stock?code=sz002859&tab=notice"
    }
   }
  }
