@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T04:44:11.876Z",
+ "updatedAt": "2026-09-23T05:02:06.487Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -22197,8 +22197,8 @@
   "sz301536": {
    "code": "sz301536",
    "name": "星宸科技",
-   "researchedAt": "2026-09-22T04:59:34.293Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T05:02:05.912Z",
+   "asOfDate": "2026-09-23",
    "industry": "电子-半导体-数字芯片设计",
    "concepts": [
     "半导体芯片",
@@ -22208,15 +22208,15 @@
     "人工智能"
    ],
    "valuation": {
-    "ttmPe": 53.59,
-    "dynamicPe": 32.65,
+    "ttmPe": 53.69,
+    "dynamicPe": 32.71,
     "pb": 14.515,
-    "marketCapYi": 563.41,
+    "marketCapYi": 564.46,
     "lastPrice": 133.6
    },
    "momentum": {
-    "change3m": 18.37,
-    "change5d": 22.25
+    "change3m": 6.23,
+    "change5d": 16.82
    },
    "financial": {
     "revenueYoy": 89.43,
@@ -22284,8 +22284,8 @@
   "sh603893": {
    "code": "sh603893",
    "name": "瑞芯微  ",
-   "researchedAt": "2026-09-22T04:59:34.217Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T05:02:05.821Z",
+   "asOfDate": "2026-09-23",
    "industry": "电子-半导体-数字芯片设计",
    "concepts": [
     "半导体芯片",
@@ -22295,15 +22295,15 @@
     "消费电子"
    ],
    "valuation": {
-    "ttmPe": 67.38,
-    "dynamicPe": 53.64,
-    "pb": 18.712,
-    "marketCapYi": 921.61,
-    "lastPrice": 217.8
+    "ttmPe": 69.3,
+    "dynamicPe": 55.17,
+    "pb": 19.245,
+    "marketCapYi": 947.84,
+    "lastPrice": 224
    },
    "momentum": {
-    "change3m": 20.19,
-    "change5d": 22.91
+    "change3m": 17.87,
+    "change5d": 24.22
    },
    "financial": {
     "revenueYoy": 40.6,
@@ -33907,8 +33907,8 @@
   "sz002290": {
    "code": "sz002290",
    "name": "禾盛新材",
-   "researchedAt": "2026-09-22T04:59:34.105Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T05:02:06.487Z",
+   "asOfDate": "2026-09-23",
    "industry": "家用电器-家电零部件Ⅱ-家电零部件Ⅲ",
    "concepts": [
     "家电",
@@ -33918,15 +33918,15 @@
     "芯片产业链"
    ],
    "valuation": {
-    "ttmPe": 95.35,
-    "dynamicPe": 70.9,
-    "pb": 18.358,
-    "marketCapYi": 193.16,
-    "lastPrice": 77.85
+    "ttmPe": 92.09,
+    "dynamicPe": 68.48,
+    "pb": 17.731,
+    "marketCapYi": 186.56,
+    "lastPrice": 75.19
    },
    "momentum": {
-    "change3m": 20.7,
-    "change5d": 25.81
+    "change3m": 11.86,
+    "change5d": 15.11
    },
    "financial": {
     "revenueYoy": 2.74,
