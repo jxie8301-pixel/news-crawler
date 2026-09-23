@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T02:52:51.372Z",
+ "updatedAt": "2026-09-23T03:36:53.796Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -23057,8 +23057,8 @@
   "sz002708": {
    "code": "sz002708",
    "name": "光洋股份",
-   "researchedAt": "2026-09-17T13:03:25.159Z",
-   "asOfDate": "2026-09-17",
+   "researchedAt": "2026-09-23T03:36:53.369Z",
+   "asOfDate": "2026-09-23",
    "industry": "汽车-汽车零部件-底盘与发动机系统",
    "concepts": [
     "汽车零部件",
@@ -23068,15 +23068,15 @@
     "国企改革"
    ],
    "valuation": {
-    "ttmPe": 92.19,
-    "dynamicPe": 84.8,
-    "pb": 5.351,
-    "marketCapYi": 97.02,
-    "lastPrice": 17.26
+    "ttmPe": 91.82,
+    "dynamicPe": 84.46,
+    "pb": 5.329,
+    "marketCapYi": 96.62,
+    "lastPrice": 17.19
    },
    "momentum": {
-    "change3m": 2.19,
-    "change5d": 5.18
+    "change3m": 0.94,
+    "change5d": 3.18
    },
    "financial": {
     "revenueYoy": 17.43,
@@ -26810,8 +26810,8 @@
   "sz300347": {
    "code": "sz300347",
    "name": "泰格医药",
-   "researchedAt": "2026-09-18T04:24:28.264Z",
-   "asOfDate": "2026-09-18",
+   "researchedAt": "2026-09-23T03:36:53.796Z",
+   "asOfDate": "2026-09-23",
    "industry": "医药生物-医疗服务-医疗研发外包",
    "concepts": [
     "CRO/CMO",
@@ -26819,15 +26819,15 @@
     "回购"
    ],
    "valuation": {
-    "ttmPe": 542.28,
-    "dynamicPe": -59.98,
-    "pb": 2.545,
-    "marketCapYi": 495.61,
-    "lastPrice": 57.56
+    "ttmPe": 548.59,
+    "dynamicPe": -60.68,
+    "pb": 2.574,
+    "marketCapYi": 501.38,
+    "lastPrice": 58.23
    },
    "momentum": {
-    "change3m": 3.14,
-    "change5d": 9.02
+    "change3m": 1.46,
+    "change5d": 2.52
    },
    "financial": {
     "revenueYoy": 14.06,
@@ -26836,6 +26836,12 @@
     "debtRatio": 17.21
    },
    "announcements": [
+    {
+     "time": "2026-09-21 00:00:00",
+     "timestamp": 1789920000,
+     "title": "创业板上市公司股权激励计划自查表（更新）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/21/8f95aa0789a1bca5bdd37d96a21bf853.pdf"
+    },
     {
      "time": "2026-09-12 00:00:00",
      "timestamp": 1789142400,
@@ -26889,15 +26895,15 @@
      "timestamp": 1782921600,
      "title": "2025年度权益分派实施公告",
      "url": "http://xk-annc-a.cls.cn/annc/2026/07/02/e3844f31872bb46b383e5834e74a1975.pdf"
-    },
-    {
-     "time": "2026-07-02 00:00:00",
-     "timestamp": 1782921600,
-     "title": "关于回购公司股份的进展公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/07/02/acf842ed917e7dff99e692d4d5d0c047.pdf"
     }
    ],
    "keyEvents": [
+    {
+     "time": "2026-09-21 00:00:00",
+     "timestamp": 1789920000,
+     "title": "创业板上市公司股权激励计划自查表（更新）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/21/8f95aa0789a1bca5bdd37d96a21bf853.pdf"
+    },
     {
      "time": "2026-09-12 00:00:00",
      "timestamp": 1789142400,
@@ -26909,12 +26915,6 @@
      "timestamp": 1788192000,
      "title": "关于回购公司股份的进展公告",
      "url": "http://xk-annc-a.cls.cn/annc/2026/09/01/1de6af9c20ee3bba6fd47c1d7cef9068.pdf"
-    },
-    {
-     "time": "2026-08-29 00:00:00",
-     "timestamp": 1787932800,
-     "title": "创业板上市公司股权激励计划自查表",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/6ff2cd05b00e1ab3e9bc0206bbe551c3.pdf"
     }
    ],
    "sources": {
@@ -37974,6 +37974,192 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz002632",
     "announcements": "https://www.cls.cn/stock?code=sz002632&tab=notice"
+   }
+  },
+  "sz002669": {
+   "code": "sz002669",
+   "name": "康达新材",
+   "researchedAt": "2026-09-23T03:36:53.299Z",
+   "asOfDate": "2026-09-23",
+   "industry": "基础化工-化学制品-胶黏剂及胶带",
+   "concepts": [
+    "化工",
+    "PCB",
+    "光伏",
+    "风电",
+    "半导体芯片"
+   ],
+   "valuation": {
+    "ttmPe": 42.94,
+    "dynamicPe": 77.07,
+    "pb": 1.615,
+    "marketCapYi": 44.21,
+    "lastPrice": 14.57
+   },
+   "momentum": {
+    "change3m": 5.89,
+    "change5d": 2.82
+   },
+   "financial": {
+    "revenueYoy": 22.53,
+    "profitYoy": -34.94,
+    "roe": 1.05,
+    "debtRatio": 69.02
+   },
+   "announcements": [
+    {
+     "time": "2026-09-12 00:00:00",
+     "timestamp": 1789142400,
+     "title": "关于变更部分回购股份用途并注销暨减少公司注册资本并修订《公司章程》的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/12/6d5c89130fcb0524677a1cab1b8f3b6b.pdf"
+    },
+    {
+     "time": "2026-08-24 00:00:00",
+     "timestamp": 1787500800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/24/29b7b9dd443947c3794e8e199d948c4d.pdf"
+    },
+    {
+     "time": "2026-08-24 00:00:00",
+     "timestamp": 1787500800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/24/efa4412c03e52e76fef6cee5723aa7e8.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-12 00:00:00",
+     "timestamp": 1789142400,
+     "title": "关于变更部分回购股份用途并注销暨减少公司注册资本并修订《公司章程》的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/12/6d5c89130fcb0524677a1cab1b8f3b6b.pdf"
+    },
+    {
+     "time": "2026-08-24 00:00:00",
+     "timestamp": 1787500800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/24/29b7b9dd443947c3794e8e199d948c4d.pdf"
+    },
+    {
+     "time": "2026-08-24 00:00:00",
+     "timestamp": 1787500800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/24/efa4412c03e52e76fef6cee5723aa7e8.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002669",
+    "announcements": "https://www.cls.cn/stock?code=sz002669&tab=notice"
+   }
+  },
+  "sz300100": {
+   "code": "sz300100",
+   "name": "双林股份",
+   "researchedAt": "2026-09-23T03:36:53.392Z",
+   "asOfDate": "2026-09-23",
+   "industry": "汽车-汽车零部件-车身附件及饰件",
+   "concepts": [
+    "汽车零部件",
+    "特斯拉概念",
+    "新能源汽车",
+    "机器人概念",
+    "智能驾驶"
+   ],
+   "valuation": {
+    "ttmPe": 39.26,
+    "dynamicPe": 65.98,
+    "pb": 3.631,
+    "marketCapYi": 120.72,
+    "lastPrice": 20.85
+   },
+   "momentum": {
+    "change3m": 0.68,
+    "change5d": 3.89
+   },
+   "financial": {
+    "revenueYoy": -15.78,
+    "profitYoy": -68.19,
+    "roe": 2.79,
+    "debtRatio": 49.29
+   },
+   "announcements": [
+    {
+     "time": "2026-09-01 00:00:00",
+     "timestamp": 1788192000,
+     "title": "关于回购股份进展的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/01/7ac09a929ec65e6c26f94ac58d11369c.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "关于首次回购公司股份的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/4477954d75ea93d0411d96e9516569bc.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/c5d65245e6a2af2e8467324e1145dc6f.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/f9adfafc43214c0f7fd1d1113ef67df3.pdf"
+    },
+    {
+     "time": "2026-08-13 00:00:00",
+     "timestamp": 1786550400,
+     "title": "关于取得金融机构股票回购专项贷款承诺函的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/13/cba18c1d9f68dcd8b9de7e064d3b55e6.pdf"
+    },
+    {
+     "time": "2026-08-11 00:00:00",
+     "timestamp": 1786377600,
+     "title": "关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/11/d431595a598b15023d805e2205f50c59.pdf"
+    },
+    {
+     "time": "2026-08-06 00:00:00",
+     "timestamp": 1785945600,
+     "title": "回购报告书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/06/5555f07ecc7ce2d1af179aa9ac707432.pdf"
+    },
+    {
+     "time": "2026-08-06 00:00:00",
+     "timestamp": 1785945600,
+     "title": "关于股份回购方案的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/06/fe626ba97073151ccbe9edfeb83a3986.pdf"
+    },
+    {
+     "time": "2026-07-27 00:00:00",
+     "timestamp": 1785081600,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/27/41f178d81d97328df656d3bad547482e.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-01 00:00:00",
+     "timestamp": 1788192000,
+     "title": "关于回购股份进展的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/01/7ac09a929ec65e6c26f94ac58d11369c.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "关于首次回购公司股份的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/4477954d75ea93d0411d96e9516569bc.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/c5d65245e6a2af2e8467324e1145dc6f.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300100",
+    "announcements": "https://www.cls.cn/stock?code=sz300100&tab=notice"
    }
   }
  }
