@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T12:25:14.904Z",
+ "updatedAt": "2026-09-23T12:47:41.874Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -2003,8 +2003,8 @@
   "sz002436": {
    "code": "sz002436",
    "name": "兴森科技",
-   "researchedAt": "2026-09-15T23:02:15.843Z",
-   "asOfDate": "2026-09-16",
+   "researchedAt": "2026-09-23T12:47:40.990Z",
+   "asOfDate": "2026-09-23",
    "industry": "电子-元件-印制电路板",
    "concepts": [
     "PCB",
@@ -2014,15 +2014,15 @@
     "军工"
    ],
    "valuation": {
-    "ttmPe": 320.6,
-    "dynamicPe": 314.23,
-    "pb": 12.317,
-    "marketCapYi": 694.49,
-    "lastPrice": 40.86
+    "ttmPe": 360.15,
+    "dynamicPe": 352.98,
+    "pb": 13.836,
+    "marketCapYi": 780.15,
+    "lastPrice": 45.9
    },
    "momentum": {
-    "change3m": 2.9,
-    "change5d": 1.84
+    "change3m": 7.04,
+    "change5d": 7.24
    },
    "financial": {
     "revenueYoy": 17.86,
@@ -10162,8 +10162,8 @@
   "sh603002": {
    "code": "sh603002",
    "name": "宏昌电子",
-   "researchedAt": "2026-09-16T13:57:19.523Z",
-   "asOfDate": "2026-09-16",
+   "researchedAt": "2026-09-23T12:47:39.977Z",
+   "asOfDate": "2026-09-23",
    "industry": "电子-电子化学品Ⅱ-电子化学品Ⅲ",
    "concepts": [
     "铜箔/覆铜板",
@@ -10173,15 +10173,15 @@
     "芯片产业链"
    ],
    "valuation": {
-    "ttmPe": 376.16,
-    "dynamicPe": 278.97,
-    "pb": 6.32,
-    "marketCapYi": 219.78,
-    "lastPrice": 19.38
+    "ttmPe": 390.33,
+    "dynamicPe": 289.48,
+    "pb": 6.558,
+    "marketCapYi": 228.06,
+    "lastPrice": 20.11
    },
    "momentum": {
-    "change3m": 11,
-    "change5d": 18.1
+    "change3m": 4.85,
+    "change5d": 3.77
    },
    "financial": {
     "revenueYoy": 64.83,
@@ -38770,6 +38770,483 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz000100",
     "announcements": "https://www.cls.cn/stock?code=sz000100&tab=notice"
+   }
+  },
+  "sz002426": {
+   "code": "sz002426",
+   "name": "胜利精密",
+   "researchedAt": "2026-09-23T12:47:39.831Z",
+   "asOfDate": "2026-09-23",
+   "industry": "电子-消费电子-消费电子零部件及组装",
+   "concepts": [
+    "消费电子",
+    "苹果产业链",
+    "特斯拉概念",
+    "新能源汽车",
+    "盖板玻璃"
+   ],
+   "valuation": {
+    "ttmPe": -11.63,
+    "dynamicPe": -25.59,
+    "pb": 6.604,
+    "marketCapYi": 100.72,
+    "lastPrice": 2.96
+   },
+   "momentum": {
+    "change3m": 13.41,
+    "change5d": 12.55
+   },
+   "financial": {
+    "revenueYoy": 4.56,
+    "profitYoy": -371.79,
+    "roe": -12.91,
+    "debtRatio": 73.54
+   },
+   "announcements": [
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/d1d19bfc0f8236a924ebeec1a08b7bb2.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/bf6ca94147bdb435675287c547c7bd48.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "关于新增投资者诉讼事项及进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/b648162a0f82ad01256eaac75b1294c8.pdf"
+    },
+    {
+     "time": "2026-07-15 00:00:00",
+     "timestamp": 1784044800,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/15/b84b50cbde163dd416922918ebaacb6e.pdf"
+    },
+    {
+     "time": "2026-04-25 00:00:00",
+     "timestamp": 1777046400,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/25/300a37c56415a2242084ec886c0fb648.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/d1d19bfc0f8236a924ebeec1a08b7bb2.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/bf6ca94147bdb435675287c547c7bd48.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "关于新增投资者诉讼事项及进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/b648162a0f82ad01256eaac75b1294c8.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002426",
+    "announcements": "https://www.cls.cn/stock?code=sz002426&tab=notice"
+   }
+  },
+  "sh688322": {
+   "code": "sh688322",
+   "name": "奥比中光-W",
+   "researchedAt": "2026-09-23T12:47:39.918Z",
+   "asOfDate": "2026-09-23",
+   "industry": "电子-光学光电子-光学元件",
+   "concepts": [
+    "传感器",
+    "人脸识别",
+    "机器人概念",
+    "人工智能",
+    "智能驾驶"
+   ],
+   "valuation": {
+    "ttmPe": 344.32,
+    "dynamicPe": 452.14,
+    "pb": 9.392,
+    "marketCapYi": 376.55,
+    "lastPrice": 91.21
+   },
+   "momentum": {
+    "change3m": -1.27,
+    "change5d": 0.42
+   },
+   "financial": {
+    "revenueYoy": 0.49,
+    "profitYoy": -31.65,
+    "roe": 1.04,
+    "debtRatio": 9.5
+   },
+   "announcements": [
+    {
+     "time": "2026-09-08 00:00:00",
+     "timestamp": 1788796800,
+     "title": "控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持计划时间届满暨减持股份结果公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/08/c5763dedf965ae4be7610da0a6ff6204.pdf"
+    },
+    {
+     "time": "2026-08-22 00:00:00",
+     "timestamp": 1787328000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/22/b85920954d0efdfd743cd008f6456236.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-08 00:00:00",
+     "timestamp": 1788796800,
+     "title": "控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持计划时间届满暨减持股份结果公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/08/c5763dedf965ae4be7610da0a6ff6204.pdf"
+    },
+    {
+     "time": "2026-08-22 00:00:00",
+     "timestamp": 1787328000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/22/b85920954d0efdfd743cd008f6456236.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688322",
+    "announcements": "https://www.cls.cn/stock?code=sh688322&tab=notice"
+   }
+  },
+  "sz300296": {
+   "code": "sz300296",
+   "name": "利亚德",
+   "researchedAt": "2026-09-23T12:47:40.801Z",
+   "asOfDate": "2026-09-23",
+   "industry": "电子-光学光电子-LED",
+   "concepts": [
+    "LED",
+    "光通信",
+    "VR/AR",
+    "机器人概念",
+    "人工智能"
+   ],
+   "valuation": {
+    "ttmPe": 65.09,
+    "dynamicPe": 96.28,
+    "pb": 1.706,
+    "marketCapYi": 133.16,
+    "lastPrice": 4.91
+   },
+   "momentum": {
+    "change3m": 0.41,
+    "change5d": 0.61
+   },
+   "financial": {
+    "revenueYoy": -18.34,
+    "profitYoy": -60.38,
+    "roe": 0.89,
+    "debtRatio": 40.99
+   },
+   "announcements": [
+    {
+     "time": "2026-09-04 00:00:00",
+     "timestamp": 1788451200,
+     "title": "关于注销部分回购股份减资暨通知债权人的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/04/724b7f9fddd4ece1312f322febcea98b.pdf"
+    },
+    {
+     "time": "2026-09-01 00:00:00",
+     "timestamp": 1788192000,
+     "title": "关于股份回购的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/01/9a3a3ae3abf08465c653cd12e2ccf029.pdf"
+    },
+    {
+     "time": "2026-08-19 00:00:00",
+     "timestamp": 1787068800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/19/9ddc570ad2e805f86fdc475ef0efabf4.pdf"
+    },
+    {
+     "time": "2026-08-19 00:00:00",
+     "timestamp": 1787068800,
+     "title": "关于变更部分回购股份用途并注销暨减少注册资本的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/19/fc297fe795a767307ebdd7e08d952c05.pdf"
+    },
+    {
+     "time": "2026-08-19 00:00:00",
+     "timestamp": 1787068800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/19/e92dc38e67634c5b16d12ce924e4ad6c.pdf"
+    },
+    {
+     "time": "2026-08-03 00:00:00",
+     "timestamp": 1785686400,
+     "title": "关于股份回购的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/03/2077ac62baa4822f2f11be6f7c2b38f2.pdf"
+    },
+    {
+     "time": "2026-07-15 00:00:00",
+     "timestamp": 1784044800,
+     "title": "关于取得金融机构股票回购专项贷款承诺函的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/15/8f37ad8a62a40b6e7705d79523c0a626.pdf"
+    },
+    {
+     "time": "2026-07-14 00:00:00",
+     "timestamp": 1783958400,
+     "title": "关于首次回购公司股份的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/14/f0bc31fda918c2d5c1a86a1a6fdfaddd.pdf"
+    },
+    {
+     "time": "2026-07-08 00:00:00",
+     "timestamp": 1783440000,
+     "title": "回购报告书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/08/873f5cd86f357e0b6f86188bc05d7e9b.pdf"
+    },
+    {
+     "time": "2026-07-07 00:00:00",
+     "timestamp": 1783353600,
+     "title": "关于回购股份事项前十名股东及前十名无限售条件股东持股情况的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/07/5caf8be2af6a1f3198a099467fe7f0dc.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-04 00:00:00",
+     "timestamp": 1788451200,
+     "title": "关于注销部分回购股份减资暨通知债权人的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/04/724b7f9fddd4ece1312f322febcea98b.pdf"
+    },
+    {
+     "time": "2026-09-01 00:00:00",
+     "timestamp": 1788192000,
+     "title": "关于股份回购的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/01/9a3a3ae3abf08465c653cd12e2ccf029.pdf"
+    },
+    {
+     "time": "2026-08-19 00:00:00",
+     "timestamp": 1787068800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/19/9ddc570ad2e805f86fdc475ef0efabf4.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300296",
+    "announcements": "https://www.cls.cn/stock?code=sz300296&tab=notice"
+   }
+  },
+  "sz301157": {
+   "code": "sz301157",
+   "name": "华塑科技",
+   "researchedAt": "2026-09-23T12:47:40.832Z",
+   "asOfDate": "2026-09-23",
+   "industry": "电力设备-其他电源设备Ⅱ-其他电源设备Ⅲ",
+   "concepts": [
+    "电池",
+    "百度概念",
+    "储能",
+    "锂电池",
+    "字节跳动"
+   ],
+   "valuation": {
+    "ttmPe": 125.53,
+    "dynamicPe": 133.35,
+    "pb": 3.665,
+    "marketCapYi": 40.63,
+    "lastPrice": 67.72
+   },
+   "momentum": {
+    "change3m": 4.43,
+    "change5d": 11.02
+   },
+   "financial": {
+    "revenueYoy": 13.2,
+    "profitYoy": 10.17,
+    "roe": 1.37,
+    "debtRatio": 18.35
+   },
+   "announcements": [
+    {
+     "time": "2026-09-04 00:00:00",
+     "timestamp": 1788451200,
+     "title": "关于首次公开发行前已发行股份上市流通提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/04/c12dbaf6c06eb43ed79bffcc2a8b09b7.pdf"
+    },
+    {
+     "time": "2026-09-04 00:00:00",
+     "timestamp": 1788451200,
+     "title": "中信证券股份有限公司关于杭州华塑科技股份有限公司首次公开发行前已发行的部分限售股解禁上市流通的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/04/f869da6bfe4f519386f4496d316893b2.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/13791ec0a77f4fc8635bdd428a9396e1.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告披露提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/62640817210cba1516dfea3fcff4f5bc.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/7b9e437ba9bc4b3ed3173f9edbd21a20.pdf"
+    },
+    {
+     "time": "2026-05-22 00:00:00",
+     "timestamp": 1779379200,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/22/8c6fecb37165769ba6fcb9a885ce38b1.pdf"
+    },
+    {
+     "time": "2026-04-28 00:00:00",
+     "timestamp": 1777305600,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/28/3699d713d1df7e73d668081ef5cbf71a.pdf"
+    },
+    {
+     "time": "2026-04-28 00:00:00",
+     "timestamp": 1777305600,
+     "title": "2026年第一季度报告披露提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/28/6a7ed3514ed9184d644494b395909556.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-04 00:00:00",
+     "timestamp": 1788451200,
+     "title": "关于首次公开发行前已发行股份上市流通提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/04/c12dbaf6c06eb43ed79bffcc2a8b09b7.pdf"
+    },
+    {
+     "time": "2026-09-04 00:00:00",
+     "timestamp": 1788451200,
+     "title": "中信证券股份有限公司关于杭州华塑科技股份有限公司首次公开发行前已发行的部分限售股解禁上市流通的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/04/f869da6bfe4f519386f4496d316893b2.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/13791ec0a77f4fc8635bdd428a9396e1.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz301157",
+    "announcements": "https://www.cls.cn/stock?code=sz301157&tab=notice"
+   }
+  },
+  "sh603118": {
+   "code": "sh603118",
+   "name": "共进股份",
+   "researchedAt": "2026-09-23T12:47:41.873Z",
+   "asOfDate": "2026-09-23",
+   "industry": "",
+   "concepts": [],
+   "valuation": {
+    "ttmPe": 155.39,
+    "dynamicPe": 99.4,
+    "pb": 2.835,
+    "marketCapYi": 144.39,
+    "lastPrice": 18.34
+   },
+   "momentum": {
+    "change3m": -0.49,
+    "change5d": 7.13
+   },
+   "financial": {
+    "revenueYoy": null,
+    "profitYoy": null,
+    "roe": null,
+    "debtRatio": null
+   },
+   "announcements": [
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "关于以集中竞价方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/57cfc4332d12ae404eba7b64859e51cb.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/fde89c1abd1c885c23b7ae1ecbd139dd.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/9f772607ef89d605d43fdbdb11945375.pdf"
+    },
+    {
+     "time": "2026-08-18 00:00:00",
+     "timestamp": 1786982400,
+     "title": "关于股票交易风险提示公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/18/910b912ac1f6585c23adeb00fd04cd5f.pdf"
+    },
+    {
+     "time": "2026-08-15 00:00:00",
+     "timestamp": 1786723200,
+     "title": "关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/15/ebeb22bf34d65248668a3f33ab4883ce.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "关于以集中竞价方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/d490eab5b82a2fc11c0b92a1e6c701ac.pdf"
+    },
+    {
+     "time": "2026-08-04 00:00:00",
+     "timestamp": 1785772800,
+     "title": "关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/04/0193e7529080cadf4cfcc535f7bee014.pdf"
+    },
+    {
+     "time": "2026-07-24 00:00:00",
+     "timestamp": 1784822400,
+     "title": "关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/24/0c63461911676f6dceff2cee54bdd4c3.pdf"
+    },
+    {
+     "time": "2026-07-18 00:00:00",
+     "timestamp": 1784304000,
+     "title": "关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/18/449d00e10c03e2ecf3a609b0fe84fd41.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "关于以集中竞价方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/57cfc4332d12ae404eba7b64859e51cb.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/fde89c1abd1c885c23b7ae1ecbd139dd.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/9f772607ef89d605d43fdbdb11945375.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh603118",
+    "announcements": "https://www.cls.cn/stock?code=sh603118&tab=notice"
    }
   }
  }
