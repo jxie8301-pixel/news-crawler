@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T23:03:13.748Z",
+ "updatedAt": "2026-09-23T23:17:10.735Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -40622,6 +40622,351 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh688001",
     "announcements": "https://www.cls.cn/stock?code=sh688001&tab=notice"
+   }
+  },
+  "sh688777": {
+   "code": "sh688777",
+   "name": "中控技术",
+   "researchedAt": "2026-09-23T23:17:10.615Z",
+   "asOfDate": "2026-09-24",
+   "industry": "机械设备-自动化设备-工控设备",
+   "concepts": [
+    "工业互联网",
+    "国产软件",
+    "机器人概念",
+    "智能制造",
+    "人工智能"
+   ],
+   "valuation": {
+    "ttmPe": 265.24,
+    "dynamicPe": 207.36,
+    "pb": 6.526,
+    "marketCapYi": 643.16,
+    "lastPrice": 81.29
+   },
+   "momentum": {
+    "change3m": -7.62,
+    "change5d": -5.91
+   },
+   "financial": {
+    "revenueYoy": -5.1,
+    "profitYoy": -56.36,
+    "roe": 1.57,
+    "debtRatio": 44.8
+   },
+   "announcements": [
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "中控技术股份有限公司关于以集中竞价交易方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/ac4f3012cc01aa59cdf70699677d7c4e.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "中控技术股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/79a9a44e078d7b8a127ed41572be86b4.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "中控技术股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/4909f54d5ac48858f15a09070a9c34f6.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "中控技术股份有限公司关于以集中竞价交易方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/676c8286205a28089bc3c624fdb2f9a8.pdf"
+    },
+    {
+     "time": "2026-07-03 00:00:00",
+     "timestamp": 1783008000,
+     "title": "中控技术股份有限公司关于以集中竞价交易方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/03/1a195aebd023e33beb9bf1e6a0eb9a27.pdf"
+    },
+    {
+     "time": "2026-06-03 00:00:00",
+     "timestamp": 1780416000,
+     "title": "中控技术股份有限公司关于以集中竞价交易方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/03/3a4f1665b416e84d353f30c5500dd895.pdf"
+    },
+    {
+     "time": "2026-06-02 00:00:00",
+     "timestamp": 1780329600,
+     "title": "北京金杜（杭州）律师事务所关于中控技术股份有限公司2025年度差异化分红事项之专项法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/02/afbbc4b77edbc48d51a0f288b850def8.pdf"
+    },
+    {
+     "time": "2026-06-02 00:00:00",
+     "timestamp": 1780329600,
+     "title": "中控技术股份有限公司关于2025年年度权益分派实施后调整回购股份价格上限的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/02/e9cc01ff02eb116db330d8866a76d31c.pdf"
+    },
+    {
+     "time": "2026-06-02 00:00:00",
+     "timestamp": 1780329600,
+     "title": "中控技术股份有限公司 2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/02/e6bd370a73058717c7d8ccd5cb0aa0a3.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "中控技术股份有限公司关于以集中竞价交易方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/ac4f3012cc01aa59cdf70699677d7c4e.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "中控技术股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/79a9a44e078d7b8a127ed41572be86b4.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "中控技术股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/4909f54d5ac48858f15a09070a9c34f6.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688777",
+    "announcements": "https://www.cls.cn/stock?code=sh688777&tab=notice"
+   }
+  },
+  "sh688208": {
+   "code": "sh688208",
+   "name": "道通科技",
+   "researchedAt": "2026-09-23T23:17:10.695Z",
+   "asOfDate": "2026-09-24",
+   "industry": "计算机-计算机设备-其他计算机设备",
+   "concepts": [
+    "汽车后市场",
+    "机器人概念",
+    "智能驾驶",
+    "回购",
+    "养老金持股"
+   ],
+   "valuation": {
+    "ttmPe": 19.58,
+    "dynamicPe": 20.07,
+    "pb": 4.656,
+    "marketCapYi": 174.11,
+    "lastPrice": 25.98
+   },
+   "momentum": {
+    "change3m": 4.42,
+    "change5d": 2.08
+   },
+   "financial": {
+    "revenueYoy": 13.4,
+    "profitYoy": -7.35,
+    "roe": 11.03,
+    "debtRatio": 49.77
+   },
+   "announcements": [
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "道通科技关于实施2026年半年度权益分派调整回购股份价格上限的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/cd5d45d191d47e920e75d0ddb7a562ba.pdf"
+    },
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "北京市中伦（深圳）律师事务所关于深圳市道通科技股份有限公司差异化分红事项的法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/5c1f4875abb17e9e8a91d1e716a866af.pdf"
+    },
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "道通科技2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/c20b8ab932b960e1d70af29318e81536.pdf"
+    },
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "道通科技关于实施2026年半年度权益分派调整“道通转债”转股价格的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/69d41b9cf273d19d8c9f8ff1f61a3198.pdf"
+    },
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "道通科技关于调整2026年半年度利润分配现金分红总额的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/e64e617204a26d0b3f4a5950a7cb15b3.pdf"
+    },
+    {
+     "time": "2026-09-17 00:00:00",
+     "timestamp": 1789574400,
+     "title": "道通科技关于实施2026年半年度权益分派时可转债转股价格调整暨转股连续停牌的提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/17/583c9d1d215ded6a3ac82756acb37a86.pdf"
+    },
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "道通科技关于以集中竞价交易方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/d37451bd9602e0f4d761aa6f7959f86d.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "道通科技2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/0d9bf3a2bf750901e7805f606811eb5a.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "道通科技2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/b313da9fdb4a7993b108739233ad296e.pdf"
+    },
+    {
+     "time": "2026-08-18 00:00:00",
+     "timestamp": 1786982400,
+     "title": "道通科技2026年半年度业绩预告的自愿性披露公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/18/1d9cf208fc5e2ea95c85792d4e7d8017.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "道通科技关于实施2026年半年度权益分派调整回购股份价格上限的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/cd5d45d191d47e920e75d0ddb7a562ba.pdf"
+    },
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "北京市中伦（深圳）律师事务所关于深圳市道通科技股份有限公司差异化分红事项的法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/5c1f4875abb17e9e8a91d1e716a866af.pdf"
+    },
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "道通科技2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/c20b8ab932b960e1d70af29318e81536.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688208",
+    "announcements": "https://www.cls.cn/stock?code=sh688208&tab=notice"
+   }
+  },
+  "sh688111": {
+   "code": "sh688111",
+   "name": "金山办公",
+   "researchedAt": "2026-09-23T23:17:10.735Z",
+   "asOfDate": "2026-09-24",
+   "industry": "计算机-软件开发-横向通用软件",
+   "concepts": [
+    "国产软件",
+    "人工智能",
+    "回购",
+    "华为云",
+    "华为产业链"
+   ],
+   "valuation": {
+    "ttmPe": 29.15,
+    "dynamicPe": 20.88,
+    "pb": 6.974,
+    "marketCapYi": 1051.45,
+    "lastPrice": 226.6
+   },
+   "momentum": {
+    "change3m": 1.34,
+    "change5d": 1.7
+   },
+   "financial": {
+    "revenueYoy": 24.69,
+    "profitYoy": 243.65,
+    "roe": 16.7,
+    "debtRatio": 27.79
+   },
+   "announcements": [
+    {
+     "time": "2026-09-03 00:00:00",
+     "timestamp": 1788364800,
+     "title": "金山办公关于以集中竞价交易方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/03/92971f89d4620ceecb49f33b62dae1f9.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "金山办公2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/2a4640be9ee92f2c094844a881a08563.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "金山办公2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/d9220832a3c73ca081abf5a71ab7ef2a.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "金山办公关于以集中竞价交易方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/3621c43cac3ce42f01250fd2a082d567.pdf"
+    },
+    {
+     "time": "2026-07-29 00:00:00",
+     "timestamp": 1785254400,
+     "title": "金山办公关于2026年半年度业绩预告的自愿性披露公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/29/2cb22bbb2c1e21f079b41d9f34fec90e.pdf"
+    },
+    {
+     "time": "2026-07-24 00:00:00",
+     "timestamp": 1784822400,
+     "title": "金山办公关于以集中竞价交易方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/24/e09c1f4342ce22cd64706b06add8271f.pdf"
+    },
+    {
+     "time": "2026-07-08 00:00:00",
+     "timestamp": 1783440000,
+     "title": "金山办公关于以集中竞价交易方式首次回购公司股份暨回购进展的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/08/c8b4796f1fa3d5279b20b74ee77e9e5f.pdf"
+    },
+    {
+     "time": "2026-07-03 00:00:00",
+     "timestamp": 1783008000,
+     "title": "金山办公关于股份回购事项前十大股东和前十大无限售条件股东持股信息的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/03/1eb438fc86263b12c6bb19eac5583ab8.pdf"
+    },
+    {
+     "time": "2026-07-01 00:00:00",
+     "timestamp": 1782835200,
+     "title": "金山办公关于以集中竞价方式回购股份的回购报告书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/01/d5b1bf60824698ad9379b0ea2313a5dd.pdf"
+    },
+    {
+     "time": "2026-06-29 00:00:00",
+     "timestamp": 1782662400,
+     "title": "金山办公关于以集中竞价方式回购股份方案的预案",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/29/7135409811019d8799128b30279d5612.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-03 00:00:00",
+     "timestamp": 1788364800,
+     "title": "金山办公关于以集中竞价交易方式回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/03/92971f89d4620ceecb49f33b62dae1f9.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "金山办公2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/2a4640be9ee92f2c094844a881a08563.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "金山办公2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/d9220832a3c73ca081abf5a71ab7ef2a.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688111",
+    "announcements": "https://www.cls.cn/stock?code=sh688111&tab=notice"
    }
   }
  }
