@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T13:11:42.705Z",
+ "updatedAt": "2026-09-23T13:53:19.782Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -39751,6 +39751,317 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz300931",
     "announcements": "https://www.cls.cn/stock?code=sz300931&tab=notice"
+   }
+  },
+  "sh688826": {
+   "code": "sh688826",
+   "name": "频准激光",
+   "researchedAt": "2026-09-23T13:53:17.479Z",
+   "asOfDate": "2026-09-23",
+   "industry": "机械设备-自动化设备-激光设备",
+   "concepts": [
+    "激光产业",
+    "量子科技",
+    "半导体设备",
+    "芯片产业链",
+    "晶圆设备"
+   ],
+   "valuation": {
+    "ttmPe": null,
+    "dynamicPe": 194.44,
+    "pb": 44.981,
+    "marketCapYi": 343.51,
+    "lastPrice": 858.78
+   },
+   "momentum": {
+    "change3m": 0.97,
+    "change5d": 6.35
+   },
+   "financial": {
+    "revenueYoy": 42.13,
+    "profitYoy": 24.58,
+    "roe": 15.42,
+    "debtRatio": 35.94
+   },
+   "announcements": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/c111a75a2367eda0ea32a7577bbca1c8.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/5b980a609160bf64985bad210a9d1d7b.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/c111a75a2367eda0ea32a7577bbca1c8.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/5b980a609160bf64985bad210a9d1d7b.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688826",
+    "announcements": "https://www.cls.cn/stock?code=sh688826&tab=notice"
+   }
+  },
+  "sh688027": {
+   "code": "sh688027",
+   "name": "国盾量子",
+   "researchedAt": "2026-09-23T13:53:19.115Z",
+   "asOfDate": "2026-09-23",
+   "industry": "通信-通信设备-通信终端及配件",
+   "concepts": [
+    "量子科技",
+    "国企改革",
+    "央企改革",
+    "网络安全",
+    "中国电信集团"
+   ],
+   "valuation": {
+    "ttmPe": 6641.69,
+    "dynamicPe": -860.69,
+    "pb": 12.387,
+    "marketCapYi": 398.94,
+    "lastPrice": 387.84
+   },
+   "momentum": {
+    "change3m": 8.03,
+    "change5d": 9.92
+   },
+   "financial": {
+    "revenueYoy": 1.83,
+    "profitYoy": 0.94,
+    "roe": -0.72,
+    "debtRatio": 9.61
+   },
+   "announcements": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/1a40737aa8b8bfd0d23db68f50a068fc.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/f4ab1f9591f57403bde76ca4cb6e82eb.pdf"
+    },
+    {
+     "time": "2026-04-30 00:00:00",
+     "timestamp": 1777478400,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/30/642837177b57cae3e30447716c7276f0.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/1a40737aa8b8bfd0d23db68f50a068fc.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/f4ab1f9591f57403bde76ca4cb6e82eb.pdf"
+    },
+    {
+     "time": "2026-04-30 00:00:00",
+     "timestamp": 1777478400,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/30/642837177b57cae3e30447716c7276f0.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688027",
+    "announcements": "https://www.cls.cn/stock?code=sh688027&tab=notice"
+   }
+  },
+  "sh688828": {
+   "code": "sh688828",
+   "name": "国仪公司-U",
+   "researchedAt": "2026-09-23T13:53:19.275Z",
+   "asOfDate": "2026-09-23",
+   "industry": "机械设备-通用设备-仪器仪表",
+   "concepts": [
+    "量子科技",
+    "油气设服",
+    "科学仪器"
+   ],
+   "valuation": {
+    "ttmPe": null,
+    "dynamicPe": -272.65,
+    "pb": 49.668,
+    "marketCapYi": 383.45,
+    "lastPrice": 95.86
+   },
+   "momentum": {
+    "change3m": -0.25,
+    "change5d": -3.97
+   },
+   "financial": {
+    "revenueYoy": 51.03,
+    "profitYoy": 6.16,
+    "roe": -10.14,
+    "debtRatio": 51.43
+   },
+   "announcements": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "国仪公司股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/9121e52eb8b5a735cc16856e884640b2.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "国仪公司股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/9121e52eb8b5a735cc16856e884640b2.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688828",
+    "announcements": "https://www.cls.cn/stock?code=sh688828&tab=notice"
+   }
+  },
+  "sz000555": {
+   "code": "sz000555",
+   "name": "神州信息",
+   "researchedAt": "2026-09-23T13:53:19.754Z",
+   "asOfDate": "2026-09-23",
+   "industry": "计算机-IT服务Ⅱ-IT服务Ⅲ",
+   "concepts": [
+    "金融科技",
+    "量子科技",
+    "区块链",
+    "云计算",
+    "大数据"
+   ],
+   "valuation": {
+    "ttmPe": -82.57,
+    "dynamicPe": -18.99,
+    "pb": 1.963,
+    "marketCapYi": 107.43,
+    "lastPrice": 11.01
+   },
+   "momentum": {
+    "change3m": 5.87,
+    "change5d": 6.07
+   },
+   "financial": {
+    "revenueYoy": -6.73,
+    "profitYoy": -165.28,
+    "roe": -5.17,
+    "debtRatio": 54.67
+   },
+   "announcements": [
+    {
+     "time": "2026-09-01 00:00:00",
+     "timestamp": 1788192000,
+     "title": "关于公司控股股东股票质押式回购交易提前购回的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/01/d1e68b3fa704807813c0921fbf9363e8.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/e905f000df59144c9689f3e5d0d8a0a3.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/f1d9f1a39a3fda2fe859447645dfa1ab.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "关于公司控股股东进行股票质押式回购交易的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/2960634ac9034834f00aead4e9ecb2dc.pdf"
+    },
+    {
+     "time": "2026-08-04 00:00:00",
+     "timestamp": 1785772800,
+     "title": "关于公司诉讼案件进展情况的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/04/ce5e24289dd8810a7d29001f18db43bd.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-01 00:00:00",
+     "timestamp": 1788192000,
+     "title": "关于公司控股股东股票质押式回购交易提前购回的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/01/d1e68b3fa704807813c0921fbf9363e8.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/e905f000df59144c9689f3e5d0d8a0a3.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/f1d9f1a39a3fda2fe859447645dfa1ab.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz000555",
+    "announcements": "https://www.cls.cn/stock?code=sz000555&tab=notice"
+   }
+  },
+  "sz300520": {
+   "code": "sz300520",
+   "name": "科大国创",
+   "researchedAt": "2026-09-23T13:53:19.782Z",
+   "asOfDate": "2026-09-23",
+   "industry": "计算机-软件开发-垂直应用软件",
+   "concepts": [
+    "人工智能",
+    "量子科技",
+    "新能源汽车",
+    "储能",
+    "锂电池"
+   ],
+   "valuation": {
+    "ttmPe": null,
+    "dynamicPe": null,
+    "pb": null,
+    "marketCapYi": null,
+    "lastPrice": null
+   },
+   "momentum": {
+    "change3m": null,
+    "change5d": null
+   },
+   "financial": {
+    "revenueYoy": -15.81,
+    "profitYoy": -53.18,
+    "roe": -6.55,
+    "debtRatio": 52.75
+   },
+   "announcements": [],
+   "keyEvents": [],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300520",
+    "announcements": "https://www.cls.cn/stock?code=sz300520&tab=notice"
    }
   }
  }
