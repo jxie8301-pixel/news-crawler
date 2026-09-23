@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T06:18:49.358Z",
+ "updatedAt": "2026-09-23T06:59:32.151Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -12625,8 +12625,8 @@
   "sh688300": {
    "code": "sh688300",
    "name": "联瑞新材",
-   "researchedAt": "2026-09-22T00:29:56.416Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T06:59:32.150Z",
+   "asOfDate": "2026-09-23",
    "industry": "基础化工-非金属材料Ⅱ-非金属材料Ⅲ",
    "concepts": [
     "新材料",
@@ -12636,15 +12636,15 @@
     "半导体材料"
    ],
    "valuation": {
-    "ttmPe": 139.28,
-    "dynamicPe": 141.61,
-    "pb": 24.352,
-    "marketCapYi": 422.04,
-    "lastPrice": 174.78
+    "ttmPe": 145.89,
+    "dynamicPe": 148.32,
+    "pb": 25.507,
+    "marketCapYi": 442.06,
+    "lastPrice": 183.07
    },
    "momentum": {
-    "change3m": -6.35,
-    "change5d": -0.69
+    "change3m": 3.55,
+    "change5d": -1.91
    },
    "financial": {
     "revenueYoy": 21.21,
@@ -25904,8 +25904,8 @@
   "sh600206": {
    "code": "sh600206",
    "name": "有研新材",
-   "researchedAt": "2026-09-18T00:41:03.976Z",
-   "asOfDate": "2026-09-18",
+   "researchedAt": "2026-09-23T06:59:32.132Z",
+   "asOfDate": "2026-09-23",
    "industry": "电子-半导体-半导体材料",
    "concepts": [
     "稀土永磁",
@@ -25915,15 +25915,15 @@
     "央企改革"
    ],
    "valuation": {
-    "ttmPe": 134.57,
-    "dynamicPe": 116.71,
-    "pb": 9.815,
-    "marketCapYi": 427.93,
-    "lastPrice": 50.55
+    "ttmPe": 137.02,
+    "dynamicPe": 118.83,
+    "pb": 9.994,
+    "marketCapYi": 435.72,
+    "lastPrice": 51.47
    },
    "momentum": {
-    "change3m": 6.98,
-    "change5d": 8.04
+    "change3m": -0.25,
+    "change5d": -0.31
    },
    "financial": {
     "revenueYoy": 50.35,
