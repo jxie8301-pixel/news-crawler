@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T12:47:41.874Z",
+ "updatedAt": "2026-09-23T13:11:42.705Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
    "name": "科翔股份",
-   "researchedAt": "2026-09-22T13:04:57.252Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T13:11:42.705Z",
+   "asOfDate": "2026-09-23",
    "industry": "电子-元件-印制电路板",
    "concepts": [
     "PCB",
@@ -16,15 +16,15 @@
     "消费电子"
    ],
    "valuation": {
-    "ttmPe": -189.87,
-    "dynamicPe": -358.52,
-    "pb": 26.248,
-    "marketCapYi": 475.96,
-    "lastPrice": 109.32
+    "ttmPe": -188.54,
+    "dynamicPe": -355.99,
+    "pb": 26.063,
+    "marketCapYi": 472.61,
+    "lastPrice": 108.55
    },
    "momentum": {
-    "change3m": -3.13,
-    "change5d": -0.09
+    "change3m": -2.37,
+    "change5d": -3.04
    },
    "financial": {
     "revenueYoy": 17.88,
@@ -8069,8 +8069,8 @@
   "sz000993": {
    "code": "sz000993",
    "name": "闽东电力",
-   "researchedAt": "2026-09-17T05:29:25.758Z",
-   "asOfDate": "2026-09-17",
+   "researchedAt": "2026-09-23T13:11:42.636Z",
+   "asOfDate": "2026-09-23",
    "industry": "公用事业-电力-水力发电",
    "concepts": [
     "电力",
@@ -8080,15 +8080,15 @@
     "创投"
    ],
    "valuation": {
-    "ttmPe": 470.18,
-    "dynamicPe": 136.69,
-    "pb": 3.186,
-    "marketCapYi": 80.42,
-    "lastPrice": 17.56
+    "ttmPe": 503.92,
+    "dynamicPe": 146.5,
+    "pb": 3.415,
+    "marketCapYi": 86.19,
+    "lastPrice": 18.82
    },
    "momentum": {
-    "change3m": 15,
-    "change5d": 39.14
+    "change3m": -3.98,
+    "change5d": 1.84
    },
    "financial": {
     "revenueYoy": -17.65,
@@ -8097,6 +8097,18 @@
     "debtRatio": 28.98
    },
    "announcements": [
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "关于股票交易严重异常波动暨风险提示的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/e58eb43fc5b24abba886351bbe4d202b.pdf"
+    },
+    {
+     "time": "2026-09-19 00:00:00",
+     "timestamp": 1789747200,
+     "title": "股票交易风险提示公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/19/a55bf3cd538074b8093498ea4676b9bf.pdf"
+    },
     {
      "time": "2026-09-17 00:00:00",
      "timestamp": 1789574400,
@@ -8144,32 +8156,26 @@
      "timestamp": 1784736000,
      "title": "2025年年度权益分派实施公告",
      "url": "http://xk-annc-a.cls.cn/annc/2026/07/23/4aa7e563a0e718b20dac3855f9e0b0ad.pdf"
-    },
-    {
-     "time": "2026-07-15 00:00:00",
-     "timestamp": 1784044800,
-     "title": "2026年半年度业绩预告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/07/15/0d60324479facdd2c35792829401c041.pdf"
     }
    ],
    "keyEvents": [
+    {
+     "time": "2026-09-23 00:00:00",
+     "timestamp": 1790092800,
+     "title": "关于股票交易严重异常波动暨风险提示的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/23/e58eb43fc5b24abba886351bbe4d202b.pdf"
+    },
+    {
+     "time": "2026-09-19 00:00:00",
+     "timestamp": 1789747200,
+     "title": "股票交易风险提示公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/19/a55bf3cd538074b8093498ea4676b9bf.pdf"
+    },
     {
      "time": "2026-09-17 00:00:00",
      "timestamp": 1789574400,
      "title": "关于股票交易异常波动暨风险提示的公告",
      "url": "http://xk-annc-a.cls.cn/annc/2026/09/17/cab22feffaab1216d40a0c31cdbdb082.pdf"
-    },
-    {
-     "time": "2026-09-15 00:00:00",
-     "timestamp": 1789401600,
-     "title": "关于股票交易异常波动的公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/09/15/bb79e84f815ce7e00e70a51d6758f3d7.pdf"
-    },
-    {
-     "time": "2026-09-11 00:00:00",
-     "timestamp": 1789056000,
-     "title": "关于股票交易异常波动的公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/09/11/156f4513ddd42693f61073d91a21811e.pdf"
     }
    ],
    "sources": {
@@ -14703,8 +14709,8 @@
   "sz301251": {
    "code": "sz301251",
    "name": "威尔高",
-   "researchedAt": "2026-09-17T05:29:26.220Z",
-   "asOfDate": "2026-09-17",
+   "researchedAt": "2026-09-23T13:11:42.648Z",
+   "asOfDate": "2026-09-23",
    "industry": "电子-元件-印制电路板",
    "concepts": [
     "PCB",
@@ -14714,15 +14720,15 @@
     "MLED"
    ],
    "valuation": {
-    "ttmPe": 213.47,
-    "dynamicPe": 160.01,
-    "pb": 9.16,
-    "marketCapYi": 141.74,
-    "lastPrice": 75.17
+    "ttmPe": 257.86,
+    "dynamicPe": 193.28,
+    "pb": 11.065,
+    "marketCapYi": 171.22,
+    "lastPrice": 90.8
    },
    "momentum": {
-    "change3m": 14.48,
-    "change5d": 25.81
+    "change3m": 17.8,
+    "change5d": 11.03
    },
    "financial": {
     "revenueYoy": 37.01,
@@ -27855,8 +27861,8 @@
   "sz301689": {
    "code": "sz301689",
    "name": "电科思仪",
-   "researchedAt": "2026-09-20T10:09:07.526Z",
-   "asOfDate": "2026-09-20",
+   "researchedAt": "2026-09-23T13:11:42.328Z",
+   "asOfDate": "2026-09-23",
    "industry": "机械设备-通用设备-仪器仪表",
    "concepts": [
     "科学仪器",
@@ -27867,14 +27873,14 @@
    ],
    "valuation": {
     "ttmPe": null,
-    "dynamicPe": 175.28,
-    "pb": 18.931,
-    "marketCapYi": 584.58,
-    "lastPrice": 63
+    "dynamicPe": 194.47,
+    "pb": 21.005,
+    "marketCapYi": 648.6,
+    "lastPrice": 69.9
    },
    "momentum": {
-    "change3m": 30.35,
-    "change5d": 42.86
+    "change3m": 10.95,
+    "change5d": 30.78
    },
    "financial": {
     "revenueYoy": -2.78,
@@ -35865,8 +35871,8 @@
   "sh603636": {
    "code": "sh603636",
    "name": "南威软件",
-   "researchedAt": "2026-09-22T13:04:57.852Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T13:11:42.658Z",
+   "asOfDate": "2026-09-23",
    "industry": "计算机-IT服务Ⅱ-IT服务Ⅲ",
    "concepts": [
     "数据要素",
@@ -35876,15 +35882,15 @@
     "云计算"
    ],
    "valuation": {
-    "ttmPe": -8.54,
-    "dynamicPe": -13.66,
-    "pb": 2.687,
-    "marketCapYi": 46.49,
-    "lastPrice": 8.01
+    "ttmPe": -9.39,
+    "dynamicPe": -15.03,
+    "pb": 2.955,
+    "marketCapYi": 51.13,
+    "lastPrice": 8.81
    },
    "momentum": {
-    "change3m": 21,
-    "change5d": 19.73
+    "change3m": 33.08,
+    "change5d": 32.08
    },
    "financial": {
     "revenueYoy": -31.61,
@@ -35893,6 +35899,12 @@
     "debtRatio": 61.59
    },
    "announcements": [
+    {
+     "time": "2026-09-24 00:00:00",
+     "timestamp": 1790179200,
+     "title": "南威软件：股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/24/6f0e6c27e27f52f0a4f7770fb9d0ceb5.pdf"
+    },
     {
      "time": "2026-09-15 00:00:00",
      "timestamp": 1789401600,
@@ -35938,6 +35950,12 @@
    ],
    "keyEvents": [
     {
+     "time": "2026-09-24 00:00:00",
+     "timestamp": 1790179200,
+     "title": "南威软件：股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/24/6f0e6c27e27f52f0a4f7770fb9d0ceb5.pdf"
+    },
+    {
      "time": "2026-09-15 00:00:00",
      "timestamp": 1789401600,
      "title": "南威软件：关于累计诉讼、仲裁情况的公告",
@@ -35948,12 +35966,6 @@
      "timestamp": 1787760000,
      "title": "南威软件：2026年半年度报告",
      "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/cbb9e78266f549f2f4b5d9a789919ada.pdf"
-    },
-    {
-     "time": "2026-08-27 00:00:00",
-     "timestamp": 1787760000,
-     "title": "南威软件：2026年半年度报告摘要",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/5bd544463af87cdbe3de10eea58b3d2d.pdf"
     }
    ],
    "sources": {
@@ -39247,6 +39259,498 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh603118",
     "announcements": "https://www.cls.cn/stock?code=sh603118&tab=notice"
+   }
+  },
+  "sh688337": {
+   "code": "sh688337",
+   "name": "普源精电",
+   "researchedAt": "2026-09-23T13:11:42.209Z",
+   "asOfDate": "2026-09-23",
+   "industry": "机械设备-通用设备-仪器仪表",
+   "concepts": [
+    "检测检验",
+    "量子科技",
+    "芯片产业链",
+    "科学仪器"
+   ],
+   "valuation": {
+    "ttmPe": 116.84,
+    "dynamicPe": 168.3,
+    "pb": 3.557,
+    "marketCapYi": 125.04,
+    "lastPrice": 57.18
+   },
+   "momentum": {
+    "change3m": 29.69,
+    "change5d": 34.76
+   },
+   "financial": {
+    "revenueYoy": 37.15,
+    "profitYoy": 129.08,
+    "roe": 1.19,
+    "debtRatio": 11.07
+   },
+   "announcements": [
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "普源精电科技股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/a6b1e9ba87d2c5b6a99421a9ea5cc634.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "公司未来三年（2026-2028）股东分红回报规划",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/50477cb30488394025cae5d9ec8fa3dd.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "普源精电科技股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/1d898082bbc626b54860b8eab236f481.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "普源精电科技股份有限公司关于2024年限制性股票激励计划第一类限制性股票第二个解除限售期解除限售暨股票上市公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/b60338eb9a9b4378c3b6e112a5580196.pdf"
+    },
+    {
+     "time": "2026-08-08 00:00:00",
+     "timestamp": 1786118400,
+     "title": "关于调整2024年限制性股票激励计划回购价格及回购注销部分第一类限制性股票的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/08/88adcc0df688260f6fe70b0650d8e83f.pdf"
+    },
+    {
+     "time": "2026-08-08 00:00:00",
+     "timestamp": 1786118400,
+     "title": "关于回购注销2024年限制性股票激励计划部分第一类限制性股票减少注册资本暨通知债权人的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/08/38618f34ec730ed5197e3a1390926908.pdf"
+    },
+    {
+     "time": "2026-08-08 00:00:00",
+     "timestamp": 1786118400,
+     "title": "君合律师事务所上海分所关于普源精电科技股份有限公司2024年限制性股票激励计划调整、条件成就暨回购注销及作废相关事项的法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/08/46024e6f4a7282acc8cf7dac685efa2b.pdf"
+    },
+    {
+     "time": "2026-08-08 00:00:00",
+     "timestamp": 1786118400,
+     "title": "关于2024年限制性股票激励计划第一类限制性股票第二个限售期解除限售条件成就的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/08/ff6520a56e8df555e951d027b6efc3ff.pdf"
+    },
+    {
+     "time": "2026-08-08 00:00:00",
+     "timestamp": 1786118400,
+     "title": "董事会薪酬与考核委员会关于2024年限制性股票激励计划首次授予第二类限制性股票第二个归属期归属名单及第一类限制性股票第二个解除限售期解除限售名单的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/08/bbbdd232e6ab6e4898388cd0fbfe3832.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "普源精电科技股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/a6b1e9ba87d2c5b6a99421a9ea5cc634.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "公司未来三年（2026-2028）股东分红回报规划",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/50477cb30488394025cae5d9ec8fa3dd.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "普源精电科技股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/1d898082bbc626b54860b8eab236f481.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688337",
+    "announcements": "https://www.cls.cn/stock?code=sh688337&tab=notice"
+   }
+  },
+  "sh600176": {
+   "code": "sh600176",
+   "name": "中国巨石",
+   "researchedAt": "2026-09-23T13:11:42.263Z",
+   "asOfDate": "2026-09-23",
+   "industry": "建筑材料-玻璃玻纤-玻纤制造",
+   "concepts": [
+    "玻纤",
+    "PCB",
+    "玻璃",
+    "一带一路",
+    "国企改革"
+   ],
+   "valuation": {
+    "ttmPe": 40.3,
+    "dynamicPe": 31.13,
+    "pb": 5.508,
+    "marketCapYi": 1826.23,
+    "lastPrice": 45.62
+   },
+   "momentum": {
+    "change3m": 1.33,
+    "change5d": -3.73
+   },
+   "financial": {
+    "revenueYoy": 22.5,
+    "profitYoy": 72.29,
+    "roe": 8.85,
+    "debtRatio": 39.87
+   },
+   "announcements": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "中国巨石2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/5bf6287de86641f488f691351c4dedec.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "中国巨石2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/aa2ff2cb55443b7f86e681fb77fb5e7e.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "中国巨石董事会审计委员会关于公司2026年半年度报告的审核意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/bb72132161dee3af5227768dfac90834.pdf"
+    },
+    {
+     "time": "2026-07-21 00:00:00",
+     "timestamp": 1784563200,
+     "title": "中国巨石关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/21/bf4530cce30a502573d0f34a51d08bb5.pdf"
+    },
+    {
+     "time": "2026-06-25 00:00:00",
+     "timestamp": 1782316800,
+     "title": "中国巨石关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/25/6e9f10969fa065eb4bca43dd8051c708.pdf"
+    },
+    {
+     "time": "2026-06-18 00:00:00",
+     "timestamp": 1781712000,
+     "title": "中国巨石关于股票交易异常波动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/18/d1a079054b223c2650ee28b15d6c53ba.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "中国巨石2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/5bf6287de86641f488f691351c4dedec.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "中国巨石2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/aa2ff2cb55443b7f86e681fb77fb5e7e.pdf"
+    },
+    {
+     "time": "2026-08-21 00:00:00",
+     "timestamp": 1787241600,
+     "title": "中国巨石董事会审计委员会关于公司2026年半年度报告的审核意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/21/bb72132161dee3af5227768dfac90834.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh600176",
+    "announcements": "https://www.cls.cn/stock?code=sh600176&tab=notice"
+   }
+  },
+  "sh688056": {
+   "code": "sh688056",
+   "name": "莱伯泰科",
+   "researchedAt": "2026-09-23T13:11:42.317Z",
+   "asOfDate": "2026-09-23",
+   "industry": "机械设备-通用设备-仪器仪表",
+   "concepts": [
+    "检测检验",
+    "半导体设备",
+    "芯片产业链",
+    "科学仪器",
+    "核污染防治"
+   ],
+   "valuation": {
+    "ttmPe": 109.24,
+    "dynamicPe": 133.45,
+    "pb": 4.42,
+    "marketCapYi": 35.7,
+    "lastPrice": 52.92
+   },
+   "momentum": {
+    "change3m": 25.14,
+    "change5d": 27.33
+   },
+   "financial": {
+    "revenueYoy": -1.07,
+    "profitYoy": -36.6,
+    "roe": 1.66,
+    "debtRatio": 11.69
+   },
+   "announcements": [
+    {
+     "time": "2026-09-22 00:00:00",
+     "timestamp": 1790006400,
+     "title": "关于注销回购股份并减少注册资本暨通知债权人的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/22/4ca8642520be3a24f0efcf806b257311.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/135ecb8dbe3bd2cdecd272e98cb35b9a.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/18e26ae7386bdd11e1e89a548d409ac3.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "关于变更回购股份用途并注销暨减少注册资本的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/f5aaadb2e5f5016031a5c8953b24d964.pdf"
+    },
+    {
+     "time": "2026-07-21 00:00:00",
+     "timestamp": 1784563200,
+     "title": "股东减持股份计划公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/21/7203418785625cfb6820a5774dd63f46.pdf"
+    },
+    {
+     "time": "2026-06-17 00:00:00",
+     "timestamp": 1781625600,
+     "title": "股票交易严重异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/17/e012edc7f6d916cf603236713d5c910e.pdf"
+    },
+    {
+     "time": "2026-06-09 00:00:00",
+     "timestamp": 1780934400,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/09/78c0c5e1f4b54ee285530346036b3336.pdf"
+    },
+    {
+     "time": "2026-06-09 00:00:00",
+     "timestamp": 1780934400,
+     "title": "招商证券股份有限公司关于北京莱伯泰科仪器股份有限公司差异化权益分派特殊除权除息事项的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/09/9d9ff9e29e9cf1521bb81fb1a56047fc.pdf"
+    },
+    {
+     "time": "2026-06-06 00:00:00",
+     "timestamp": 1780675200,
+     "title": "股票交易异常波动暨风险提示公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/06/d4dde500129c31473771ba3e2f52789d.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-22 00:00:00",
+     "timestamp": 1790006400,
+     "title": "关于注销回购股份并减少注册资本暨通知债权人的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/22/4ca8642520be3a24f0efcf806b257311.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/135ecb8dbe3bd2cdecd272e98cb35b9a.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/18e26ae7386bdd11e1e89a548d409ac3.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688056",
+    "announcements": "https://www.cls.cn/stock?code=sh688056&tab=notice"
+   }
+  },
+  "sz003033": {
+   "code": "sz003033",
+   "name": "征和工业",
+   "researchedAt": "2026-09-23T13:11:42.346Z",
+   "asOfDate": "2026-09-23",
+   "industry": "汽车-摩托车及其他-摩托车",
+   "concepts": [
+    "汽车零部件",
+    "快递物流",
+    "新能源汽车",
+    "机器人概念",
+    "农机"
+   ],
+   "valuation": {
+    "ttmPe": 49.91,
+    "dynamicPe": 55.63,
+    "pb": 5.466,
+    "marketCapYi": 77.97,
+    "lastPrice": 95.38
+   },
+   "momentum": {
+    "change3m": 12.38,
+    "change5d": 17.49
+   },
+   "financial": {
+    "revenueYoy": 8.1,
+    "profitYoy": -20.49,
+    "roe": 4.91,
+    "debtRatio": 45.41
+   },
+   "announcements": [
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/d7a9028b937a4356690d5505221023c1.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/5e503ed2d3a73faf1767a2790e894322.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/d7a9028b937a4356690d5505221023c1.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/5e503ed2d3a73faf1767a2790e894322.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz003033",
+    "announcements": "https://www.cls.cn/stock?code=sz003033&tab=notice"
+   }
+  },
+  "sz300931": {
+   "code": "sz300931",
+   "name": "通用电梯",
+   "researchedAt": "2026-09-23T13:11:42.671Z",
+   "asOfDate": "2026-09-23",
+   "industry": "机械设备-专用设备-楼宇设备",
+   "concepts": [
+    "电梯",
+    "旧改",
+    "新型城镇化"
+   ],
+   "valuation": {
+    "ttmPe": -86.95,
+    "dynamicPe": -133.46,
+    "pb": 7.899,
+    "marketCapYi": 46.71,
+    "lastPrice": 19.21
+   },
+   "momentum": {
+    "change3m": 14.01,
+    "change5d": 23.22
+   },
+   "financial": {
+    "revenueYoy": -4.33,
+    "profitYoy": -3.21,
+    "roe": -2.96,
+    "debtRatio": 36.13
+   },
+   "announcements": [
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/07308b27345c6beb0af154bbed15fe4b.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/b63cd80ac3ba6bb3d7c6e428a7c6af8b.pdf"
+    },
+    {
+     "time": "2026-07-22 00:00:00",
+     "timestamp": 1784649600,
+     "title": "关于实际控制人及部分董事、高级管理人员股份减持计划实施完成的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/22/088f10e783ae74f855b300e4c7b4e74c.pdf"
+    },
+    {
+     "time": "2026-07-01 00:00:00",
+     "timestamp": 1782835200,
+     "title": "关于实际控制人股份减持计划实施完成的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/01/d9fbb046ef1a94895b2e7f5901d5bd45.pdf"
+    },
+    {
+     "time": "2026-06-25 00:00:00",
+     "timestamp": 1782316800,
+     "title": "关于实际控制人减持股份比例触及1%及5%整数倍暨披露《简式权益变动报告书》的提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/25/99a3ac8198398ed581b5b8344b9245c1.pdf"
+    },
+    {
+     "time": "2026-06-23 00:00:00",
+     "timestamp": 1782144000,
+     "title": "关于实际控制人减持股份比例触及1%整数倍的提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/23/bd0be9cbc03532f95463d9d197374ff7.pdf"
+    },
+    {
+     "time": "2026-06-17 00:00:00",
+     "timestamp": 1781625600,
+     "title": "关于实际控制人减持股份比例触及1%整数倍的提示性公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/17/7c9a7ea73287f6ba063c690cc1cf2ebd.pdf"
+    },
+    {
+     "time": "2026-05-19 00:00:00",
+     "timestamp": 1779120000,
+     "title": "关于实际控制人及部分董事、高级管理人员减持公司股份的预披露公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/19/28317cc27e654ee4c935da7a6787cd3d.pdf"
+    },
+    {
+     "time": "2026-04-28 00:00:00",
+     "timestamp": 1777305600,
+     "title": "2026年一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/28/2f8fa857a3b3c93f937bec35dd7d19ed.pdf"
+    },
+    {
+     "time": "2026-04-27 00:00:00",
+     "timestamp": 1777219200,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/27/d61850c02525eb1536a883845f83ab04.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/07308b27345c6beb0af154bbed15fe4b.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/b63cd80ac3ba6bb3d7c6e428a7c6af8b.pdf"
+    },
+    {
+     "time": "2026-07-22 00:00:00",
+     "timestamp": 1784649600,
+     "title": "关于实际控制人及部分董事、高级管理人员股份减持计划实施完成的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/22/088f10e783ae74f855b300e4c7b4e74c.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300931",
+    "announcements": "https://www.cls.cn/stock?code=sz300931&tab=notice"
    }
   }
  }
