@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-22T23:45:07.420Z",
+ "updatedAt": "2026-09-23T00:22:58.320Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -32132,8 +32132,8 @@
   "sz300464": {
    "code": "sz300464",
    "name": "星徽股份",
-   "researchedAt": "2026-09-21T13:16:13.812Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-23T00:22:58.067Z",
+   "asOfDate": "2026-09-23",
    "industry": "商贸零售-互联网电商-跨境电商",
    "concepts": [
     "跨境电商",
@@ -32143,15 +32143,15 @@
     "无线耳机"
    ],
    "valuation": {
-    "ttmPe": 266.47,
-    "dynamicPe": 475.78,
-    "pb": 37.113,
-    "marketCapYi": 55.52,
-    "lastPrice": 11.88
+    "ttmPe": 274.09,
+    "dynamicPe": 489.4,
+    "pb": 38.176,
+    "marketCapYi": 57.1,
+    "lastPrice": 12.22
    },
    "momentum": {
-    "change3m": 18.56,
-    "change5d": 44
+    "change3m": 23.56,
+    "change5d": 46.35
    },
    "financial": {
     "revenueYoy": 1.78,
@@ -37208,6 +37208,481 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz300768",
     "announcements": "https://www.cls.cn/stock?code=sz300768&tab=notice"
+   }
+  },
+  "sz002340": {
+   "code": "sz002340",
+   "name": "格林美",
+   "researchedAt": "2026-09-23T00:22:57.980Z",
+   "asOfDate": "2026-09-23",
+   "industry": "电力设备-电池-电池化学品",
+   "concepts": [
+    "锂电池",
+    "宁德时代概念",
+    "有色·钴",
+    "有色·镍",
+    "回购"
+   ],
+   "valuation": {
+    "ttmPe": 17.2,
+    "dynamicPe": 14.84,
+    "pb": 1.476,
+    "marketCapYi": 319.41,
+    "lastPrice": 6.26
+   },
+   "momentum": {
+    "change3m": 1.46,
+    "change5d": 0.48
+   },
+   "financial": {
+    "revenueYoy": 2.43,
+    "profitYoy": 38.99,
+    "roe": 4.97,
+    "debtRatio": 65.94
+   },
+   "announcements": [
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "关于回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/0a550b9f5b1cd706b3596f16d9bc6255.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/118d6c5b888cb1a359a67d09f34aabac.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/afce024f877ec4ef2a65b5e7e845cef1.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "关于2026年中期分红方案的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/092a89d39adf26cf04807b2f00a92231.pdf"
+    },
+    {
+     "time": "2026-08-06 00:00:00",
+     "timestamp": 1785945600,
+     "title": "关于首次回购公司股份的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/06/8ac1359ebfb610dd4e04beb4465dbca8.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "关于回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/121635189638127f8e224fc5ebf007e2.pdf"
+    },
+    {
+     "time": "2026-07-24 00:00:00",
+     "timestamp": 1784822400,
+     "title": "关于取得金融机构股票回购专项贷款承诺函的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/24/a3385d1595f61ec9aff217c30888ae4d.pdf"
+    },
+    {
+     "time": "2026-07-18 00:00:00",
+     "timestamp": 1784304000,
+     "title": "回购报告书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/18/45df999043b35ef21dbdcdff864ed5f1.pdf"
+    },
+    {
+     "time": "2026-07-18 00:00:00",
+     "timestamp": 1784304000,
+     "title": "关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/18/6ec27407eb3c69c491333b9bf56d4bcb.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "关于回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/0a550b9f5b1cd706b3596f16d9bc6255.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/118d6c5b888cb1a359a67d09f34aabac.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/afce024f877ec4ef2a65b5e7e845cef1.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002340",
+    "announcements": "https://www.cls.cn/stock?code=sz002340&tab=notice"
+   }
+  },
+  "sz002653": {
+   "code": "sz002653",
+   "name": "海思科",
+   "researchedAt": "2026-09-23T00:22:58.030Z",
+   "asOfDate": "2026-09-23",
+   "industry": "医药生物-化学制药-化学制剂",
+   "concepts": [
+    "医药生物",
+    "创新药",
+    "西部开发"
+   ],
+   "valuation": {
+    "ttmPe": 77.04,
+    "dynamicPe": 44.44,
+    "pb": 15.42,
+    "marketCapYi": 756.53,
+    "lastPrice": 66.31
+   },
+   "momentum": {
+    "change3m": 6.3,
+    "change5d": 4.44
+   },
+   "financial": {
+    "revenueYoy": 54.71,
+    "profitYoy": 427.02,
+    "roe": 17.68,
+    "debtRatio": 38.89
+   },
+   "announcements": [
+    {
+     "time": "2026-09-18 00:00:00",
+     "timestamp": 1789660800,
+     "title": "北京市中伦（深圳）律师事务所关于海思科医药集团股份有限公司2024年限制性股票激励计划回购注销部分限制性股票及第二个解除限售期解除限售条件成就相关事项的法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/18/a5c7bd8a5f922aa67bf9ba134ca7a5e6.pdf"
+    },
+    {
+     "time": "2026-09-18 00:00:00",
+     "timestamp": 1789660800,
+     "title": "董事会薪酬与考核委员会关于2024年限制性股票激励计划回购注销部分限制性股票及第二个解除限售期解除限售条件成就相关事项的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/18/af0c5e29a78e838fe71c80160ba13984.pdf"
+    },
+    {
+     "time": "2026-09-18 00:00:00",
+     "timestamp": 1789660800,
+     "title": "关于回购注销2024年限制性股票激励计划部分限制性股票的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/18/91775723bc34a30c20a5c57565ac6b50.pdf"
+    },
+    {
+     "time": "2026-09-18 00:00:00",
+     "timestamp": 1789660800,
+     "title": "关于2024年限制性股票激励计划第二个解除限售期解除限售条件成就的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/18/b4b71b8df79dacdbf6712ed63ab70fcc.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/d0acf0b3f317452389d075695d4f1f65.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/a68beec343d93bf8a9f56ad18b068ccd.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/d1f6e41fadb21a8e983aa909f4897f7a.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-18 00:00:00",
+     "timestamp": 1789660800,
+     "title": "北京市中伦（深圳）律师事务所关于海思科医药集团股份有限公司2024年限制性股票激励计划回购注销部分限制性股票及第二个解除限售期解除限售条件成就相关事项的法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/18/a5c7bd8a5f922aa67bf9ba134ca7a5e6.pdf"
+    },
+    {
+     "time": "2026-09-18 00:00:00",
+     "timestamp": 1789660800,
+     "title": "董事会薪酬与考核委员会关于2024年限制性股票激励计划回购注销部分限制性股票及第二个解除限售期解除限售条件成就相关事项的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/18/af0c5e29a78e838fe71c80160ba13984.pdf"
+    },
+    {
+     "time": "2026-09-18 00:00:00",
+     "timestamp": 1789660800,
+     "title": "关于回购注销2024年限制性股票激励计划部分限制性股票的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/18/91775723bc34a30c20a5c57565ac6b50.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002653",
+    "announcements": "https://www.cls.cn/stock?code=sz002653&tab=notice"
+   }
+  },
+  "sh600711": {
+   "code": "sh600711",
+   "name": "盛屯矿业",
+   "researchedAt": "2026-09-23T00:22:58.073Z",
+   "asOfDate": "2026-09-23",
+   "industry": "有色金属-工业金属-铜",
+   "concepts": [
+    "有色·镍",
+    "期货概念",
+    "有色·铜",
+    "有色·锌",
+    "有色·钴"
+   ],
+   "valuation": {
+    "ttmPe": 12.6,
+    "dynamicPe": 9.47,
+    "pb": 1.912,
+    "marketCapYi": 341.82,
+    "lastPrice": 11.06
+   },
+   "momentum": {
+    "change3m": 2.6,
+    "change5d": 3.08
+   },
+   "financial": {
+    "revenueYoy": 39.56,
+    "profitYoy": 50.24,
+    "roe": 10.09,
+    "debtRatio": 61.69
+   },
+   "announcements": [
+    {
+     "time": "2026-09-17 00:00:00",
+     "timestamp": 1789574400,
+     "title": "北京大成律师事务所关于盛屯矿业集团股份有限公司差异化权益分派事项之专项法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/17/c102cf4c296a50178ec09400329c08cb.pdf"
+    },
+    {
+     "time": "2026-09-17 00:00:00",
+     "timestamp": 1789574400,
+     "title": "盛屯矿业集团股份有限公司2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/17/538cfbc58594f0e7a368631a9ab9f704.pdf"
+    },
+    {
+     "time": "2026-09-04 00:00:00",
+     "timestamp": 1788451200,
+     "title": "盛屯矿业集团股份有限公司关于收购西藏海腾实业有限责任公司65%股权的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/04/109cdd0e418b3362477224537b2a1a95.pdf"
+    },
+    {
+     "time": "2026-07-30 00:00:00",
+     "timestamp": 1785340800,
+     "title": "盛屯矿业集团股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/30/940293152a55be1e885fef204a3e103c.pdf"
+    },
+    {
+     "time": "2026-07-30 00:00:00",
+     "timestamp": 1785340800,
+     "title": "盛屯矿业集团股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/30/53446c9673e6607b839779fbb0a56638.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-17 00:00:00",
+     "timestamp": 1789574400,
+     "title": "北京大成律师事务所关于盛屯矿业集团股份有限公司差异化权益分派事项之专项法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/17/c102cf4c296a50178ec09400329c08cb.pdf"
+    },
+    {
+     "time": "2026-09-17 00:00:00",
+     "timestamp": 1789574400,
+     "title": "盛屯矿业集团股份有限公司2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/17/538cfbc58594f0e7a368631a9ab9f704.pdf"
+    },
+    {
+     "time": "2026-09-04 00:00:00",
+     "timestamp": 1788451200,
+     "title": "盛屯矿业集团股份有限公司关于收购西藏海腾实业有限责任公司65%股权的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/04/109cdd0e418b3362477224537b2a1a95.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh600711",
+    "announcements": "https://www.cls.cn/stock?code=sh600711&tab=notice"
+   }
+  },
+  "sz300792": {
+   "code": "sz300792",
+   "name": "壹网壹创",
+   "researchedAt": "2026-09-23T00:22:58.074Z",
+   "asOfDate": "2026-09-23",
+   "industry": "商贸零售-互联网电商-电商服务",
+   "concepts": [
+    "电商",
+    "阿里概念",
+    "人工智能",
+    "人脑工程",
+    "字节跳动"
+   ],
+   "valuation": {
+    "ttmPe": 59.58,
+    "dynamicPe": 46.35,
+    "pb": 2.061,
+    "marketCapYi": 61.46,
+    "lastPrice": 25.86
+   },
+   "momentum": {
+    "change3m": 8.52,
+    "change5d": 10.84
+   },
+   "financial": {
+    "revenueYoy": -19.24,
+    "profitYoy": -6.21,
+    "roe": 2.23,
+    "debtRatio": 7.1
+   },
+   "announcements": [
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/0feea5acef7e8c07c1ecda85064d2b2a.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/a9e02607a60a99dfc61a44c039652a9b.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "关于终止发行股份及支付现金购买资产并募集配套资金的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/8d45f10cf91de01385f95b93e868a978.pdf"
+    },
+    {
+     "time": "2026-07-08 00:00:00",
+     "timestamp": 1783440000,
+     "title": "关于发行股份及支付现金购买资产并募集配套资金交易事项的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/08/096757e3c0cf79f7ee46a03522082fcc.pdf"
+    },
+    {
+     "time": "2026-06-08 00:00:00",
+     "timestamp": 1780848000,
+     "title": "关于发行股份及支付现金购买资产并募集配套资金交易事项的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/08/091ae21a3f995e43de3e32f6707bafe7.pdf"
+    },
+    {
+     "time": "2026-05-08 00:00:00",
+     "timestamp": 1778169600,
+     "title": "关于发行股份及支付现金购买资产并募集配套资金交易事项的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/05/08/e1f5ce301fffa3e4d153635ae51328c2.pdf"
+    },
+    {
+     "time": "2026-04-27 00:00:00",
+     "timestamp": 1777219200,
+     "title": "2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/27/1e5b67a3d7639d659283457c5b3daad9.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/0feea5acef7e8c07c1ecda85064d2b2a.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/a9e02607a60a99dfc61a44c039652a9b.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "关于终止发行股份及支付现金购买资产并募集配套资金的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/8d45f10cf91de01385f95b93e868a978.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300792",
+    "announcements": "https://www.cls.cn/stock?code=sz300792&tab=notice"
+   }
+  },
+  "sh603538": {
+   "code": "sh603538",
+   "name": "美诺华  ",
+   "researchedAt": "2026-09-23T00:22:58.319Z",
+   "asOfDate": "2026-09-23",
+   "industry": "医药生物-化学制药-原料药",
+   "concepts": [
+    "原料药",
+    "医药生物",
+    "机器人概念",
+    "CRO/CMO",
+    "新冠治疗"
+   ],
+   "valuation": {
+    "ttmPe": 83.83,
+    "dynamicPe": 76.91,
+    "pb": 2.387,
+    "marketCapYi": 97.97,
+    "lastPrice": 28.82
+   },
+   "momentum": {
+    "change3m": 11.06,
+    "change5d": 14.18
+   },
+   "financial": {
+    "revenueYoy": 26.79,
+    "profitYoy": 23.55,
+    "roe": 2.17,
+    "debtRatio": 36.07
+   },
+   "announcements": [
+    {
+     "time": "2026-08-12 00:00:00",
+     "timestamp": 1786464000,
+     "title": "宁波美诺华药业股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/12/86fb70f943c38eabab4b3fe5310ba230.pdf"
+    },
+    {
+     "time": "2026-08-12 00:00:00",
+     "timestamp": 1786464000,
+     "title": "宁波美诺华药业股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/12/4c7720afb74e68fc5046ade2134866af.pdf"
+    },
+    {
+     "time": "2026-07-22 00:00:00",
+     "timestamp": 1784649600,
+     "title": "宁波美诺华药业股份有限公司股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/22/839299116d543315347d4cdf6ab6a40b.pdf"
+    },
+    {
+     "time": "2026-07-14 00:00:00",
+     "timestamp": 1783958400,
+     "title": "宁波美诺华药业股份有限公司股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/14/20296df239ebc4b27f72b51010c176a9.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-12 00:00:00",
+     "timestamp": 1786464000,
+     "title": "宁波美诺华药业股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/12/86fb70f943c38eabab4b3fe5310ba230.pdf"
+    },
+    {
+     "time": "2026-08-12 00:00:00",
+     "timestamp": 1786464000,
+     "title": "宁波美诺华药业股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/12/4c7720afb74e68fc5046ade2134866af.pdf"
+    },
+    {
+     "time": "2026-07-22 00:00:00",
+     "timestamp": 1784649600,
+     "title": "宁波美诺华药业股份有限公司股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/22/839299116d543315347d4cdf6ab6a40b.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh603538",
+    "announcements": "https://www.cls.cn/stock?code=sh603538&tab=notice"
    }
   }
  }
