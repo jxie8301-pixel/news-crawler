@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T05:02:06.487Z",
+ "updatedAt": "2026-09-23T05:37:16.336Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -38229,6 +38229,40 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz301529",
     "announcements": "https://www.cls.cn/stock?code=sz301529&tab=notice"
+   }
+  },
+  "sh688837": {
+   "code": "sh688837",
+   "name": "C信诺维 ",
+   "researchedAt": "2026-09-23T05:37:16.336Z",
+   "asOfDate": "2026-09-23",
+   "industry": "医药生物-生物制品-其他生物制品",
+   "concepts": [
+    "医药生物",
+    "创新药"
+   ],
+   "valuation": {
+    "ttmPe": null,
+    "dynamicPe": -70.44,
+    "pb": 37.515,
+    "marketCapYi": 236.38,
+    "lastPrice": 54.28
+   },
+   "momentum": {
+    "change3m": -2.37,
+    "change5d": 35.09
+   },
+   "financial": {
+    "revenueYoy": null,
+    "profitYoy": 55.11,
+    "roe": -31.33,
+    "debtRatio": 72.94
+   },
+   "announcements": [],
+   "keyEvents": [],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688837",
+    "announcements": "https://www.cls.cn/stock?code=sh688837&tab=notice"
    }
   }
  }
