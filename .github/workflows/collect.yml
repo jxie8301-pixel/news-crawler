@@ -368,10 +368,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 组装 _site（保留现网 perf）
+      - name: 组装 _site（保留本仓 perf / pushes.db）
         if: steps.resolve.outputs.skipped != 'true'
         run: |
-          SITE=https://jxie8301-pixel.github.io/cls-news
+          SITE=https://jxie8301-pixel.github.io/news-crawler
           mkdir -p _site/cards _site/perf
           cp out/cls-news-latest.html _site/index.html
           cp out/cls-news-cards.html  _site/cards/index.html
@@ -380,7 +380,7 @@ jobs:
           cp out/status.json          _site/status.json
           cp data/research.json       _site/research.json || true
           cp public/perf/index.html   _site/perf/index.html
-          # 尽量保留线上已有 pushes.db；本轮有则覆盖
+          # 尽量保留本仓线上已有 pushes.db；本轮有则覆盖
           curl -fsSL --retry 2 "$SITE/pushes.db" -o _site/pushes.db || true
           [ -f data/pushes.db ] && cp data/pushes.db _site/pushes.db
           TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M %Z' > _site/updated.txt

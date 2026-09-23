@@ -88,10 +88,11 @@ jobs:
           cd "$SRC"
           exit 0
 
-      - name: 组装发布目录（保留现网新闻页 + 更新 /perf）
+      - name: 组装发布目录（保留本仓新闻页 + 更新 /perf）
         if: steps.db.outputs.found == 'true'
         run: |
-          SITE=https://jxie8301-pixel.github.io/cls-news
+          # 必须拉本仓 Pages，禁止再拉旧仓 cls-news（否则会盖掉当日采集）
+          SITE=https://jxie8301-pixel.github.io/news-crawler
           mkdir -p _site/cards _site/perf
           curl -fsSL --retry 2 "$SITE/index.html"        -o _site/index.html        || true
           curl -fsSL --retry 2 "$SITE/cards/index.html"  -o _site/cards/index.html  || true
@@ -100,8 +101,13 @@ jobs:
           curl -fsSL --retry 2 "$SITE/status.json"       -o _site/status.json       || true
           curl -fsSL --retry 2 "$SITE/research.json"     -o _site/research.json     || true
           curl -fsSL --retry 2 "$SITE/updated.txt"       -o _site/updated.txt       || true
+          # 本仓 Pages 尚空时，从 data/seeds 兜底（勿回退到旧仓 cls-news）
+          if [ ! -s _site/status.json ] && git fetch origin data --depth 1 2>/dev/null; then
+            git show origin/data:seeds/status.json > _site/status.json 2>/dev/null || true
+            git show origin/data:seeds/research.json > _site/research.json 2>/dev/null || true
+          fi
           if [ ! -s _site/index.html ]; then
-            printf '%s\n' '<!doctype html><meta charset=utf-8><title>cls-news</title><p><a href="perf/">推送复盘</a></p>' > _site/index.html
+            printf '%s\n' '<!doctype html><meta charset=utf-8><title>news-crawler</title><p><a href="perf/">推送复盘</a></p>' > _site/index.html
           fi
           cp public/perf/index.html _site/perf/index.html
           cp data/pushes.db _site/pushes.db
