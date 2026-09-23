@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T00:40:29.953Z",
+ "updatedAt": "2026-09-23T01:01:39.351Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -5911,8 +5911,8 @@
   "sz002757": {
    "code": "sz002757",
    "name": "南兴股份",
-   "researchedAt": "2026-09-22T00:49:02.670Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T01:01:39.350Z",
+   "asOfDate": "2026-09-23",
    "industry": "机械设备-专用设备-其他专用设备",
    "concepts": [
     "数据中心",
@@ -5922,15 +5922,15 @@
     "家居装饰"
    ],
    "valuation": {
-    "ttmPe": 38.32,
-    "dynamicPe": 33.77,
-    "pb": 2.608,
-    "marketCapYi": 53.33,
-    "lastPrice": 18.05
+    "ttmPe": 42.16,
+    "dynamicPe": null,
+    "pb": 2.869,
+    "marketCapYi": 58.68,
+    "lastPrice": null
    },
    "momentum": {
-    "change3m": 1.12,
-    "change5d": 3.8
+    "change3m": 13.23,
+    "change5d": 14.2
    },
    "financial": {
     "revenueYoy": 12.15,
