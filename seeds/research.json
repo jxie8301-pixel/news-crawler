@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T12:07:22.081Z",
+ "updatedAt": "2026-09-23T12:25:14.904Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -254,8 +254,8 @@
   "sh603228": {
    "code": "sh603228",
    "name": "景旺电子",
-   "researchedAt": "2026-09-16T23:18:37.987Z",
-   "asOfDate": "2026-09-17",
+   "researchedAt": "2026-09-23T12:25:14.904Z",
+   "asOfDate": "2026-09-23",
    "industry": "电子-元件-印制电路板",
    "concepts": [
     "PCB",
@@ -265,15 +265,15 @@
     "华为5G"
    ],
    "valuation": {
-    "ttmPe": 90.06,
-    "dynamicPe": 88.55,
-    "pb": 7.952,
-    "marketCapYi": 1065.48,
-    "lastPrice": 106.41
+    "ttmPe": 90.95,
+    "dynamicPe": 89.42,
+    "pb": 8.03,
+    "marketCapYi": 1075.92,
+    "lastPrice": 107.45
    },
    "momentum": {
-    "change3m": -4.78,
-    "change5d": -2.9
+    "change3m": 2.87,
+    "change5d": 0.98
    },
    "financial": {
     "revenueYoy": 21.37,
@@ -311,12 +311,6 @@
      "timestamp": 1787328000,
      "title": "景旺电子关于回购注销部分限制性股票减少注册资本通知债权人的公告",
      "url": "http://xk-annc-a.cls.cn/annc/2026/08/22/b741991813a0fc1a5d80422c59a47502.pdf"
-    },
-    {
-     "time": "2026-08-11 00:00:00",
-     "timestamp": 1786377600,
-     "title": "景旺电子股票交易异常波动公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/08/11/2efed310d0f0bf2bc895150451001d1c.pdf"
     }
    ],
    "keyEvents": [
@@ -38659,6 +38653,123 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh688628",
     "announcements": "https://www.cls.cn/stock?code=sh688628&tab=notice"
+   }
+  },
+  "sz000100": {
+   "code": "sz000100",
+   "name": "TCL科技",
+   "researchedAt": "2026-09-23T12:25:14.836Z",
+   "asOfDate": "2026-09-23",
+   "industry": "电子-光学光电子-面板",
+   "concepts": [
+    "面板",
+    "家电",
+    "小米概念",
+    "光伏",
+    "创投"
+   ],
+   "valuation": {
+    "ttmPe": 16.8,
+    "dynamicPe": 14.21,
+    "pb": 1.639,
+    "marketCapYi": 1081.96,
+    "lastPrice": 4.93
+   },
+   "momentum": {
+    "change3m": -1.2,
+    "change5d": 3.57
+   },
+   "financial": {
+    "revenueYoy": 3.61,
+    "profitYoy": 6980.35,
+    "roe": 5.99,
+    "debtRatio": 65.05
+   },
+   "announcements": [
+    {
+     "time": "2026-09-09 00:00:00",
+     "timestamp": 1788883200,
+     "title": "2026年半年度报告（英文版）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/09/b9c07d3bb9640deb8f40f1941c20c9bf.pdf"
+    },
+    {
+     "time": "2026-09-09 00:00:00",
+     "timestamp": 1788883200,
+     "title": "2026年半年度报告摘要（英文版）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/09/445ded139e3a9481d6a50cb2b57fd9c2.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/5b5c7ba6102a36fa8008fbecf601965c.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/4efd16b2113e76c9f0521b6e9841f82b.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "申万宏源证券承销保荐有限责任公司关于TCL科技发行股份及支付现金购买资产实施情况之独立财务顾问核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/eba98e742a0c7ed166c922ad34d6abbc.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "TCL科技发行股份及支付现金购买资产实施情况暨新增股份上市公告书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/f81415f61277c1204db8695821c40833.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "北京市嘉源律师事务所关于TCL科技发行股份及支付现金购买资产之实施情况的法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/c83d61175abc3a80f318213bfa6b4802.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "TCL科技发行股份及支付现金购买资产实施情况暨新增股份上市公告书 （摘要）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/cbe3942829834a8c1a264fa9a10dff0a.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "北京市嘉源律师事务所关于TCL科技发行股份及支付现金购买资产之标的资产过户情况的法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/643226d40ef1112d2e20b4041e21eaf1.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "申万宏源证券承销保荐有限责任公司关于TCL科技发行股份及支付现金购买资产标的资产过户情况之独立财务顾问核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/6069c753b6d49fea92ddfd123eec65c0.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-09 00:00:00",
+     "timestamp": 1788883200,
+     "title": "2026年半年度报告（英文版）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/09/b9c07d3bb9640deb8f40f1941c20c9bf.pdf"
+    },
+    {
+     "time": "2026-09-09 00:00:00",
+     "timestamp": 1788883200,
+     "title": "2026年半年度报告摘要（英文版）",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/09/445ded139e3a9481d6a50cb2b57fd9c2.pdf"
+    },
+    {
+     "time": "2026-08-29 00:00:00",
+     "timestamp": 1787932800,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/5b5c7ba6102a36fa8008fbecf601965c.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz000100",
+    "announcements": "https://www.cls.cn/stock?code=sz000100&tab=notice"
    }
   }
  }
