@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T05:37:16.336Z",
+ "updatedAt": "2026-09-23T06:18:49.358Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -34117,8 +34117,8 @@
   "sz002131": {
    "code": "sz002131",
    "name": "利欧股份",
-   "researchedAt": "2026-09-22T05:54:36.837Z",
-   "asOfDate": "2026-09-22",
+   "researchedAt": "2026-09-23T06:18:47.739Z",
+   "asOfDate": "2026-09-23",
    "industry": "机械设备-通用设备-金属制品",
    "concepts": [
     "数字营销",
@@ -34128,15 +34128,15 @@
     "人工智能"
    ],
    "valuation": {
-    "ttmPe": -101.76,
-    "dynamicPe": 112.6,
-    "pb": 2.353,
-    "marketCapYi": 311.5,
-    "lastPrice": 4.6
+    "ttmPe": -98,
+    "dynamicPe": 108.44,
+    "pb": 2.266,
+    "marketCapYi": 299.99,
+    "lastPrice": 4.43
    },
    "momentum": {
-    "change3m": 3.6,
-    "change5d": 5.26
+    "change3m": -1.56,
+    "change5d": 0.23
    },
    "financial": {
     "revenueYoy": 5.74,
@@ -34180,12 +34180,6 @@
      "timestamp": 1779292800,
      "title": "2025年年度权益分派实施公告",
      "url": "http://xk-annc-a.cls.cn/annc/2026/05/21/fc845f6642afc244e8e49da90b9b6bd5.pdf"
-    },
-    {
-     "time": "2026-04-29 00:00:00",
-     "timestamp": 1777392000,
-     "title": "2025年年度报告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/04/29/64f275094a8e3e78a06c847d2b3eb666.pdf"
     }
    ],
    "keyEvents": [
@@ -38263,6 +38257,204 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh688837",
     "announcements": "https://www.cls.cn/stock?code=sh688837&tab=notice"
+   }
+  },
+  "sh603296": {
+   "code": "sh603296",
+   "name": "华勤技术",
+   "researchedAt": "2026-09-23T06:18:47.917Z",
+   "asOfDate": "2026-09-23",
+   "industry": "电子-消费电子-消费电子零部件及组装",
+   "concepts": [
+    "消费电子",
+    "机器人概念",
+    "字节跳动",
+    "腾讯概念",
+    "业绩超预期"
+   ],
+   "valuation": {
+    "ttmPe": 23.53,
+    "dynamicPe": 20.25,
+    "pb": 3.784,
+    "marketCapYi": 1215.07,
+    "lastPrice": 80.16
+   },
+   "momentum": {
+    "change3m": -0.24,
+    "change5d": 2.28
+   },
+   "financial": {
+    "revenueYoy": 11.65,
+    "profitYoy": 60.15,
+    "roe": 9.34,
+    "debtRatio": 76.08
+   },
+   "announcements": [
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "华勤技术关于A股股份回购实施结果暨股份变动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/999d6a34563bf9050f7174d9c2633506.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "华勤技术2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/d97c2fe9b11d518dc3a1e18dd8d1f9ee.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "华勤技术2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/d23f5a2de31ef27585b63f0c46d82616.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "华勤技术关于以集中竞价交易方式回购公司A股股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/81cf9f17c3072b124aa9b3d16162e271.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "北京市中伦律师事务所关于华勤技术股份有限公司2023年限制性股票激励计划回购注销部分限制性股票、2025年限制性股票激励计划回购注销部分限制性股票的法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/82c8297fb2bfdd472040b461cb636677.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "华勤技术部分A股股权激励限制性股票回购注销实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/1c2366561e424dcf319aa02fe729a94e.pdf"
+    },
+    {
+     "time": "2026-08-04 00:00:00",
+     "timestamp": 1785772800,
+     "title": "华勤技术关于以集中竞价交易方式回购公司A股股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/04/798d67375f59edd5c5ecbbb393a51d28.pdf"
+    },
+    {
+     "time": "2026-07-31 00:00:00",
+     "timestamp": 1785427200,
+     "title": "华勤技术关于以集中竞价交易方式首次回购公司A股股份的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/31/797ac055c4e872a3fb05179d7f24aeb7.pdf"
+    },
+    {
+     "time": "2026-07-28 00:00:00",
+     "timestamp": 1785168000,
+     "title": "北京市中伦律师事务所关于华勤技术股份有限公司实际控制人增持股份的专项核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/28/5981c51337c2ba92bbe2a0a34af966c6.pdf"
+    },
+    {
+     "time": "2026-07-28 00:00:00",
+     "timestamp": 1785168000,
+     "title": "华勤技术关于公司实际控制人增持公司H股股份计划完成的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/28/cd218ccda7a5e539fbad9dfdf6e57f3d.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-02 00:00:00",
+     "timestamp": 1788278400,
+     "title": "华勤技术关于A股股份回购实施结果暨股份变动的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/02/999d6a34563bf9050f7174d9c2633506.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "华勤技术2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/d97c2fe9b11d518dc3a1e18dd8d1f9ee.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "华勤技术2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/d23f5a2de31ef27585b63f0c46d82616.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh603296",
+    "announcements": "https://www.cls.cn/stock?code=sh603296&tab=notice"
+   }
+  },
+  "sh600498": {
+   "code": "sh600498",
+   "name": "烽火通信",
+   "researchedAt": "2026-09-23T06:18:49.358Z",
+   "asOfDate": "2026-09-23",
+   "industry": "通信-通信设备-通信网络设备及器件",
+   "concepts": [
+    "光通信",
+    "大数据",
+    "国企改革",
+    "央企改革",
+    "回购"
+   ],
+   "valuation": {
+    "ttmPe": 169.3,
+    "dynamicPe": 150.19,
+    "pb": 3.29,
+    "marketCapYi": 579.12,
+    "lastPrice": 42.64
+   },
+   "momentum": {
+    "change3m": -3.07,
+    "change5d": 0.85
+   },
+   "financial": {
+    "revenueYoy": 11.33,
+    "profitYoy": -34.89,
+    "roe": 1.1,
+    "debtRatio": 61.28
+   },
+   "announcements": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "烽火通信科技股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/970a9e85670d928ea2405007fddba559.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "烽火通信科技股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/86ba9d28f6787d969fb98268858b672b.pdf"
+    },
+    {
+     "time": "2026-07-11 00:00:00",
+     "timestamp": 1783699200,
+     "title": "湖北众联资产评估有限公司关于烽火通信拟股权收购所涉及的藤仓烽火光电材料科技有限公司股东全部权益价值评估项目资产评估报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/11/0100c385dc8f46642016580135edf1a6.pdf"
+    },
+    {
+     "time": "2026-07-11 00:00:00",
+     "timestamp": 1783699200,
+     "title": "湖北众联资产评估有限公司关于烽火通信拟股权收购所涉及的藤仓烽火光电材料科技有限公司股东全部权益价值评估项目资产评估说明",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/11/28f0c35782cd308bee30eeef1956f1a1.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "烽火通信科技股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/970a9e85670d928ea2405007fddba559.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "烽火通信科技股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/86ba9d28f6787d969fb98268858b672b.pdf"
+    },
+    {
+     "time": "2026-07-11 00:00:00",
+     "timestamp": 1783699200,
+     "title": "湖北众联资产评估有限公司关于烽火通信拟股权收购所涉及的藤仓烽火光电材料科技有限公司股东全部权益价值评估项目资产评估报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/11/0100c385dc8f46642016580135edf1a6.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh600498",
+    "announcements": "https://www.cls.cn/stock?code=sh600498&tab=notice"
    }
   }
  }
