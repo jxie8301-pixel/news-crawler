@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T23:17:10.735Z",
+ "updatedAt": "2026-09-23T23:49:27.373Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -27099,8 +27099,8 @@
   "sz300149": {
    "code": "sz300149",
    "name": "睿智医药",
-   "researchedAt": "2026-09-18T04:24:28.357Z",
-   "asOfDate": "2026-09-18",
+   "researchedAt": "2026-09-23T23:49:27.372Z",
+   "asOfDate": "2026-09-24",
    "industry": "医药生物-医疗服务-医疗研发外包",
    "concepts": [
     "CRO/CMO",
@@ -27110,15 +27110,15 @@
     "人工智能"
    ],
    "valuation": {
-    "ttmPe": -108.25,
-    "dynamicPe": -75.03,
-    "pb": 3.595,
-    "marketCapYi": 46.51,
-    "lastPrice": 9.21
+    "ttmPe": -117.66,
+    "dynamicPe": -81.55,
+    "pb": 3.907,
+    "marketCapYi": 50.55,
+    "lastPrice": 10.01
    },
    "momentum": {
-    "change3m": 4.66,
-    "change5d": 5.38
+    "change3m": 8.22,
+    "change5d": 11.97
    },
    "financial": {
     "revenueYoy": 5.37,
@@ -40967,6 +40967,43 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh688111",
     "announcements": "https://www.cls.cn/stock?code=sh688111&tab=notice"
+   }
+  },
+  "sz301717": {
+   "code": "sz301717",
+   "name": "超纯应材",
+   "researchedAt": "2026-09-23T23:49:27.262Z",
+   "asOfDate": "2026-09-24",
+   "industry": "电子-半导体-半导体设备",
+   "concepts": [
+    "半导体设备",
+    "军工",
+    "成渝板块",
+    "光刻机",
+    "芯片产业链"
+   ],
+   "valuation": {
+    "ttmPe": null,
+    "dynamicPe": 167.79,
+    "pb": 29.621,
+    "marketCapYi": 382.94,
+    "lastPrice": 376
+   },
+   "momentum": {
+    "change3m": 1.16,
+    "change5d": 3.39
+   },
+   "financial": {
+    "revenueYoy": 48.41,
+    "profitYoy": 86.01,
+    "roe": 11.77,
+    "debtRatio": 22.01
+   },
+   "announcements": [],
+   "keyEvents": [],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz301717",
+    "announcements": "https://www.cls.cn/stock?code=sz301717&tab=notice"
    }
   }
  }
