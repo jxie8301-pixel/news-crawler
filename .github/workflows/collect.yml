@@ -57,18 +57,13 @@ jobs:
         env:
           FORCE: ${{ github.event.inputs.force }}
           ASSUME_NEW_VIP: ${{ github.event.inputs.assume_new_vip }}
+          D1_API_BASE: ${{ secrets.D1_API_BASE }}
+          D1_WRITE_TOKEN: ${{ secrets.D1_WRITE_TOKEN }}
         run: |
           set +e
           cp config.example.json config.json
           mkdir -p out
-          git fetch origin data --depth 1 || true
-          if git cat-file -e origin/data:seeds/status.json 2>/dev/null; then
-            git show origin/data:seeds/status.json > out/status.json
-            echo "gate 水位 ← data/seeds/status.json"
-          else
-            curl -fsSL --retry 2 https://jxie8301-pixel.github.io/cls-news/status.json -o out/status.json || true
-            echo "gate 水位 ← 现网 Pages status.json"
-          fi
+          echo "gate 水位 ← Cloudflare D1 /api/vip-gate"
           EXTRA=""
           if [ "$FORCE" = "true" ]; then EXTRA="$EXTRA --force"; fi
           if [ "$ASSUME_NEW_VIP" = "true" ]; then EXTRA="$EXTRA --assume-new-vip"; fi
@@ -258,7 +253,7 @@ jobs:
           echo "skipped=false" >> "$GITHUB_OUTPUT"
           exit $code
 
-      - name: post（正文/调研/导出；企微可选）
+      - name: post（正文/调研/导出；企微可选；写 D1）
         id: post
         if: steps.merge.outputs.skipped != 'true'
         env:
@@ -266,6 +261,9 @@ jobs:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           ENABLE_PUSH: ${{ github.event.inputs.enable_push }}
+          D1_API_BASE: ${{ secrets.D1_API_BASE }}
+          D1_WRITE_TOKEN: ${{ secrets.D1_WRITE_TOKEN }}
+          D1_SOURCE: gha
         run: |
           set +e
           EXTRA="--site-links"

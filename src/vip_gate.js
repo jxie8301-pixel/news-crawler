@@ -1,69 +1,30 @@
 'use strict';
 
 /**
- * VIP 差集门控（独立实现，不引用 dashboard）。
- * 默认对照 Pages 上 cls-news 的 status.json.lastVipIds。
+ * VIP 差集门控 —— 水位只认 Cloudflare D1（共享）。
+ * 分片数 / matrix 由各仓流水线自行控制，与本模块无关。
+ *
+ * 环境变量：
+ *   D1_API_BASE / D1_WRITE_TOKEN  （写权限 token 亦可读 vip-gate）
  */
 
-const fs = require('node:fs');
-const https = require('node:https');
-const { URL } = require('node:url');
 const cls = require('./cls.js');
 const { loadConfig } = require('./config.js');
+const d1 = require('./d1_client.js');
 
-const DEFAULT_STATUS_URL = 'https://jxie8301-pixel.github.io/cls-news/status.json';
 const SKIP_TITLE_KWS = ['玩转ETF'];
 
-function httpGetJson(urlStr, timeoutMs) {
-  return new Promise(function (resolve, reject) {
-    let u;
-    try { u = new URL(urlStr); } catch (e) { reject(e); return; }
-    const req = https.get(
-      {
-        hostname: u.hostname,
-        path: u.pathname + u.search,
-        headers: { 'User-Agent': 'news-crawler-vip-gate', Accept: 'application/json' },
-        timeout: timeoutMs || 20000,
-      },
-      function (res) {
-        let data = '';
-        res.setEncoding('utf8');
-        res.on('data', function (c) { data += c; });
-        res.on('end', function () {
-          if (res.statusCode && res.statusCode >= 400) {
-            reject(new Error('HTTP ' + res.statusCode));
-            return;
-          }
-          try { resolve(JSON.parse(data || '{}')); }
-          catch (e) { reject(new Error('非 JSON: ' + data.slice(0, 120))); }
-        });
-      }
-    );
-    req.on('error', reject);
-    req.on('timeout', function () {
-      req.destroy();
-      reject(new Error('timeout'));
-    });
-  });
-}
-
-async function loadLastVipIds(cfg) {
-  const local = cfg && cfg.lastVipIdsFile;
-  const candidates = [];
-  if (local) candidates.push(local);
-  candidates.push(require('node:path').join(require('./config.js').ROOT, 'out', 'status.json'));
-
-  for (const file of candidates) {
-    if (!file || !fs.existsSync(file)) continue;
-    try {
-      const j = JSON.parse(fs.readFileSync(file, 'utf8'));
-      if (Array.isArray(j.lastVipIds)) return j.lastVipIds.map(String);
-      if (Array.isArray(j)) return j.map(String);
-    } catch (_) { /* try next */ }
+/**
+ * @returns {Promise<string[]>}
+ */
+async function loadLastVipIds() {
+  if (!process.env.D1_WRITE_TOKEN) {
+    throw new Error('VIP 门控需要 D1_WRITE_TOKEN（水位只存 D1，不再读 GitHub status.json）');
   }
-  const url = (cfg && cfg.statusUrl) || DEFAULT_STATUS_URL;
-  const st = await httpGetJson(url, 20000);
-  return Array.isArray(st.lastVipIds) ? st.lastVipIds.map(String) : [];
+  const g = await d1.getVipGate();
+  const ids = Array.isArray(g.lastVipIds) ? g.lastVipIds.map(String) : [];
+  console.log('[vip] 水位 ← D1 count=' + ids.length + ' by=' + (g.updatedBy || '?'));
+  return ids;
 }
 
 function eligibleVipItems(items) {
@@ -88,22 +49,26 @@ function eligibleVipItems(items) {
  */
 async function checkVipGate(opts) {
   opts = opts || {};
-  const cfg = Object.assign(loadConfig(), opts);
+  loadConfig(); // 门控本身不读 statusUrl
   const force = !!opts.force || !!opts.noGate;
-  // 外部哨兵已判定有新 VIP：优先走 CF 回退拿列表；拿不到也直接继续，不再死磕 cls.cn
   const assumeNewVip = !!opts.assumeNewVip;
 
   let lastIds = [];
   try {
-    lastIds = await loadLastVipIds(cfg);
+    lastIds = await loadLastVipIds();
   } catch (e) {
-    console.warn('[vip] 读取水位失败，视为无水位继续: ' + (e && e.message ? e.message : e));
+    const msg = e && e.message ? e.message : String(e);
+    if (force || assumeNewVip) {
+      console.warn('[vip] D1 水位不可用，force/assume 下视为空水位: ' + msg);
+      lastIds = [];
+    } else {
+      throw e;
+    }
   }
 
   let items;
   try {
     if (assumeNewVip) {
-      // 外部触发：优先 CF（GHA→CF 通常稳），避免先空等 cls.cn
       items = await cls.fetchVipArticles({ preferFallback: true, timeout: 15000 });
     } else {
       items = await cls.fetchVipArticles({});
@@ -159,5 +124,4 @@ module.exports = {
   checkVipGate,
   eligibleVipItems,
   loadLastVipIds,
-  DEFAULT_STATUS_URL,
 };

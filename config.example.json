@@ -4,7 +4,6 @@
   "requestDelayMs": 80,
   "scanTimeoutMinutes": 10,
   "matrixShards": 4,
-  "statusUrl": "https://jxie8301-pixel.github.io/cls-news/status.json",
   "poolFile": "data/pools/all-a.json",
   "syncPoolsOnStart": false,
   "fetchText": true,
@@ -18,19 +17,8 @@
     "ttlHours": 24,
     "staleHours": 168
   },
-  "research": { "enabled": true, "refreshHours": 24, "concurrency": 5 },
-  "notify": {
-    "enabled": true,
-    "minimax": {
-      "enabled": true,
-      "model": "MiniMax-M3",
-      "base_url": "https://api.minimaxi.com/v1",
-      "timeout": 180,
-      "web_search": true,
-      "max_output_tokens": 16384,
-      "api_key": ""
-    }
-  },
+  "research": { "enabled": false },
+  "notify": { "enabled": false },
   "prefixes": [
     "盘中宝",
     "风口研报",

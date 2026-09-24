@@ -12,6 +12,7 @@ const report = require('./report.js');
 const research = require('./research.js');
 const notify = require('./notify.js');
 const cls = require('./cls.js');
+const d1 = require('./d1_client.js');
 
 const OUT_DIR = path.join(ROOT, 'out');
 
@@ -214,6 +215,7 @@ async function cmdPost() {
   const statusPath = path.join(report.OUT_DIR, 'status.json');
   let prevVip = [];
   try { prevVip = JSON.parse(fs.readFileSync(statusPath, 'utf8')).lastVipIds || []; } catch (_) {}
+  const lastVipIds = curVipIds.length ? curVipIds : prevVip;
   fs.writeFileSync(statusPath, JSON.stringify({
     publishedAt: nowMs,
     publishedAtShanghai: cls.fmtTime(Math.floor(nowMs / 1000)),
@@ -222,9 +224,54 @@ async function cmdPost() {
     days: days,
     rows: rows.length,
     pipeline: 'v2-matrix',
-    lastVipIds: curVipIds.length ? curVipIds : prevVip,
+    lastVipIds: lastVipIds,
   }, null, 2), 'utf8');
   console.log('  ' + statusPath);
+
+  // 权威水位 / 文章写入 Cloudflare D1（与 CNB 共享）
+  if (process.env.D1_WRITE_TOKEN) {
+    const payload = d1.articlesFromStore(store, { days: Math.max(days, 7) });
+    try {
+      const vipItems = await cls.fetchVipArticles({ preferFallback: true, timeout: 15000 });
+      const vipMap = new Map();
+      (vipItems || []).forEach(function (it) {
+        if (!it || it.id == null) return;
+        vipMap.set(String(it.id), {
+          title: String(it.title || ''),
+          brief: String(it.brief || it.summary || '').replace(/\s+/g, ' ').trim(),
+        });
+      });
+      let hit = 0;
+      for (const a of payload) {
+        a.prefix = cls.titlePrefix(a.title) || a.prefix || '';
+        const v = vipMap.get(String(a.article_id));
+        if (!v) continue;
+        if (v.title) a.title = v.title;
+        if (v.brief) a.brief = v.brief;
+        hit++;
+      }
+      console.log('[d1] VIP 标题/摘要覆盖 ' + hit + '/' + payload.length);
+    } catch (e) {
+      console.warn('[d1] VIP 摘要覆盖失败，沿用 store: ' + (e && e.message ? e.message : e));
+      for (const a of payload) {
+        a.prefix = cls.titlePrefix(a.title) || a.prefix || '';
+      }
+    }
+    const source = process.env.D1_SOURCE || 'gha';
+    const up = await d1.upsertArticles(payload, source);
+    console.log('[d1] upsert articles=' + up.articles + ' stocks=' + up.stocks + ' source=' + source);
+    if (lastVipIds && lastVipIds.length) {
+      await d1.setVipGate(lastVipIds, source);
+      console.log('[d1] vip_gate ids=' + lastVipIds.length);
+    }
+    try {
+      await d1.ingestDone({ source: source, ok: true, rows: rows.length, articles: up.articles });
+    } catch (e) {
+      console.warn('[d1] ingest-done: ' + (e && e.message ? e.message : e));
+    }
+  } else {
+    console.warn('[d1] 跳过写入：未配置 D1_WRITE_TOKEN');
+  }
 
   const notifyEnabled = !cfg.notify || cfg.notify.enabled !== false;
   if (notifyEnabled && !noPush) {
