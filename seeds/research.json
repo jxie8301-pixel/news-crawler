@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-23T23:49:27.373Z",
+ "updatedAt": "2026-09-24T01:23:47.350Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -17375,8 +17375,8 @@
   "sh688603": {
    "code": "sh688603",
    "name": "天承科技",
-   "researchedAt": "2026-09-21T14:49:07.355Z",
-   "asOfDate": "2026-09-21",
+   "researchedAt": "2026-09-24T01:23:46.028Z",
+   "asOfDate": "2026-09-24",
    "industry": "电子-电子化学品Ⅱ-电子化学品Ⅲ",
    "concepts": [
     "PCB",
@@ -17386,15 +17386,15 @@
     "封装设备"
    ],
    "valuation": {
-    "ttmPe": 136.74,
-    "dynamicPe": 123.8,
-    "pb": 12.281,
-    "marketCapYi": 152.54,
-    "lastPrice": 122.3
+    "ttmPe": 140.88,
+    "dynamicPe": 127.54,
+    "pb": 12.653,
+    "marketCapYi": 157.15,
+    "lastPrice": 126
    },
    "momentum": {
-    "change3m": 3.08,
-    "change5d": 6.86
+    "change3m": 3.03,
+    "change5d": 6.96
    },
    "financial": {
     "revenueYoy": 43.74,
@@ -17414,18 +17414,6 @@
      "timestamp": 1787932800,
      "title": "2026年半年度报告摘要",
      "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/adeb7828db0125c940d6b5c301844920.pdf"
-    },
-    {
-     "time": "2026-08-25 00:00:00",
-     "timestamp": 1787587200,
-     "title": "股东减持股份计划公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/ef9349b83954f56351fb84583699fbd6.pdf"
-    },
-    {
-     "time": "2026-08-13 00:00:00",
-     "timestamp": 1786550400,
-     "title": "股东减持股份结果公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/08/13/0187bfd25d14eb3e06110ffa351987e8.pdf"
     }
    ],
    "keyEvents": [
@@ -17440,12 +17428,6 @@
      "timestamp": 1787932800,
      "title": "2026年半年度报告摘要",
      "url": "http://xk-annc-a.cls.cn/annc/2026/08/29/adeb7828db0125c940d6b5c301844920.pdf"
-    },
-    {
-     "time": "2026-08-25 00:00:00",
-     "timestamp": 1787587200,
-     "title": "股东减持股份计划公告",
-     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/ef9349b83954f56351fb84583699fbd6.pdf"
     }
    ],
    "sources": {
@@ -20585,8 +20567,8 @@
   "sh688432": {
    "code": "sh688432",
    "name": "有研硅  ",
-   "researchedAt": "2026-09-17T00:32:05.675Z",
-   "asOfDate": "2026-09-17",
+   "researchedAt": "2026-09-24T01:23:47.349Z",
+   "asOfDate": "2026-09-24",
    "industry": "电子-半导体-半导体材料",
    "concepts": [
     "半导体材料",
@@ -20595,15 +20577,15 @@
     "并购重组"
    ],
    "valuation": {
-    "ttmPe": 286.32,
-    "dynamicPe": 254.44,
-    "pb": 14.811,
-    "marketCapYi": 675.91,
-    "lastPrice": 54.06
+    "ttmPe": 286,
+    "dynamicPe": 254.15,
+    "pb": 14.795,
+    "marketCapYi": 675.16,
+    "lastPrice": 54
    },
    "momentum": {
-    "change3m": 17.14,
-    "change5d": 17.14
+    "change3m": -1.08,
+    "change5d": -1.82
    },
    "financial": {
     "revenueYoy": 21.2,
@@ -27522,8 +27504,8 @@
   "sz002185": {
    "code": "sz002185",
    "name": "华天科技",
-   "researchedAt": "2026-09-20T12:10:03.100Z",
-   "asOfDate": "2026-09-20",
+   "researchedAt": "2026-09-24T01:23:42.892Z",
+   "asOfDate": "2026-09-24",
    "industry": "电子-半导体-集成电路封测",
    "concepts": [
     "半导体芯片",
@@ -27533,15 +27515,15 @@
     "大基金系"
    ],
    "valuation": {
-    "ttmPe": 46.23,
-    "dynamicPe": 36.87,
-    "pb": 3.153,
-    "marketCapYi": 599.81,
-    "lastPrice": 18.03
+    "ttmPe": 46.36,
+    "dynamicPe": 36.97,
+    "pb": 3.162,
+    "marketCapYi": 601.48,
+    "lastPrice": 18.08
    },
    "momentum": {
-    "change3m": 10.21,
-    "change5d": 11.3
+    "change3m": -2.53,
+    "change5d": 10.31
    },
    "financial": {
     "revenueYoy": 35.09,
@@ -41004,6 +40986,444 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sz301717",
     "announcements": "https://www.cls.cn/stock?code=sz301717&tab=notice"
+   }
+  },
+  "sh688316": {
+   "code": "sh688316",
+   "name": "青云科技-U",
+   "researchedAt": "2026-09-24T01:23:43.874Z",
+   "asOfDate": "2026-09-24",
+   "industry": "计算机-IT服务Ⅱ-IT服务Ⅲ",
+   "concepts": [
+    "云计算",
+    "国产软件",
+    "股权转让",
+    "数据中心",
+    "信创"
+   ],
+   "valuation": {
+    "ttmPe": -37.16,
+    "dynamicPe": -32.1,
+    "pb": 71.056,
+    "marketCapYi": 22.15,
+    "lastPrice": 46.25
+   },
+   "momentum": {
+    "change3m": -0.3,
+    "change5d": 4.88
+   },
+   "financial": {
+    "revenueYoy": -12.68,
+    "profitYoy": 16.12,
+    "roe": -110.67,
+    "debtRatio": 79.16
+   },
+   "announcements": [
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/568b6b1f92dc4b370e2084def072108c.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/68e86e7867f4d2d29aa3be3e85aff2e8.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/e52795b752206a87c00509df17f3c119.pdf"
+    },
+    {
+     "time": "2026-07-18 00:00:00",
+     "timestamp": 1784304000,
+     "title": "关于上海证券交易所《关于青云科技集团股份有限公司2025年年度报告的信息披露监管问询函》的回复公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/18/78ecfb2a97fb4c36a2a906ab7d21b7e3.pdf"
+    },
+    {
+     "time": "2026-04-30 00:00:00",
+     "timestamp": 1777478400,
+     "title": "2025年年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/30/c73a67f56fa6aee0336b7bf9fd20543d.pdf"
+    },
+    {
+     "time": "2026-04-30 00:00:00",
+     "timestamp": 1777478400,
+     "title": "2025年年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/30/8709ae719d32e6bbf6c23d85f083a407.pdf"
+    },
+    {
+     "time": "2026-04-30 00:00:00",
+     "timestamp": 1777478400,
+     "title": "2026年第一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/30/8022cb13f92749c8e2b27311336ff61a.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/568b6b1f92dc4b370e2084def072108c.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/68e86e7867f4d2d29aa3be3e85aff2e8.pdf"
+    },
+    {
+     "time": "2026-08-05 00:00:00",
+     "timestamp": 1785859200,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/05/e52795b752206a87c00509df17f3c119.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh688316",
+    "announcements": "https://www.cls.cn/stock?code=sh688316&tab=notice"
+   }
+  },
+  "sz300017": {
+   "code": "sz300017",
+   "name": "网宿科技",
+   "researchedAt": "2026-09-24T01:23:43.939Z",
+   "asOfDate": "2026-09-24",
+   "industry": "计算机-IT服务Ⅱ-IT服务Ⅲ",
+   "concepts": [
+    "云计算",
+    "教育产业",
+    "网红经济",
+    "国产软件",
+    "人工智能"
+   ],
+   "valuation": {
+    "ttmPe": 48.95,
+    "dynamicPe": 54.52,
+    "pb": 3.652,
+    "marketCapYi": 379.34,
+    "lastPrice": 15.2
+   },
+   "momentum": {
+    "change3m": 0.07,
+    "change5d": 2.77
+   },
+   "financial": {
+    "revenueYoy": -1.38,
+    "profitYoy": -5.84,
+    "roe": 3.35,
+    "debtRatio": 11.8
+   },
+   "announcements": [
+    {
+     "time": "2026-09-17 00:00:00",
+     "timestamp": 1789574400,
+     "title": "关于首次回购公司股份暨回购股份进展的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/17/3463d56faff5954668620c4bc444ab5c.pdf"
+    },
+    {
+     "time": "2026-09-01 00:00:00",
+     "timestamp": 1788192000,
+     "title": "关于回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/01/fe696e9c3b68438b3593a3501102dd55.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "回购报告书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/8863d2c21ba45bfd94768715db810cc3.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "关于2026年半年度权益分派实施后调整回购股份价格上限的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/659378d39ffcc2587c3362504fddc7cb.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "关于回购公司股份用于注销并减少注册资本的债权人通知公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/f528f641f5c5164daf4b7cd708b25cc2.pdf"
+    },
+    {
+     "time": "2026-08-20 00:00:00",
+     "timestamp": 1787155200,
+     "title": "2026年半年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/20/44ee7260639c45b72842d6164d30fa5a.pdf"
+    },
+    {
+     "time": "2026-08-19 00:00:00",
+     "timestamp": 1787068800,
+     "title": "关于回购公司股份事项前十名股东及前十名无限售条件股东持股情况的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/19/13d1b334bc13612ec4cb8881bcfac98c.pdf"
+    },
+    {
+     "time": "2026-08-19 00:00:00",
+     "timestamp": 1787068800,
+     "title": "关于取得金融机构股票回购专项贷款承诺函的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/19/4e506dd57169a3a367490bfc572e4f8e.pdf"
+    },
+    {
+     "time": "2026-08-15 00:00:00",
+     "timestamp": 1786723200,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/15/c3e8fda167acf3d2516e3924b9893546.pdf"
+    },
+    {
+     "time": "2026-08-15 00:00:00",
+     "timestamp": 1786723200,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/15/f685ec693029aa5061b7809ff6483132.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-17 00:00:00",
+     "timestamp": 1789574400,
+     "title": "关于首次回购公司股份暨回购股份进展的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/17/3463d56faff5954668620c4bc444ab5c.pdf"
+    },
+    {
+     "time": "2026-09-01 00:00:00",
+     "timestamp": 1788192000,
+     "title": "关于回购公司股份的进展公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/01/fe696e9c3b68438b3593a3501102dd55.pdf"
+    },
+    {
+     "time": "2026-08-28 00:00:00",
+     "timestamp": 1787846400,
+     "title": "回购报告书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/28/8863d2c21ba45bfd94768715db810cc3.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz300017",
+    "announcements": "https://www.cls.cn/stock?code=sz300017&tab=notice"
+   }
+  },
+  "sz002819": {
+   "code": "sz002819",
+   "name": "东方中科",
+   "researchedAt": "2026-09-24T01:23:45.290Z",
+   "asOfDate": "2026-09-24",
+   "industry": "机械设备-通用设备-仪器仪表",
+   "concepts": [
+    "国产软件",
+    "小米概念",
+    "半导体芯片",
+    "人工智能",
+    "国企改革"
+   ],
+   "valuation": {
+    "ttmPe": -56.96,
+    "dynamicPe": -92.68,
+    "pb": 2.044,
+    "marketCapYi": 79.46,
+    "lastPrice": 26.66
+   },
+   "momentum": {
+    "change3m": 21.79,
+    "change5d": 26.29
+   },
+   "financial": {
+    "revenueYoy": -0.82,
+    "profitYoy": 2.65,
+    "roe": -1.6,
+    "debtRatio": 33.08
+   },
+   "announcements": [
+    {
+     "time": "2026-09-10 00:00:00",
+     "timestamp": 1788969600,
+     "title": "关于回购股份注销完成暨股份变动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/10/2e2be3cdda83e6d9b4d5bfad861e1489.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/c9bd3941d47ae61eee0ca28c54249277.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/cc64ecfe4f2149d7d503460011fba573.pdf"
+    },
+    {
+     "time": "2026-07-14 00:00:00",
+     "timestamp": 1783958400,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/14/230980a54c10c4550151e3dcce0ab793.pdf"
+    },
+    {
+     "time": "2026-07-14 00:00:00",
+     "timestamp": 1783958400,
+     "title": "关于注销部分回购股份减少注册资本暨通知债权人的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/14/bebb4cb7a8c70ab72639584286a97e4b.pdf"
+    },
+    {
+     "time": "2026-06-26 00:00:00",
+     "timestamp": 1782403200,
+     "title": "关于注销回购股份并减少注册资本的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/26/37394aaed5571e4f25a9293d34d44ab5.pdf"
+    },
+    {
+     "time": "2026-06-24 00:00:00",
+     "timestamp": 1782230400,
+     "title": "2025年年度分红派息实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/24/2da48cf506bcba5c2929f3ab194c26f3.pdf"
+    },
+    {
+     "time": "2026-06-18 00:00:00",
+     "timestamp": 1781712000,
+     "title": "关于股东减持计划期限届满暨减持计划实施情况的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/18/8be6fc86099c28f406641a79d3e65d74.pdf"
+    },
+    {
+     "time": "2026-04-29 00:00:00",
+     "timestamp": 1777392000,
+     "title": "关于持股5%以上股东减持计划期限届满未实施减持的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/29/598b68b8d35e391ccaa46ce04cbbd380.pdf"
+    },
+    {
+     "time": "2026-04-25 00:00:00",
+     "timestamp": 1777046400,
+     "title": "2026年一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/25/e346559e002f6c28804d149cc8a71f09.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-10 00:00:00",
+     "timestamp": 1788969600,
+     "title": "关于回购股份注销完成暨股份变动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/10/2e2be3cdda83e6d9b4d5bfad861e1489.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/c9bd3941d47ae61eee0ca28c54249277.pdf"
+    },
+    {
+     "time": "2026-08-26 00:00:00",
+     "timestamp": 1787673600,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/26/cc64ecfe4f2149d7d503460011fba573.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sz002819",
+    "announcements": "https://www.cls.cn/stock?code=sz002819&tab=notice"
+   }
+  },
+  "sh605358": {
+   "code": "sh605358",
+   "name": "立昂微  ",
+   "researchedAt": "2026-09-24T01:23:45.387Z",
+   "asOfDate": "2026-09-24",
+   "industry": "",
+   "concepts": [],
+   "valuation": {
+    "ttmPe": 540.91,
+    "dynamicPe": 220.79,
+    "pb": 3.459,
+    "marketCapYi": 370.81,
+    "lastPrice": 48.02
+   },
+   "momentum": {
+    "change3m": 3.69,
+    "change5d": 6.07
+   },
+   "financial": {
+    "revenueYoy": null,
+    "profitYoy": null,
+    "roe": null,
+    "debtRatio": null
+   },
+   "announcements": [
+    {
+     "time": "2026-09-22 00:00:00",
+     "timestamp": 1790006400,
+     "title": "立昂微股东及董事、高级管理人员减持股份结果",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/22/8e2a495d9325fb106b674304b842ca31.pdf"
+    },
+    {
+     "time": "2026-08-08 00:00:00",
+     "timestamp": 1786118400,
+     "title": "立昂微2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/08/10b5b464fedb626b5aa9e4657196f3c0.pdf"
+    },
+    {
+     "time": "2026-08-08 00:00:00",
+     "timestamp": 1786118400,
+     "title": "立昂微2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/08/3c7486e82ab4c2c01222e624b1e9adff.pdf"
+    },
+    {
+     "time": "2026-07-14 00:00:00",
+     "timestamp": 1783958400,
+     "title": "立昂微2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/14/dde141123f476c4deee687c0348e7c01.pdf"
+    },
+    {
+     "time": "2026-07-10 00:00:00",
+     "timestamp": 1783612800,
+     "title": "国浩律师（上海）事务所关于杭州立昂微电子股份有限公司差异化分红事项之法律意见书",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/10/79d77fbcf57eff12a1c617bdc34944cf.pdf"
+    },
+    {
+     "time": "2026-07-10 00:00:00",
+     "timestamp": 1783612800,
+     "title": "立昂微股东减持股份计划公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/10/d8ef8cc84168af7e5fd8bf8f06d9f663.pdf"
+    },
+    {
+     "time": "2026-07-10 00:00:00",
+     "timestamp": 1783612800,
+     "title": "立昂微2025年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/10/d60e4502402942386604224929806612.pdf"
+    },
+    {
+     "time": "2026-07-10 00:00:00",
+     "timestamp": 1783612800,
+     "title": "立昂微关于调整2025年度利润分配方案现金分红总额的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/10/c307b7644b2479f8f542c31d4e28a934.pdf"
+    },
+    {
+     "time": "2026-07-07 00:00:00",
+     "timestamp": 1783353600,
+     "title": "立昂微股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/07/d623580825e6b56843425ca26749deaf.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-09-22 00:00:00",
+     "timestamp": 1790006400,
+     "title": "立昂微股东及董事、高级管理人员减持股份结果",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/09/22/8e2a495d9325fb106b674304b842ca31.pdf"
+    },
+    {
+     "time": "2026-08-08 00:00:00",
+     "timestamp": 1786118400,
+     "title": "立昂微2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/08/10b5b464fedb626b5aa9e4657196f3c0.pdf"
+    },
+    {
+     "time": "2026-08-08 00:00:00",
+     "timestamp": 1786118400,
+     "title": "立昂微2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/08/3c7486e82ab4c2c01222e624b1e9adff.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh605358",
+    "announcements": "https://www.cls.cn/stock?code=sh605358&tab=notice"
    }
   }
  }
