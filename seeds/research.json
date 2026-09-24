@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-24T02:32:40.324Z",
+ "updatedAt": "2026-09-24T02:52:23.036Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -18942,8 +18942,8 @@
   "sz300776": {
    "code": "sz300776",
    "name": "帝尔激光",
-   "researchedAt": "2026-09-20T15:12:15.745Z",
-   "asOfDate": "2026-09-20",
+   "researchedAt": "2026-09-24T02:52:23.035Z",
+   "asOfDate": "2026-09-24",
    "industry": "电力设备-光伏设备-光伏加工设备",
    "concepts": [
     "激光产业",
@@ -18953,15 +18953,15 @@
     "芯片产业链"
    ],
    "valuation": {
-    "ttmPe": 71.34,
-    "dynamicPe": 58.13,
-    "pb": 7.206,
-    "marketCapYi": 355.54,
-    "lastPrice": 124.65
+    "ttmPe": 76.87,
+    "dynamicPe": 62.63,
+    "pb": 7.765,
+    "marketCapYi": 383.13,
+    "lastPrice": 134.32
    },
    "momentum": {
-    "change3m": 14.62,
-    "change5d": 14.26
+    "change3m": 7.73,
+    "change5d": 10.92
    },
    "financial": {
     "revenueYoy": -12.02,
