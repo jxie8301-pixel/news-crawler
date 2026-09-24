@@ -1,0 +1,13 @@
+# 在「代码 → 分支详情」页显示手动按钮
+# https://docs.cnb.cool/zh/build/web-trigger.html
+branch:
+  - buttons:
+      - name: 个股新闻冒烟
+        description: 测 CNB 出口拉 VIP + 个股 /es/quotes/articles（不全量、不推送）
+        event: web_trigger_stock_smoke
+        inputs:
+          SMOKE_CODES:
+            name: 股票代码
+            description: 逗号分隔，如 sz002975,sz300750
+            type: input
+            default: sz002975,sz300750,sh688981
