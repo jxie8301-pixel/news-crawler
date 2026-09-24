@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-24T01:23:47.350Z",
+ "updatedAt": "2026-09-24T02:32:40.324Z",
  "stocks": {
   "sz300903": {
    "code": "sz300903",
@@ -41424,6 +41424,198 @@
    "sources": {
     "quote": "https://www.cls.cn/stock?code=sh605358",
     "announcements": "https://www.cls.cn/stock?code=sh605358&tab=notice"
+   }
+  },
+  "sh600172": {
+   "code": "sh600172",
+   "name": "黄河旋风",
+   "researchedAt": "2026-09-24T02:32:34.824Z",
+   "asOfDate": "2026-09-24",
+   "industry": "机械设备-通用设备-磨具磨料",
+   "concepts": [
+    "培育钻石",
+    "工业互联网",
+    "智能制造",
+    "河南国资",
+    "国企改革"
+   ],
+   "valuation": {
+    "ttmPe": -27.59,
+    "dynamicPe": -54.19,
+    "pb": 71.276,
+    "marketCapYi": 240.84,
+    "lastPrice": 16.7
+   },
+   "momentum": {
+    "change3m": 1.71,
+    "change5d": 3.99
+   },
+   "financial": {
+    "revenueYoy": 15.48,
+    "profitYoy": 22.36,
+    "roe": -65.76,
+    "debtRatio": 94.64
+   },
+   "announcements": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告全文",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/2d1946114eafaee8443e7f2442e654c6.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/f43af4a59e8c1de90f78f046c362c938.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "华创证券有限责任公司关于张浩敏所持河南黄河旋风股份有限公司限售股份解除限售的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/f33668e5e3e7d1a16df4137baf62cfbf.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "关于部分限售股上市流通的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/7e223ccb647cd6f38563a45964e6a341.pdf"
+    },
+    {
+     "time": "2026-08-07 00:00:00",
+     "timestamp": 1786032000,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/07/843e2dfa3435cac299cc67153b9d2127.pdf"
+    },
+    {
+     "time": "2026-07-28 00:00:00",
+     "timestamp": 1785168000,
+     "title": "关于部分限售股上市流通的公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/28/c5b1e490536c2b56061e8b1d9473129b.pdf"
+    },
+    {
+     "time": "2026-07-28 00:00:00",
+     "timestamp": 1785168000,
+     "title": "中航证券有限公司关于国元证券股份有限公司所持河南黄河旋风股份有限公司限售股份解除限售的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/28/fa039b8366a49da400f518e590a18a42.pdf"
+    },
+    {
+     "time": "2026-07-15 00:00:00",
+     "timestamp": 1784044800,
+     "title": "2026年半年度业绩预告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/15/5ac995049133fdc75d16d11e2b4b63d8.pdf"
+    },
+    {
+     "time": "2026-06-24 00:00:00",
+     "timestamp": 1782230400,
+     "title": "股票交易异常波动公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/06/24/330ee7a291f59f5cb563df95f0366aa7.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告全文",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/2d1946114eafaee8443e7f2442e654c6.pdf"
+    },
+    {
+     "time": "2026-08-27 00:00:00",
+     "timestamp": 1787760000,
+     "title": "2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/27/f43af4a59e8c1de90f78f046c362c938.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "华创证券有限责任公司关于张浩敏所持河南黄河旋风股份有限公司限售股份解除限售的核查意见",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/f33668e5e3e7d1a16df4137baf62cfbf.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh600172",
+    "announcements": "https://www.cls.cn/stock?code=sh600172&tab=notice"
+   }
+  },
+  "sh600369": {
+   "code": "sh600369",
+   "name": "西南证券",
+   "researchedAt": "2026-09-24T02:32:40.323Z",
+   "asOfDate": "2026-09-24",
+   "industry": "非银金融-证券Ⅱ-证券Ⅲ",
+   "concepts": [
+    "西部开发",
+    "重庆国资",
+    "国企改革",
+    "大金融",
+    "成渝板块"
+   ],
+   "valuation": {
+    "ttmPe": 21.05,
+    "dynamicPe": 21.65,
+    "pb": 0.999,
+    "marketCapYi": 261.82,
+    "lastPrice": 3.94
+   },
+   "momentum": {
+    "change3m": -1.01,
+    "change5d": 0.25
+   },
+   "financial": {
+    "revenueYoy": 37.67,
+    "profitYoy": 42.86,
+    "roe": 2.31,
+    "debtRatio": 76.97
+   },
+   "announcements": [
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "西南证券股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/722eb0c6f6869c3171a354ca0acd5162.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "西南证券股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/10feb337b06a42e4405794836764b9dc.pdf"
+    },
+    {
+     "time": "2026-07-10 00:00:00",
+     "timestamp": 1783612800,
+     "title": "西南证券股份有限公司2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/10/8a57eede2c12eac1e218be66639590d1.pdf"
+    },
+    {
+     "time": "2026-04-29 00:00:00",
+     "timestamp": 1777392000,
+     "title": "西南证券股份有限公司2026年第一季度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/04/29/11d6b569318682ee1461ce0a1a368fca.pdf"
+    }
+   ],
+   "keyEvents": [
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "西南证券股份有限公司2026年半年度报告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/722eb0c6f6869c3171a354ca0acd5162.pdf"
+    },
+    {
+     "time": "2026-08-25 00:00:00",
+     "timestamp": 1787587200,
+     "title": "西南证券股份有限公司2026年半年度报告摘要",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/08/25/10feb337b06a42e4405794836764b9dc.pdf"
+    },
+    {
+     "time": "2026-07-10 00:00:00",
+     "timestamp": 1783612800,
+     "title": "西南证券股份有限公司2025年年度权益分派实施公告",
+     "url": "http://xk-annc-a.cls.cn/annc/2026/07/10/8a57eede2c12eac1e218be66639590d1.pdf"
+    }
+   ],
+   "sources": {
+    "quote": "https://www.cls.cn/stock?code=sh600369",
+    "announcements": "https://www.cls.cn/stock?code=sh600369&tab=notice"
    }
   }
  }
